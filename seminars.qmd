@@ -1,0 +1,70 @@
+---
+title: "Videos"
+listing:
+    - id: seminars    
+      contents: "seminars/*.qmd"
+      sort: "date"
+      type: grid
+      image-height: 100%
+      date-format: long      
+      fields: [image, date, title, author, idiom]
+      field-display-names: 
+        idiom: "Language"        
+    - id: exams
+      contents: "exams/*.qmd"    
+      sort: "date"
+      type: grid
+      image-height: 100%
+      date-format: long      
+      fields: [image, date, title, author, idiom]
+      field-display-names: 
+        idiom: "Language"        
+      
+---
+
+<!--listing:
+    # - id: seminars    
+    #   contents: seminars.yml
+    #   sort: "date"
+    #   type: table # default, table, grid
+    #   date-format: long      
+    #   categories: true
+    #   #template: presentations.ejs
+    #   field-display-names: 
+    #     name: "Language"
+    #     custom-field: subtitle
+    #   fields: [date, title, author, subtitle]    
+    #- id: presentations
+    id: todos
+    contents: "presentations/*.qmd"    
+    categories: true      
+    sort: "date"
+    #type: table
+    type: grid
+    #image-height: 80%
+    date-format: long      
+    #fields: [date, title, author, idiom]
+    fields: [image, date, title, author, idiom]
+    field-display-names: 
+      idiom: "Language"        
+-->
+
+<!-- VER mais em: https://quarto.org/docs/websites/website-listings.html -->
+
+
+
+::: {#todos}
+:::
+
+
+## Invited speakers
+:::{#seminars}
+:::
+
+
+## Student's presentations
+:::{#exams}
+:::
+
+
+

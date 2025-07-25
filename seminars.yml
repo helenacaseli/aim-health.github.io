@@ -1,0 +1,14 @@
+- title: "Amive Project"
+  date: 2025-05-09
+  description: "DESCRIPTION"
+  location: online
+  subtitle: English
+  author: Prof. Dr. Vânia Neris
+  type: seminar
+  links:
+  - name: Slides
+    url: URL
+    icon: fa-solid fa-chalkboard-user
+  - name: GitHub repository
+    url: https://github.com/andrewheiss/talks/tree/master/2013-09-12_telling-stories-data
+    icon: fa-brands fa-github
