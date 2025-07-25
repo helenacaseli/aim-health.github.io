@@ -1,11 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://helenacaseli.github.io/aim-health.github.io/about.html</loc>
+    <loc>https://www.aim-health.ufscar.br/seminars.html</loc>
+    <lastmod>2025-05-30T17:33:17.486Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.aim-health.ufscar.br/presentations/exams/2025_mayumi_master_quali.html</loc>
+    <lastmod>2025-05-30T17:22:32.780Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.aim-health.ufscar.br/presentations/seminars/2025_vania_neris_2025.html</loc>
+    <lastmod>2025-05-30T17:22:52.629Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.aim-health.ufscar.br/about.html</loc>
     <lastmod>2025-05-28T14:02:46.673Z</lastmod>
   </url>
   <url>
-    <loc>https://helenacaseli.github.io/aim-health.github.io/index.html</loc>
-    <lastmod>2025-05-28T14:03:14.907Z</lastmod>
+    <loc>https://www.aim-health.ufscar.br/index.html</loc>
+    <lastmod>2025-05-28T20:50:55.117Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.aim-health.ufscar.br/publications.html</loc>
+    <lastmod>2025-05-28T20:15:03.807Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.aim-health.ufscar.br/team.html</loc>
+    <lastmod>2025-07-25T12:40:27.406Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.aim-health.ufscar.br/presentations/exams/2025_rafael_passador_master_quali.html</loc>
+    <lastmod>2025-05-30T17:22:37.780Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.aim-health.ufscar.br/presentations/exams/2025_fernanda_assi_master_quali.html</loc>
+    <lastmod>2025-05-30T17:22:08.625Z</lastmod>
   </url>
 </urlset>
