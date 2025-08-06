@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Fernanda Assi">
-<meta name="dcterms.date" content="2025-03-24">
 
-<title>Automatic identification of bias in large language models</title>
+<title>Videos</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,23 +23,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-3a29155c3b83861cf2359d59dc413547.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-3a29155c3b83861cf2359d59dc413547.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,9 +68,95 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-seminars .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
 
-<link rel="stylesheet" href="../../styles.css">
+    const options = {
+      valueNames: ['listing-image','listing-date','listing-title','listing-author','listing-idiom',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-seminars'] = new List('listing-seminars', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-exams .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-date','listing-title','listing-author','listing-idiom',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-exams'] = new List('listing-exams', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -80,8 +166,8 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../images/AIM-Health_Logo_transparent_background.png" alt="" class="navbar-logo">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./images/AIM-Health_Logo_transparent_background.png" alt="" class="navbar-logo">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -91,23 +177,23 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../team.html"> 
+    <a class="nav-link" href="./team.html"> 
 <span class="menu-text">Team</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../seminars.html"> 
+    <a class="nav-link" href="./seminars.html"> 
 <span class="menu-text">Seminars</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../videos.html"> 
+    <a class="nav-link active" href="./videos.html" aria-current="page"> 
 <span class="menu-text">Videos</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../about.html"> 
+    <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -117,7 +203,7 @@ ul.task-list li input[type="checkbox"] {
       </div> <!-- /container-fluid -->
     </nav>
   <div id="quarto-announcement" data-announcement-id="d3e698fe771bc42de923dbc676cecede" class="alert alert-info hidden"><i class="bi bi-info-circle quarto-announcement-icon"></i><div class="quarto-announcement-content">
-<p><strong>Next AIM-Health seminar on August 21, 2025</strong>: see <a href="seminars.qmd">Seminars</a> for details.</p>
+<p><strong>Next AIM-Health seminar on August 21, 2025</strong>: see <a href="./seminars.html">Seminars</a> for details.</p>
 </div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
 </header>
 <!-- content -->
@@ -129,9 +215,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#abstract" id="toc-abstract" class="nav-link active" data-scroll-target="#abstract">Abstract</a></li>
-  <li><a href="#video" id="toc-video" class="nav-link" data-scroll-target="#video">Video</a></li>
-  <li><a href="#further-information" id="toc-further-information" class="nav-link" data-scroll-target="#further-information">Further information</a></li>
+  <li><a href="#invited-speakers" id="toc-invited-speakers" class="nav-link active" data-scroll-target="#invited-speakers">Invited speakers</a></li>
+  <li><a href="#students-presentations" id="toc-students-presentations" class="nav-link" data-scroll-target="#students-presentations">Student’s presentations</a></li>
   </ul>
 </nav>
     </div>
@@ -140,29 +225,14 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Automatic identification of bias in large language models</h1>
-  <div class="quarto-categories">
-    <div class="quarto-category">Defense</div>
-  </div>
-  </div>
+<h1 class="title">Videos</h1>
+</div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Fernanda Assi </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">March 24, 2025</p>
-    </div>
-  </div>
   
     
   </div>
@@ -172,25 +242,149 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><img src="../pictures/2025-03-24.png" class="img-fluid"></p>
-<section id="abstract" class="level2">
-<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
-<p>Large Language Models (LLMs) have demonstrated remarkable capabilities across various domains, from legal reasoning to clinical decision support. As these models become increasingly integrated into real-world applications, concerns about their reliability, fairness, and ethical implications have emerged. Studies have shown that LLMs can produce biased outputs, reinforcing harmful stereotypes and discriminating against marginalized groups. Among the most common biases are occupational stereotypes, racial disparities, and linguistic bias, where outputs vary based on the language or dialect used in the prompt. This study proposes a systematic framework to evaluate and rank LLMs based on their bias levels using the Elo rating system. A sentence completion framework will be employed, where models generate responses to prompts containing explicit social markers. The completions will be anonymized and scored using a regard classifier, which assesses how positively or negatively different demographic groups are portrayed. Pairwise comparisons will update Elo ratings, establishing a ranking of LLMs in terms of bias. This approach enables scalable and systematic comparisons across models.</p>
-<!--
-Passo-a-passo para gerar o link:
-1. Vai no arquivo do GDrive que tem o vídeo, manda abrir em uma nova aba
-2. Vai nos "três pontinhos" e escolhe "Incorporar item"
-3. Copia o conteúdo da janela
--->
+<div id="todos">
+
+</div>
+<section id="invited-speakers" class="level2">
+<h2 class="anchored" data-anchor-id="invited-speakers">Invited speakers</h2>
+<div id="listing-seminars" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="U2VtaW5hcg==" data-listing-date-sort="1746759600000" data-listing-file-modified-sort="1748625772629" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="320">
+<a href="./presentations/seminars/2025_vania_neris_2025.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="presentations/pictures/2025-05-09.png" style="height: 100%;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+The Amive project
+</h5>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Vânia Neris
+</div>
+<div class="listing-date">
+May 9, 2025
+</div>
+</div>
+<table class="card-other-values">
+
+<tbody><tr>
+<td>
+Language
+</td>
+<td class="idiom">
+English
+</td>
+</tr>
+
+</tbody></table>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
 </section>
-<section id="video" class="level2">
-<h2 class="anchored" data-anchor-id="video">Video</h2>
-<iframe src="https://drive.google.com/file/d/1zsJMC2yWOiwULKfRVEuiLg1LP3ryRe-d/preview" width="200" allow="autoplay">
-</iframe>
-</section>
-<section id="further-information" class="level2">
-<h2 class="anchored" data-anchor-id="further-information">Further information</h2>
-<p>The Master’s Qualification Exam by Fernanda Malheiros Assi took place on March 24, 2025 and the commitee was composed of Professors Mirella Moro (Federal University of Minas Gerais, UFMG), Renato Silva (University of São Paulo, USP) and the advisor Helena Caseli (UFSCar).</p>
+<section id="students-presentations" class="level2">
+<h2 class="anchored" data-anchor-id="students-presentations">Student’s presentations</h2>
+<div id="listing-exams" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="RGVmZW5zZQ==" data-listing-date-sort="1740452400000" data-listing-file-modified-sort="1748625757780" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="318">
+<a href="./presentations/exams/2025_rafael_passador_master_quali.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="presentations/pictures/2025-02-25.jpeg" style="height: 100%;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Personalizing Mental Health Support
+</h5>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Rafael Passador
+</div>
+<div class="listing-date">
+February 25, 2025
+</div>
+</div>
+<table class="card-other-values">
+
+<tbody><tr>
+<td>
+Language
+</td>
+<td class="idiom">
+Portuguese
+</td>
+</tr>
+
+</tbody></table>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="RGVmZW5zZQ==" data-listing-date-sort="1742785200000" data-listing-file-modified-sort="1748625728625" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="243">
+<a href="./presentations/exams/2025_fernanda_assi_master_quali.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="presentations/pictures/2025-03-24.png" style="height: 100%;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Automatic identification of bias in large language models
+</h5>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Fernanda Assi
+</div>
+<div class="listing-date">
+March 24, 2025
+</div>
+</div>
+<table class="card-other-values">
+
+<tbody><tr>
+<td>
+Language
+</td>
+<td class="idiom">
+Portuguese
+</td>
+</tr>
+
+</tbody></table>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="RGVmZW5zZQ==" data-listing-date-sort="1743735600000" data-listing-file-modified-sort="1748625752780" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="238">
+<a href="./presentations/exams/2025_mayumi_master_quali.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="presentations/pictures/2025-04-04.png" style="height: 100%;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Automatic detection of mataphors in Brazilian Portuguese
+</h5>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Karina Johansson
+</div>
+<div class="listing-date">
+April 4, 2025
+</div>
+</div>
+<table class="card-other-values">
+
+<tbody><tr>
+<td>
+Language
+</td>
+<td class="idiom">
+Portuguese
+</td>
+</tr>
+
+</tbody></table>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+
 
 
 </section>
