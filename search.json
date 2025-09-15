@@ -1,24 +1,24 @@
 [
   {
-    "objectID": "seminars.html#dr.-julia-ive",
-    "href": "seminars.html#dr.-julia-ive",
+    "objectID": "seminars.html#dr.-ivandré-paraboni",
+    "href": "seminars.html#dr.-ivandré-paraboni",
     "title": "",
-    "section": "Dr. Julia Ive",
-    "text": "Dr. Julia Ive\n\nTuesday, September 2nd 2025 at 14:00 to 15:00, GMT+1\n(10:00 no horário de Brasília)\n\n\nLocation\nhttps://Universityofexeter.zoom.us/j/94896071981?pwd=ioShcVurHaZESwkjzEbKaojHZUqEvT.1 Meeting ID: 948 9607 1981 Passcode: 808634"
+    "section": "Dr. Ivandré Paraboni",
+    "text": "Dr. Ivandré Paraboni\n\nThursday, September 25nd 2025 at 14:00 to 15:00, GMT-3\n\n\nLocation\nhttps://meet.google.com/dqe-veyp-jwp"
   },
   {
     "objectID": "seminars.html#abstract",
     "href": "seminars.html#abstract",
     "title": "",
     "section": "Abstract",
-    "text": "Abstract\nAI and LLMs are increasingly being deployed in healthcare, creating new opportunities to mine clinical notes, support decision-making, and collaborate with clinicians. At the same time, their use raises pressing challenges around bias, data sparsity, and privacy. In this talk, I will present a set of data-centric approaches to ethical human–AI collaboration applied to use cases in pediatric mental health and clinical decision support. I will begin by demonstrating how LLMs can extract depressive symptoms in pediatric settings, before moving to methods for detecting and mitigating bias in clinical notes related to pediatric anxiety. I will then introduce techniques for generating synthetic mental health records to alleviate data sparsity and protect patient privacy. Finally, I will present a clinical chatbot developed to reference UCLH guidelines without unsafe modifications. In a pilot study, the chatbot reduced clinician search time threefold, highlighting its potential to improve workflow and patient care. Finally, I will discuss how synthetic data can also be used to benchmark and refine such support systems."
+    "text": "Abstract\nThis talk explores the computational task of predicting mental health conditions from social media data, conducted within the scope of the SetembroBR project (2022-2024). We discuss the creation of a dataset for detecting depression and anxiety disorders from Portuguese tweets, along with the development and initial results of computational models for these tasks. Finally, we address key challenges that remain for ongoing research, with particular focus on their relevance to the current AIM-Health project."
   },
   {
     "objectID": "seminars.html#speakers-bio",
     "href": "seminars.html#speakers-bio",
     "title": "",
     "section": "Speaker’s bio",
-    "text": "Speaker’s bio\nDr. Julia Ive is an Associate Professor in Healthcare AI at University College London. Her research focuses on responsible, data-centric, and human-centered approaches to leveraging LLMs for healthcare applications. Her work spans bias detection and mitigation in clinical text, privacy-preserving methods for sensitive data, and human–AI collaboration protocols for clinical decision support. She has previously worked at Queen Mary University of London and Imperial College London, where she pioneered techniques for medical data augmentation through synthetic text generation. Her broader expertise includes theoretical language modeling, multimodal machine learning, and reinforcement learning for text generation."
+    "text": "Speaker’s bio\nIvandré Paraboni holds a Ph.D. in Computer Science from the University of Brighton, United Kingdom (2003), and completed a postdoctoral fellowship at the University of Aberdeen, Scotland (2012). He is an Associate Professor (tenured) and researcher at the University of São Paulo (USP), with a full-time appointment at the School of Arts, Sciences, and Humanities (EACH). Research interests span a broad spectrum of human language processing, ranging from computational methods grounded in Cognitive Science to practical applications, such as the classification of web-based documents. He currently supervises research on stance recognition from text, the detection of mental health disorders from multimodal data, the identification of creative thinking, and arbitrary style transfer in natural language generation."
   },
   {
     "objectID": "presentations/exams/2025_mayumi_master_quali.html#abstract",
@@ -63,60 +63,25 @@
     "text": "Speaker’s bio\nDr. Sai Ashish Somayajula is a Senior Applied Scientist in Generative AI at Oracle Cloud Infrastructure, where he develops large-scale foundation models for enterprise applications. He earned his PhD in Electrical and Computer Engineering from the University of California (UC), San Diego. His research focused on addressing key challenges in adapting and utilizing pre-trained models for healthcare. Specifically, his work spanned three core areas: (1) synthetic data generation using meta-learning-based feedback mechanisms, (2) continual learning for handling dynamic data streams without catastrophic forgetting, and (3) token-level watermarking techniques to ensure content provenance and security. His research has been published in premier venues, including the International Conference on Machine Learning (ICML), Annual Meeting of the Association for Computational Linguistics (ACL), Transactions of the Association for Computational Linguistics (TACL), Conference of the North American Chapter of the Association for Computational Linguistics (NAACL), Scientific Reports (Nature Portfolio), and Transactions of Machine Learning Research (TMLR). He is a recipient of the Jacobs School of Engineering Departmental Fellowship at UC San Diego. Ashish has collaborated with leading industrial research labs through internships at Apple and Tencent AI Lab. He holds a Bachelor’s degree in Electrical Engineering with a minor in Computer Science from the Indian Institute of Technology, Hyderabad, where he was twice awarded the Academic Excellence Award, and a Master’s in Intelligent Systems and Robotics from UC San Diego."
   },
   {
-    "objectID": "videos.html#invited-speakers",
-    "href": "videos.html#invited-speakers",
-    "title": "Videos",
-    "section": "Invited speakers",
-    "text": "Invited speakers\n\n\n\n\n\n\n\n\nThe Amive project\n\n\n\nVânia Neris\n\n\nMay 9, 2025\n\n\n\n\n\n\nLanguage\n\n\nEnglish\n\n\n\n\n\n\n\n\n\n\n\n\n\nTrustworthy Optimization of Pre-Trained Models for Healthcare\n\n\n\nSai Ashish Somayajula\n\n\nAugust 21, 2025\n\n\n\n\n\n\nLanguage\n\n\nEnglish\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "videos.html#students-presentations",
-    "href": "videos.html#students-presentations",
-    "title": "Videos",
-    "section": "Student’s presentations",
-    "text": "Student’s presentations\n\n\n\n\n\n\n\n\nPersonalizing Mental Health Support\n\n\n\nRafael Passador\n\n\nFebruary 25, 2025\n\n\n\n\n\n\nLanguage\n\n\nPortuguese\n\n\n\n\n\n\n\n\n\n\n\n\n\nAutomatic identification of bias in large language models\n\n\n\nFernanda Assi\n\n\nMarch 24, 2025\n\n\n\n\n\n\nLanguage\n\n\nPortuguese\n\n\n\n\n\n\n\n\n\n\n\n\n\nAutomatic detection of mataphors in Brazilian Portuguese\n\n\n\nKarina Johansson\n\n\nApril 4, 2025\n\n\n\n\n\n\nLanguage\n\n\nPortuguese\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "AIM-Health is an international research project between Brazil and UK. It started on February 2025 and has an expected duration of three years.\nThe opinions, hypotheses and conclusions or recommendations expressed in this material are the responsibility of the author(s) and do not necessarily reflect the views of FAPESP.\nAIM-Health logo was generated using Canva’s AI assinstant."
-  },
-  {
-    "objectID": "index.html#about-this-project",
-    "href": "index.html#about-this-project",
-    "title": "",
-    "section": "About this project",
-    "text": "About this project\nAIM-Health is an international research project between Brazil and UK. It started on February 2025 and has an expected duration of three years.\n\nScopeGoalsScientific challenges\n\n\nDepression is a mental health disorder that affects a large portion of the global population, being the second largest contributor to decrease in healthy life expectancy. Depression is characterized by a clinically significant form of psychological suffering that leads to significant impairment in someone’s functionality, reduced quality of life and, in severe cases, can lead to death due to the risk of suicide. However, according to the World Health Organization, only a quarter of individuals suffering from mental health disorders receive proper care.\nAdvances in Artificial Intelligence (AI) and Natural Language Processing (NLP) research have been developed to a level that can be used for proposing computational solutions that assist in the detection and intervention in mental health conditions. AI and NLP based solutions that aid in the identification of signs of depression can be useful both in individual treatment and in making public policy decisions. Similarly, solutions that offer autonomous, ethical, reliable, controlled, and engaging intervention, in real time, can help mitigate the damage caused by depression.\n\n\nThis project works on proposing and developing AI and NLP based solutions for the detection and intervention of mental health conditions that can have a broader reach and allow mental health support to individuals and populations that would not otherwise have access to it.\nFurthermore, as social determinants are frequently mentioned as risk factors for mental health conditions, this project also aims at furthering the understanding about them in two contexts (Brazil and the United Kingdom).\n\n\nThis project aims to address scientific challenges that are still present and very relevant in this context:\n\ndealing with more abstract language (such as figurative language) commonly used in mental health self-narratives, and\noutputting personalized interventions suitable for an individual’s context."
-  },
-  {
-    "objectID": "index.html#support-agencies",
-    "href": "index.html#support-agencies",
-    "title": "",
-    "section": "Support agencies",
-    "text": "Support agencies\nThis is an international project supported by FAPESP (24/10233-7) and the UKRI/MRC – UK Research and Innovation / Medical Research Council."
-  },
-  {
-    "objectID": "seminars_template.html#invited-speaker",
-    "href": "seminars_template.html#invited-speaker",
-    "title": "",
-    "section": "INVITED SPEAKER",
-    "text": "INVITED SPEAKER\n\nDATE TIME\n\n\nLocation\nINFO"
-  },
-  {
-    "objectID": "seminars_template.html#abstract",
-    "href": "seminars_template.html#abstract",
-    "title": "",
+    "objectID": "presentations/seminars/2025_vania_neris_2025.html#abstract",
+    "href": "presentations/seminars/2025_vania_neris_2025.html#abstract",
+    "title": "The Amive project",
     "section": "Abstract",
-    "text": "Abstract\nTEXT"
+    "text": "Abstract\nDepression is a significant mental health issue worldwide, and it affects college students more than the general population. While universities strive to support their students, technology can also play a crucial role. Computing technology can collect daily data, process it, and provide insights to both students and healthcare professionals. This includes physiological data gathered from wearable devices, as well as students’ thoughts and feelings expressed through text. Furthermore, digital interventions can be delivered promptly as initial support. The Amive project is a Brazilian human-centered AI initiative aimed at developing a comprehensive solution that classifies data on various factors such as sleep quality, exercise habits, and heart rate monitoring. Additionally, it identifies depressive symptoms from text shared on social media and uses this information to engage with students through a chatbot. This talk will discuss the research that led to this solution, the challenges encountered, and future work planned."
   },
   {
-    "objectID": "seminars_template.html#speakers-bio",
-    "href": "seminars_template.html#speakers-bio",
-    "title": "",
-    "section": "Speaker’s bio",
-    "text": "Speaker’s bio\nTEXT"
+    "objectID": "presentations/seminars/2025_vania_neris_2025.html#video",
+    "href": "presentations/seminars/2025_vania_neris_2025.html#video",
+    "title": "The Amive project",
+    "section": "Video",
+    "text": "Video"
+  },
+  {
+    "objectID": "presentations/seminars/2025_vania_neris_2025.html#short-bio",
+    "href": "presentations/seminars/2025_vania_neris_2025.html#short-bio",
+    "title": "The Amive project",
+    "section": "Short Bio",
+    "text": "Short Bio\nVânia Neris is an Associate Professor in the Department of Computing at the Federal University of São Carlos (UFSCar) in Brazil, where she leads the Flexible and Sustainable Interaction Lab (LIFeS). She has been researching Human-Computer Interaction since 1999. She received her Ph. D. in Computer Science from the University of Campinas (UNICAMP)(2010) and has conducted research at the University of Reading (UK)(2008-2009). She was a Visiting Scholar in the Department of Information Sciences and Technology at George Mason University (2021-2022). She is a three-time recipient of the best paper award from the main Brazilian HCI conference. Prof. Neris has received research funding from several agencies in Brazil. Since 2011, she has been studying how to develop emotion-aware systems. Prof. Neris was one of the investigators of the Amive project, which aimed to identify possible depressive symptoms among college students and deliver appropriate interventions to them. Her actual research interests include: (1) computer support for mental health and well-being, (2) human-centred AI and (3) computer science education."
   },
   {
     "objectID": "team.html",
@@ -161,25 +126,74 @@
     "text": "Undergraduate Students\n\n\nCaio Vitor Soares\n\n\n\nCaio Soares has been an undergraduate student at the Federal Institute of Education, Science and Technology of São Paulo (IFSP) since 2023. In the AIM-Health project, he develops a module using active learning to help the identification of signs of depression.\nEmail  ORCID \n\n\n\n\n\n\n\n\n\nDiogo Conforti Vaz Bellini\n\n\n\n\n\n\nDiogo Bellini has been an undergraduate Computer Science student at the Federal University of São Carlos (UFSCar) since 2023, focusing his studies on the field of Artificial Intelligence. In the AIM-Health project, he develops a module to classify symptoms of depression in social media posts that also take into account the presence of figurative language, such as metaphors and similes, to express the symptoms. \nEmail  ORCID  CV Lattes\n\n\n\n\n\n\nIsabela Cristina Rodrigues\n\n\n\nIsabela Rodrigues has been an undergraduate Linguistics student at Federal University of São Carlos (UFSCar) since 2023. In AIM-Health project, she works with metaphor annotation in texts related to mental health, in Portuguese.\nEmail  CV Lattes\n\n\n\n\n\n\n\n\n\nVitória Rodrigues Pinto Borelli Figueiredo\n\n\n\n\n\n\nVitória Figueiredo has been an undergraduate Computer Engineering student at the Federal University of São Carlos (UFSCar) since 2021. In the AIM-Health project, she investigates the generation of syntectic data on mental health domain.\nEmail  CV Lattes\n\n\n\n\n\n\nVitória Hilgert Tomasel\n\n\n\nVitória Tomasel has been an undergraduate Computer Science student at the Federal University of São Carlos (UFSCar) since 2023. In the AIM-Health project, she develops a module to automatically identifying idiomatic language in the mental health domain.\nEmail  ORCID  CV Lattes"
   },
   {
-    "objectID": "presentations/seminars/2025_vania_neris_2025.html#abstract",
-    "href": "presentations/seminars/2025_vania_neris_2025.html#abstract",
-    "title": "The Amive project",
+    "objectID": "seminars_template.html#invited-speaker",
+    "href": "seminars_template.html#invited-speaker",
+    "title": "",
+    "section": "INVITED SPEAKER",
+    "text": "INVITED SPEAKER\n\nDATE TIME\n\n\nLocation\nINFO"
+  },
+  {
+    "objectID": "seminars_template.html#abstract",
+    "href": "seminars_template.html#abstract",
+    "title": "",
     "section": "Abstract",
-    "text": "Abstract\nDepression is a significant mental health issue worldwide, and it affects college students more than the general population. While universities strive to support their students, technology can also play a crucial role. Computing technology can collect daily data, process it, and provide insights to both students and healthcare professionals. This includes physiological data gathered from wearable devices, as well as students’ thoughts and feelings expressed through text. Furthermore, digital interventions can be delivered promptly as initial support. The Amive project is a Brazilian human-centered AI initiative aimed at developing a comprehensive solution that classifies data on various factors such as sleep quality, exercise habits, and heart rate monitoring. Additionally, it identifies depressive symptoms from text shared on social media and uses this information to engage with students through a chatbot. This talk will discuss the research that led to this solution, the challenges encountered, and future work planned."
+    "text": "Abstract\nTEXT"
   },
   {
-    "objectID": "presentations/seminars/2025_vania_neris_2025.html#video",
-    "href": "presentations/seminars/2025_vania_neris_2025.html#video",
-    "title": "The Amive project",
-    "section": "Video",
-    "text": "Video"
+    "objectID": "seminars_template.html#speakers-bio",
+    "href": "seminars_template.html#speakers-bio",
+    "title": "",
+    "section": "Speaker’s bio",
+    "text": "Speaker’s bio\nTEXT"
   },
   {
-    "objectID": "presentations/seminars/2025_vania_neris_2025.html#short-bio",
-    "href": "presentations/seminars/2025_vania_neris_2025.html#short-bio",
-    "title": "The Amive project",
-    "section": "Short Bio",
-    "text": "Short Bio\nVânia Neris is an Associate Professor in the Department of Computing at the Federal University of São Carlos (UFSCar) in Brazil, where she leads the Flexible and Sustainable Interaction Lab (LIFeS). She has been researching Human-Computer Interaction since 1999. She received her Ph. D. in Computer Science from the University of Campinas (UNICAMP)(2010) and has conducted research at the University of Reading (UK)(2008-2009). She was a Visiting Scholar in the Department of Information Sciences and Technology at George Mason University (2021-2022). She is a three-time recipient of the best paper award from the main Brazilian HCI conference. Prof. Neris has received research funding from several agencies in Brazil. Since 2011, she has been studying how to develop emotion-aware systems. Prof. Neris was one of the investigators of the Amive project, which aimed to identify possible depressive symptoms among college students and deliver appropriate interventions to them. Her actual research interests include: (1) computer support for mental health and well-being, (2) human-centred AI and (3) computer science education."
+    "objectID": "index.html#about-this-project",
+    "href": "index.html#about-this-project",
+    "title": "",
+    "section": "About this project",
+    "text": "About this project\nAIM-Health is an international research project between Brazil and UK. It started on February 2025 and has an expected duration of three years.\n\nScopeGoalsScientific challenges\n\n\nDepression is a mental health disorder that affects a large portion of the global population, being the second largest contributor to decrease in healthy life expectancy. Depression is characterized by a clinically significant form of psychological suffering that leads to significant impairment in someone’s functionality, reduced quality of life and, in severe cases, can lead to death due to the risk of suicide. However, according to the World Health Organization, only a quarter of individuals suffering from mental health disorders receive proper care.\nAdvances in Artificial Intelligence (AI) and Natural Language Processing (NLP) research have been developed to a level that can be used for proposing computational solutions that assist in the detection and intervention in mental health conditions. AI and NLP based solutions that aid in the identification of signs of depression can be useful both in individual treatment and in making public policy decisions. Similarly, solutions that offer autonomous, ethical, reliable, controlled, and engaging intervention, in real time, can help mitigate the damage caused by depression.\n\n\nThis project works on proposing and developing AI and NLP based solutions for the detection and intervention of mental health conditions that can have a broader reach and allow mental health support to individuals and populations that would not otherwise have access to it.\nFurthermore, as social determinants are frequently mentioned as risk factors for mental health conditions, this project also aims at furthering the understanding about them in two contexts (Brazil and the United Kingdom).\n\n\nThis project aims to address scientific challenges that are still present and very relevant in this context:\n\ndealing with more abstract language (such as figurative language) commonly used in mental health self-narratives, and\noutputting personalized interventions suitable for an individual’s context."
+  },
+  {
+    "objectID": "index.html#support-agencies",
+    "href": "index.html#support-agencies",
+    "title": "",
+    "section": "Support agencies",
+    "text": "Support agencies\nThis is an international project supported by FAPESP (24/10233-7) and the UKRI/MRC – UK Research and Innovation / Medical Research Council."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "AIM-Health is an international research project between Brazil and UK. It started on February 2025 and has an expected duration of three years.\nThe opinions, hypotheses and conclusions or recommendations expressed in this material are the responsibility of the author(s) and do not necessarily reflect the views of FAPESP.\nAIM-Health logo was generated using Canva’s AI assinstant."
+  },
+  {
+    "objectID": "videos.html#invited-speakers",
+    "href": "videos.html#invited-speakers",
+    "title": "Videos",
+    "section": "Invited speakers",
+    "text": "Invited speakers\n\n\n\n\n\n\n\n\nTowards Ethical Collaboration Between Humans and AI in Healthcare\n\n\n\nJulia Ive\n\n\nSeptember 2, 2025\n\n\n\n\n\n\nLanguage\n\n\nEnglish\n\n\n\n\n\n\n\n\n\n\n\n\n\nTrustworthy Optimization of Pre-Trained Models for Healthcare\n\n\n\nSai Ashish Somayajula\n\n\nAugust 21, 2025\n\n\n\n\n\n\nLanguage\n\n\nEnglish\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Amive project\n\n\n\nVânia Neris\n\n\nMay 9, 2025\n\n\n\n\n\n\nLanguage\n\n\nEnglish\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "videos.html#students-presentations",
+    "href": "videos.html#students-presentations",
+    "title": "Videos",
+    "section": "Student’s presentations",
+    "text": "Student’s presentations\n\n\n\n\n\n\n\n\nAutomatic detection of mataphors in Brazilian Portuguese\n\n\n\nKarina Johansson\n\n\nApril 4, 2025\n\n\n\n\n\n\nLanguage\n\n\nPortuguese\n\n\n\n\n\n\n\n\n\n\n\n\n\nAutomatic identification of bias in large language models\n\n\n\nFernanda Assi\n\n\nMarch 24, 2025\n\n\n\n\n\n\nLanguage\n\n\nPortuguese\n\n\n\n\n\n\n\n\n\n\n\n\n\nPersonalizing Mental Health Support\n\n\n\nRafael Passador\n\n\nFebruary 25, 2025\n\n\n\n\n\n\nLanguage\n\n\nPortuguese\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "presentations/seminars/2025_Julia_Ive_02092025.html#abstract",
+    "href": "presentations/seminars/2025_Julia_Ive_02092025.html#abstract",
+    "title": "Towards Ethical Collaboration Between Humans and AI in Healthcare",
+    "section": "Abstract",
+    "text": "Abstract\nAI and LLMs are increasingly being deployed in healthcare, creating new opportunities to mine clinical notes, support decision-making, and collaborate with clinicians. At the same time, their use raises pressing challenges around bias, data sparsity, and privacy. In this talk, I will present a set of data-centric approaches to ethical human–AI collaboration applied to use cases in pediatric mental health and clinical decision support. I will begin by demonstrating how LLMs can extract depressive symptoms in pediatric settings, before moving to methods for detecting and mitigating bias in clinical notes related to pediatric anxiety. I will then introduce techniques for generating synthetic mental health records to alleviate data sparsity and protect patient privacy. Finally, I will present a clinical chatbot developed to reference UCLH guidelines without unsafe modifications. In a pilot study, the chatbot reduced clinician search time threefold, highlighting its potential to improve workflow and patient care. Finally, I will discuss how synthetic data can also be used to benchmark and refine such support systems."
+  },
+  {
+    "objectID": "presentations/seminars/2025_Julia_Ive_02092025.html#speakers-bio",
+    "href": "presentations/seminars/2025_Julia_Ive_02092025.html#speakers-bio",
+    "title": "Towards Ethical Collaboration Between Humans and AI in Healthcare",
+    "section": "Speaker’s bio",
+    "text": "Speaker’s bio\nDr. Julia Ive is an Associate Professor in Healthcare AI at University College London. Her research focuses on responsible, data-centric, and human-centered approaches to leveraging LLMs for healthcare applications. Her work spans bias detection and mitigation in clinical text, privacy-preserving methods for sensitive data, and human–AI collaboration protocols for clinical decision support. She has previously worked at Queen Mary University of London and Imperial College London, where she pioneered techniques for medical data augmentation through synthetic text generation. Her broader expertise includes theoretical language modeling, multimodal machine learning, and reinforcement learning for text generation."
   },
   {
     "objectID": "presentations/exams/2025_rafael_passador_master_quali.html#abstract",
