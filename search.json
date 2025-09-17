@@ -189,6 +189,13 @@
     "text": "Abstract\nAI and LLMs are increasingly being deployed in healthcare, creating new opportunities to mine clinical notes, support decision-making, and collaborate with clinicians. At the same time, their use raises pressing challenges around bias, data sparsity, and privacy. In this talk, I will present a set of data-centric approaches to ethical human–AI collaboration applied to use cases in pediatric mental health and clinical decision support. I will begin by demonstrating how LLMs can extract depressive symptoms in pediatric settings, before moving to methods for detecting and mitigating bias in clinical notes related to pediatric anxiety. I will then introduce techniques for generating synthetic mental health records to alleviate data sparsity and protect patient privacy. Finally, I will present a clinical chatbot developed to reference UCLH guidelines without unsafe modifications. In a pilot study, the chatbot reduced clinician search time threefold, highlighting its potential to improve workflow and patient care. Finally, I will discuss how synthetic data can also be used to benchmark and refine such support systems."
   },
   {
+    "objectID": "presentations/seminars/2025_Julia_Ive_02092025.html#video",
+    "href": "presentations/seminars/2025_Julia_Ive_02092025.html#video",
+    "title": "Towards Ethical Collaboration Between Humans and AI in Healthcare",
+    "section": "Video",
+    "text": "Video"
+  },
+  {
     "objectID": "presentations/seminars/2025_Julia_Ive_02092025.html#speakers-bio",
     "href": "presentations/seminars/2025_Julia_Ive_02092025.html#speakers-bio",
     "title": "Towards Ethical Collaboration Between Humans and AI in Healthcare",
