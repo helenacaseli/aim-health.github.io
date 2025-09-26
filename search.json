@@ -243,5 +243,26 @@
     "title": "Automatic detection of metaphors in Brazilian Portuguese",
     "section": "Further information",
     "text": "Further information\nThe Master’s Qualification Exam by Karina Mayumi Johansson took place on April 4, 2025 and the commitee was composed of Professors Aline Paes(Federal University Fluminense, UFF), Heloísa de Arruda Camargo (UFSCar) and the advisor Helena Caseli (UFSCar)."
+  },
+  {
+    "objectID": "presentations/draft/2025_Ivandre_Paraboni_25092025.html#abstract",
+    "href": "presentations/draft/2025_Ivandre_Paraboni_25092025.html#abstract",
+    "title": "Mental health prediction from social media data",
+    "section": "Abstract",
+    "text": "Abstract\nThis talk explores the computational task of predicting mental health conditions from social media data, conducted within the scope of the SetembroBR project (2022-2024). We discuss the creation of a dataset for detecting depression and anxiety disorders from Portuguese tweets, along with the development and initial results of computational models for these tasks. Finally, we address key challenges that remain for ongoing research, with particular focus on their relevance to the current AIM-Health project."
+  },
+  {
+    "objectID": "presentations/draft/2025_Ivandre_Paraboni_25092025.html#video",
+    "href": "presentations/draft/2025_Ivandre_Paraboni_25092025.html#video",
+    "title": "Mental health prediction from social media data",
+    "section": "Video",
+    "text": "Video"
+  },
+  {
+    "objectID": "presentations/draft/2025_Ivandre_Paraboni_25092025.html#short-bio",
+    "href": "presentations/draft/2025_Ivandre_Paraboni_25092025.html#short-bio",
+    "title": "Mental health prediction from social media data",
+    "section": "Short Bio",
+    "text": "Short Bio\nIvandré Paraboni holds a Ph.D. in Computer Science from the University of Brighton, United Kingdom (2003), and completed a postdoctoral fellowship at the University of Aberdeen, Scotland (2012). He is an Associate Professor (tenured) and researcher at the University of São Paulo (USP), with a full-time appointment at the School of Arts, Sciences, and Humanities (EACH). Research interests span a broad spectrum of human language processing, ranging from computational methods grounded in Cognitive Science to practical applications, such as the classification of web-based documents. He currently supervises research on stance recognition from text, the detection of mental health disorders from multimodal data, the identification of creative thinking, and arbitrary style transfer in natural language generation."
   }
 ]
