@@ -21,46 +21,46 @@
     "text": "Speaker’s bio\nIvandré Paraboni holds a Ph.D. in Computer Science from the University of Brighton, United Kingdom (2003), and completed a postdoctoral fellowship at the University of Aberdeen, Scotland (2012). He is an Associate Professor (tenured) and researcher at the University of São Paulo (USP), with a full-time appointment at the School of Arts, Sciences, and Humanities (EACH). Research interests span a broad spectrum of human language processing, ranging from computational methods grounded in Cognitive Science to practical applications, such as the classification of web-based documents. He currently supervises research on stance recognition from text, the detection of mental health disorders from multimodal data, the identification of creative thinking, and arbitrary style transfer in natural language generation."
   },
   {
-    "objectID": "presentations/exams/2025_fernanda_assi_master_quali.html#abstract",
-    "href": "presentations/exams/2025_fernanda_assi_master_quali.html#abstract",
-    "title": "Automatic identification of bias in large language models",
+    "objectID": "presentations/exams/2025_mayumi_master_quali.html#abstract",
+    "href": "presentations/exams/2025_mayumi_master_quali.html#abstract",
+    "title": "Automatic detection of metaphors in Brazilian Portuguese",
     "section": "Abstract",
-    "text": "Abstract\nLarge Language Models (LLMs) have demonstrated remarkable capabilities across various domains, from legal reasoning to clinical decision support. As these models become increasingly integrated into real-world applications, concerns about their reliability, fairness, and ethical implications have emerged. Studies have shown that LLMs can produce biased outputs, reinforcing harmful stereotypes and discriminating against marginalized groups. Among the most common biases are occupational stereotypes, racial disparities, and linguistic bias, where outputs vary based on the language or dialect used in the prompt. This study proposes a systematic framework to evaluate and rank LLMs based on their bias levels using the Elo rating system. A sentence completion framework will be employed, where models generate responses to prompts containing explicit social markers. The completions will be anonymized and scored using a regard classifier, which assesses how positively or negatively different demographic groups are portrayed. Pairwise comparisons will update Elo ratings, establishing a ranking of LLMs in terms of bias. This approach enables scalable and systematic comparisons across models."
+    "text": "Abstract\nAutomated metaphor processing plays a crucial role in various NLP applications, including sentiment analysis, machine translation, and text generation. Given the intricate nature of metaphorical language, its automatic processing poses a significant challenge, requiring models to go beyond literal meanings to capture underlying conceptual mappings. While significant research has been conducted on metaphor detection for high-resource languages like English, many other languages remain underexplored. This is particularly true for Brazilian Portuguese, where the scarcity of annotated datasets and limited studies hinder advancements in the field. This study aims to advance automated metaphor detection for Brazilian Portuguese by constructing an annotated dataset and training both monolingual and multilingual models for Brazilian Portuguese, English, and Spanish. The additional languages will be used to compare results and leverage knowledge to enhance generalization for the target language. By expanding research in this area, this work aims to strengthen the study of metaphor detection in Brazilian Portuguese and contribute to the broader development of NLP resources for the language."
   },
   {
-    "objectID": "presentations/exams/2025_fernanda_assi_master_quali.html#video",
-    "href": "presentations/exams/2025_fernanda_assi_master_quali.html#video",
-    "title": "Automatic identification of bias in large language models",
+    "objectID": "presentations/exams/2025_mayumi_master_quali.html#video",
+    "href": "presentations/exams/2025_mayumi_master_quali.html#video",
+    "title": "Automatic detection of metaphors in Brazilian Portuguese",
     "section": "Video",
     "text": "Video"
   },
   {
-    "objectID": "presentations/exams/2025_fernanda_assi_master_quali.html#further-information",
-    "href": "presentations/exams/2025_fernanda_assi_master_quali.html#further-information",
-    "title": "Automatic identification of bias in large language models",
+    "objectID": "presentations/exams/2025_mayumi_master_quali.html#further-information",
+    "href": "presentations/exams/2025_mayumi_master_quali.html#further-information",
+    "title": "Automatic detection of metaphors in Brazilian Portuguese",
     "section": "Further information",
-    "text": "Further information\nThe Master’s Qualification Exam by Fernanda Malheiros Assi took place on March 24, 2025 and the commitee was composed of Professors Mirella Moro (Federal University of Minas Gerais, UFMG), Renato Silva (University of São Paulo, USP) and the advisor Helena Caseli (UFSCar)."
+    "text": "Further information\nThe Master’s Qualification Exam by Karina Mayumi Johansson took place on April 4, 2025 and the commitee was composed of Professors Aline Paes(Federal University Fluminense, UFF), Heloísa de Arruda Camargo (UFSCar) and the advisor Helena Caseli (UFSCar)."
   },
   {
-    "objectID": "presentations/exams/2025_rafael_passador_master_quali.html#abstract",
-    "href": "presentations/exams/2025_rafael_passador_master_quali.html#abstract",
-    "title": "Personalizing Mental Health Support",
+    "objectID": "presentations/seminars/2025_Vania_Neris_09052025.html#abstract",
+    "href": "presentations/seminars/2025_Vania_Neris_09052025.html#abstract",
+    "title": "The Amive project",
     "section": "Abstract",
-    "text": "Abstract\nMental health disorders pose significant challenges worldwide, necessitating accessible and scalable interventions. Conversational agents (CAs), or chatbots, have gained increasing attention as digital mental health tools, offering continuous support and reducing barriers to psychological assistance. While traditional rule-based and machine learning-based chatbots provide structured guidance, they often lack contextual adaptability and personalization, limiting their effectiveness in mental health applications. Large Language Models (LLMs), particularly when combined with Retrieval-Augmented Generation (RAG), offer a promising alternative by integrating domain-specific knowledge into chatbot responses, mitigating hallucinations, and improving factual grounding. This study aims to develop a personalized RAG-LLM chatbot tailored to Portuguese-speaking users, leveraging multilingual LLM capabilities and domain-adapted retrieval mechanisms. By retrieving specialized mental health data and incorporating user-specific information, the chatbot seeks to provide context-aware, empathetic, and personalized interventions. This research explores how integrating user history and specific domain knowledge enhances chatbot responses, ensuring that interactions dynamically adjust to the user’s psychological and emotional state. Given the scarcity of mental health datasets in Portuguese, this work will utilize publicly available mental health resources alongside the Amive dataset, a specialized corpus containing structured behavioral and textual data relevant to psychological assessment. The evaluation of the chatbot will include quantitative assessments using standard NLP metrics and qualitative human evaluation to measure the model’s ability to generate clinically relevant and empathetic responses. By addressing hallucinations, contextual accuracy, and personalization, this research contributes to the advancement of AI-driven mental health support systems, particularly in underrepresented linguistic contexts."
+    "text": "Abstract\nDepression is a significant mental health issue worldwide, and it affects college students more than the general population. While universities strive to support their students, technology can also play a crucial role. Computing technology can collect daily data, process it, and provide insights to both students and healthcare professionals. This includes physiological data gathered from wearable devices, as well as students’ thoughts and feelings expressed through text. Furthermore, digital interventions can be delivered promptly as initial support. The Amive project is a Brazilian human-centered AI initiative aimed at developing a comprehensive solution that classifies data on various factors such as sleep quality, exercise habits, and heart rate monitoring. Additionally, it identifies depressive symptoms from text shared on social media and uses this information to engage with students through a chatbot. This talk will discuss the research that led to this solution, the challenges encountered, and future work planned."
   },
   {
-    "objectID": "presentations/exams/2025_rafael_passador_master_quali.html#video",
-    "href": "presentations/exams/2025_rafael_passador_master_quali.html#video",
-    "title": "Personalizing Mental Health Support",
+    "objectID": "presentations/seminars/2025_Vania_Neris_09052025.html#video",
+    "href": "presentations/seminars/2025_Vania_Neris_09052025.html#video",
+    "title": "The Amive project",
     "section": "Video",
     "text": "Video"
   },
   {
-    "objectID": "presentations/exams/2025_rafael_passador_master_quali.html#further-information",
-    "href": "presentations/exams/2025_rafael_passador_master_quali.html#further-information",
-    "title": "Personalizing Mental Health Support",
-    "section": "Further information",
-    "text": "Further information\nThe Master’s Qualification Exam by Rafael Vinicius Polato Passador took place on February 25, 2025 and the commitee was composed of Professors Rodrigo Wilkens (University of Exeter, UK), Vânia Paula de Almeida Neris (UFSCar) and the advisor Helena Caseli (UFSCar)."
+    "objectID": "presentations/seminars/2025_Vania_Neris_09052025.html#short-bio",
+    "href": "presentations/seminars/2025_Vania_Neris_09052025.html#short-bio",
+    "title": "The Amive project",
+    "section": "Short Bio",
+    "text": "Short Bio\nVânia Neris is an Associate Professor in the Department of Computing at the Federal University of São Carlos (UFSCar) in Brazil, where she leads the Flexible and Sustainable Interaction Lab (LIFeS). She has been researching Human-Computer Interaction since 1999. She received her Ph. D. in Computer Science from the University of Campinas (UNICAMP)(2010) and has conducted research at the University of Reading (UK)(2008-2009). She was a Visiting Scholar in the Department of Information Sciences and Technology at George Mason University (2021-2022). She is a three-time recipient of the best paper award from the main Brazilian HCI conference. Prof. Neris has received research funding from several agencies in Brazil. Since 2011, she has been studying how to develop emotion-aware systems. Prof. Neris was one of the investigators of the Amive project, which aimed to identify possible depressive symptoms among college students and deliver appropriate interventions to them. Her actual research interests include: (1) computer support for mental health and well-being, (2) human-centred AI and (3) computer science education."
   },
   {
     "objectID": "presentations/seminars/2025_Sai_Somayajula_21082025.html#abstract",
@@ -88,7 +88,7 @@
     "href": "videos.html#invited-speakers",
     "title": "Videos",
     "section": "Invited speakers",
-    "text": "Invited speakers\n\n\n\n\n\n\n\n\nTowards Ethical Collaboration Between Humans and AI in Healthcare\n\n\n\nJulia Ive\n\n\nSeptember 2, 2025\n\n\n\n\n\n\nLanguage\n\n\nEnglish\n\n\n\n\n\n\n\n\n\n\n\n\n\nTrustworthy Optimization of Pre-Trained Models for Healthcare\n\n\n\nSai Ashish Somayajula\n\n\nAugust 21, 2025\n\n\n\n\n\n\nLanguage\n\n\nEnglish\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Amive project\n\n\n\nVânia Neris\n\n\nMay 9, 2025\n\n\n\n\n\n\nLanguage\n\n\nEnglish\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Invited speakers\n\n\n\n\n\n\n\n\nMental health prediction from social media data\n\n\n\nIvandré Paraboni\n\n\nSeptember 25, 2025\n\n\n\n\n\n\nLanguage\n\n\nEnglish\n\n\n\n\n\n\n\n\n\n\n\n\n\nTowards Ethical Collaboration Between Humans and AI in Healthcare\n\n\n\nJulia Ive\n\n\nSeptember 2, 2025\n\n\n\n\n\n\nLanguage\n\n\nEnglish\n\n\n\n\n\n\n\n\n\n\n\n\n\nTrustworthy Optimization of Pre-Trained Models for Healthcare\n\n\n\nSai Ashish Somayajula\n\n\nAugust 21, 2025\n\n\n\n\n\n\nLanguage\n\n\nEnglish\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Amive project\n\n\n\nVânia Neris\n\n\nMay 9, 2025\n\n\n\n\n\n\nLanguage\n\n\nEnglish\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "videos.html#students-presentations",
@@ -203,66 +203,66 @@
     "text": "Speaker’s bio\nDr. Julia Ive is an Associate Professor in Healthcare AI at University College London. Her research focuses on responsible, data-centric, and human-centered approaches to leveraging LLMs for healthcare applications. Her work spans bias detection and mitigation in clinical text, privacy-preserving methods for sensitive data, and human–AI collaboration protocols for clinical decision support. She has previously worked at Queen Mary University of London and Imperial College London, where she pioneered techniques for medical data augmentation through synthetic text generation. Her broader expertise includes theoretical language modeling, multimodal machine learning, and reinforcement learning for text generation."
   },
   {
-    "objectID": "presentations/seminars/2025_Vania_Neris_09052025.html#abstract",
-    "href": "presentations/seminars/2025_Vania_Neris_09052025.html#abstract",
-    "title": "The Amive project",
-    "section": "Abstract",
-    "text": "Abstract\nDepression is a significant mental health issue worldwide, and it affects college students more than the general population. While universities strive to support their students, technology can also play a crucial role. Computing technology can collect daily data, process it, and provide insights to both students and healthcare professionals. This includes physiological data gathered from wearable devices, as well as students’ thoughts and feelings expressed through text. Furthermore, digital interventions can be delivered promptly as initial support. The Amive project is a Brazilian human-centered AI initiative aimed at developing a comprehensive solution that classifies data on various factors such as sleep quality, exercise habits, and heart rate monitoring. Additionally, it identifies depressive symptoms from text shared on social media and uses this information to engage with students through a chatbot. This talk will discuss the research that led to this solution, the challenges encountered, and future work planned."
-  },
-  {
-    "objectID": "presentations/seminars/2025_Vania_Neris_09052025.html#video",
-    "href": "presentations/seminars/2025_Vania_Neris_09052025.html#video",
-    "title": "The Amive project",
-    "section": "Video",
-    "text": "Video"
-  },
-  {
-    "objectID": "presentations/seminars/2025_Vania_Neris_09052025.html#short-bio",
-    "href": "presentations/seminars/2025_Vania_Neris_09052025.html#short-bio",
-    "title": "The Amive project",
-    "section": "Short Bio",
-    "text": "Short Bio\nVânia Neris is an Associate Professor in the Department of Computing at the Federal University of São Carlos (UFSCar) in Brazil, where she leads the Flexible and Sustainable Interaction Lab (LIFeS). She has been researching Human-Computer Interaction since 1999. She received her Ph. D. in Computer Science from the University of Campinas (UNICAMP)(2010) and has conducted research at the University of Reading (UK)(2008-2009). She was a Visiting Scholar in the Department of Information Sciences and Technology at George Mason University (2021-2022). She is a three-time recipient of the best paper award from the main Brazilian HCI conference. Prof. Neris has received research funding from several agencies in Brazil. Since 2011, she has been studying how to develop emotion-aware systems. Prof. Neris was one of the investigators of the Amive project, which aimed to identify possible depressive symptoms among college students and deliver appropriate interventions to them. Her actual research interests include: (1) computer support for mental health and well-being, (2) human-centred AI and (3) computer science education."
-  },
-  {
-    "objectID": "presentations/exams/2025_mayumi_master_quali.html#abstract",
-    "href": "presentations/exams/2025_mayumi_master_quali.html#abstract",
-    "title": "Automatic detection of metaphors in Brazilian Portuguese",
-    "section": "Abstract",
-    "text": "Abstract\nAutomated metaphor processing plays a crucial role in various NLP applications, including sentiment analysis, machine translation, and text generation. Given the intricate nature of metaphorical language, its automatic processing poses a significant challenge, requiring models to go beyond literal meanings to capture underlying conceptual mappings. While significant research has been conducted on metaphor detection for high-resource languages like English, many other languages remain underexplored. This is particularly true for Brazilian Portuguese, where the scarcity of annotated datasets and limited studies hinder advancements in the field. This study aims to advance automated metaphor detection for Brazilian Portuguese by constructing an annotated dataset and training both monolingual and multilingual models for Brazilian Portuguese, English, and Spanish. The additional languages will be used to compare results and leverage knowledge to enhance generalization for the target language. By expanding research in this area, this work aims to strengthen the study of metaphor detection in Brazilian Portuguese and contribute to the broader development of NLP resources for the language."
-  },
-  {
-    "objectID": "presentations/exams/2025_mayumi_master_quali.html#video",
-    "href": "presentations/exams/2025_mayumi_master_quali.html#video",
-    "title": "Automatic detection of metaphors in Brazilian Portuguese",
-    "section": "Video",
-    "text": "Video"
-  },
-  {
-    "objectID": "presentations/exams/2025_mayumi_master_quali.html#further-information",
-    "href": "presentations/exams/2025_mayumi_master_quali.html#further-information",
-    "title": "Automatic detection of metaphors in Brazilian Portuguese",
-    "section": "Further information",
-    "text": "Further information\nThe Master’s Qualification Exam by Karina Mayumi Johansson took place on April 4, 2025 and the commitee was composed of Professors Aline Paes(Federal University Fluminense, UFF), Heloísa de Arruda Camargo (UFSCar) and the advisor Helena Caseli (UFSCar)."
-  },
-  {
-    "objectID": "presentations/draft/2025_Ivandre_Paraboni_25092025.html#abstract",
-    "href": "presentations/draft/2025_Ivandre_Paraboni_25092025.html#abstract",
+    "objectID": "presentations/seminars/2025_Ivandre_Paraboni_25092025.html#abstract",
+    "href": "presentations/seminars/2025_Ivandre_Paraboni_25092025.html#abstract",
     "title": "Mental health prediction from social media data",
     "section": "Abstract",
     "text": "Abstract\nThis talk explores the computational task of predicting mental health conditions from social media data, conducted within the scope of the SetembroBR project (2022-2024). We discuss the creation of a dataset for detecting depression and anxiety disorders from Portuguese tweets, along with the development and initial results of computational models for these tasks. Finally, we address key challenges that remain for ongoing research, with particular focus on their relevance to the current AIM-Health project."
   },
   {
-    "objectID": "presentations/draft/2025_Ivandre_Paraboni_25092025.html#video",
-    "href": "presentations/draft/2025_Ivandre_Paraboni_25092025.html#video",
+    "objectID": "presentations/seminars/2025_Ivandre_Paraboni_25092025.html#video",
+    "href": "presentations/seminars/2025_Ivandre_Paraboni_25092025.html#video",
     "title": "Mental health prediction from social media data",
     "section": "Video",
     "text": "Video"
   },
   {
-    "objectID": "presentations/draft/2025_Ivandre_Paraboni_25092025.html#short-bio",
-    "href": "presentations/draft/2025_Ivandre_Paraboni_25092025.html#short-bio",
+    "objectID": "presentations/seminars/2025_Ivandre_Paraboni_25092025.html#short-bio",
+    "href": "presentations/seminars/2025_Ivandre_Paraboni_25092025.html#short-bio",
     "title": "Mental health prediction from social media data",
     "section": "Short Bio",
     "text": "Short Bio\nIvandré Paraboni holds a Ph.D. in Computer Science from the University of Brighton, United Kingdom (2003), and completed a postdoctoral fellowship at the University of Aberdeen, Scotland (2012). He is an Associate Professor (tenured) and researcher at the University of São Paulo (USP), with a full-time appointment at the School of Arts, Sciences, and Humanities (EACH). Research interests span a broad spectrum of human language processing, ranging from computational methods grounded in Cognitive Science to practical applications, such as the classification of web-based documents. He currently supervises research on stance recognition from text, the detection of mental health disorders from multimodal data, the identification of creative thinking, and arbitrary style transfer in natural language generation."
+  },
+  {
+    "objectID": "presentations/exams/2025_rafael_passador_master_quali.html#abstract",
+    "href": "presentations/exams/2025_rafael_passador_master_quali.html#abstract",
+    "title": "Personalizing Mental Health Support",
+    "section": "Abstract",
+    "text": "Abstract\nMental health disorders pose significant challenges worldwide, necessitating accessible and scalable interventions. Conversational agents (CAs), or chatbots, have gained increasing attention as digital mental health tools, offering continuous support and reducing barriers to psychological assistance. While traditional rule-based and machine learning-based chatbots provide structured guidance, they often lack contextual adaptability and personalization, limiting their effectiveness in mental health applications. Large Language Models (LLMs), particularly when combined with Retrieval-Augmented Generation (RAG), offer a promising alternative by integrating domain-specific knowledge into chatbot responses, mitigating hallucinations, and improving factual grounding. This study aims to develop a personalized RAG-LLM chatbot tailored to Portuguese-speaking users, leveraging multilingual LLM capabilities and domain-adapted retrieval mechanisms. By retrieving specialized mental health data and incorporating user-specific information, the chatbot seeks to provide context-aware, empathetic, and personalized interventions. This research explores how integrating user history and specific domain knowledge enhances chatbot responses, ensuring that interactions dynamically adjust to the user’s psychological and emotional state. Given the scarcity of mental health datasets in Portuguese, this work will utilize publicly available mental health resources alongside the Amive dataset, a specialized corpus containing structured behavioral and textual data relevant to psychological assessment. The evaluation of the chatbot will include quantitative assessments using standard NLP metrics and qualitative human evaluation to measure the model’s ability to generate clinically relevant and empathetic responses. By addressing hallucinations, contextual accuracy, and personalization, this research contributes to the advancement of AI-driven mental health support systems, particularly in underrepresented linguistic contexts."
+  },
+  {
+    "objectID": "presentations/exams/2025_rafael_passador_master_quali.html#video",
+    "href": "presentations/exams/2025_rafael_passador_master_quali.html#video",
+    "title": "Personalizing Mental Health Support",
+    "section": "Video",
+    "text": "Video"
+  },
+  {
+    "objectID": "presentations/exams/2025_rafael_passador_master_quali.html#further-information",
+    "href": "presentations/exams/2025_rafael_passador_master_quali.html#further-information",
+    "title": "Personalizing Mental Health Support",
+    "section": "Further information",
+    "text": "Further information\nThe Master’s Qualification Exam by Rafael Vinicius Polato Passador took place on February 25, 2025 and the commitee was composed of Professors Rodrigo Wilkens (University of Exeter, UK), Vânia Paula de Almeida Neris (UFSCar) and the advisor Helena Caseli (UFSCar)."
+  },
+  {
+    "objectID": "presentations/exams/2025_fernanda_assi_master_quali.html#abstract",
+    "href": "presentations/exams/2025_fernanda_assi_master_quali.html#abstract",
+    "title": "Automatic identification of bias in large language models",
+    "section": "Abstract",
+    "text": "Abstract\nLarge Language Models (LLMs) have demonstrated remarkable capabilities across various domains, from legal reasoning to clinical decision support. As these models become increasingly integrated into real-world applications, concerns about their reliability, fairness, and ethical implications have emerged. Studies have shown that LLMs can produce biased outputs, reinforcing harmful stereotypes and discriminating against marginalized groups. Among the most common biases are occupational stereotypes, racial disparities, and linguistic bias, where outputs vary based on the language or dialect used in the prompt. This study proposes a systematic framework to evaluate and rank LLMs based on their bias levels using the Elo rating system. A sentence completion framework will be employed, where models generate responses to prompts containing explicit social markers. The completions will be anonymized and scored using a regard classifier, which assesses how positively or negatively different demographic groups are portrayed. Pairwise comparisons will update Elo ratings, establishing a ranking of LLMs in terms of bias. This approach enables scalable and systematic comparisons across models."
+  },
+  {
+    "objectID": "presentations/exams/2025_fernanda_assi_master_quali.html#video",
+    "href": "presentations/exams/2025_fernanda_assi_master_quali.html#video",
+    "title": "Automatic identification of bias in large language models",
+    "section": "Video",
+    "text": "Video"
+  },
+  {
+    "objectID": "presentations/exams/2025_fernanda_assi_master_quali.html#further-information",
+    "href": "presentations/exams/2025_fernanda_assi_master_quali.html#further-information",
+    "title": "Automatic identification of bias in large language models",
+    "section": "Further information",
+    "text": "Further information\nThe Master’s Qualification Exam by Fernanda Malheiros Assi took place on March 24, 2025 and the commitee was composed of Professors Mirella Moro (Federal University of Minas Gerais, UFMG), Renato Silva (University of São Paulo, USP) and the advisor Helena Caseli (UFSCar)."
   }
 ]
