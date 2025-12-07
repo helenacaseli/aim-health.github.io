@@ -105,20 +105,6 @@
     "text": "AIM-Health is an international research project between Brazil and UK. It started on February 2025 and has an expected duration of three years.\nThe opinions, hypotheses and conclusions or recommendations expressed in this material are the responsibility of the author(s) and do not necessarily reflect the views of FAPESP.\nAIM-Health logo was generated using Canva’s AI assinstant."
   },
   {
-    "objectID": "index.html#about-this-project",
-    "href": "index.html#about-this-project",
-    "title": "",
-    "section": "About this project",
-    "text": "About this project\nAIM-Health is an international research project between Brazil and UK. It started on February 2025 and has an expected duration of three years.\n\nScopeGoalsScientific challenges\n\n\nDepression is a mental health disorder that affects a large portion of the global population, being the second largest contributor to decrease in healthy life expectancy. Depression is characterized by a clinically significant form of psychological suffering that leads to significant impairment in someone’s functionality, reduced quality of life and, in severe cases, can lead to death due to the risk of suicide. However, according to the World Health Organization, only a quarter of individuals suffering from mental health disorders receive proper care.\nAdvances in Artificial Intelligence (AI) and Natural Language Processing (NLP) research have been developed to a level that can be used for proposing computational solutions that assist in the detection and intervention in mental health conditions. AI and NLP based solutions that aid in the identification of signs of depression can be useful both in individual treatment and in making public policy decisions. Similarly, solutions that offer autonomous, ethical, reliable, controlled, and engaging intervention, in real time, can help mitigate the damage caused by depression.\n\n\nThis project works on proposing and developing AI and NLP based solutions for the detection and intervention of mental health conditions that can have a broader reach and allow mental health support to individuals and populations that would not otherwise have access to it.\nFurthermore, as social determinants are frequently mentioned as risk factors for mental health conditions, this project also aims at furthering the understanding about them in two contexts (Brazil and the United Kingdom).\n\n\nThis project aims to address scientific challenges that are still present and very relevant in this context:\n\ndealing with more abstract language (such as figurative language) commonly used in mental health self-narratives, and\noutputting personalized interventions suitable for an individual’s context."
-  },
-  {
-    "objectID": "index.html#support-agencies",
-    "href": "index.html#support-agencies",
-    "title": "",
-    "section": "Support agencies",
-    "text": "Support agencies\nThis is an international project supported by FAPESP (24/10233-7) and the UKRI/MRC – UK Research and Innovation / Medical Research Council."
-  },
-  {
     "objectID": "seminars_template.html#invited-speaker",
     "href": "seminars_template.html#invited-speaker",
     "title": "",
@@ -138,6 +124,34 @@
     "title": "",
     "section": "Speaker’s bio",
     "text": "Speaker’s bio\nTEXT"
+  },
+  {
+    "objectID": "index.html#about-this-project",
+    "href": "index.html#about-this-project",
+    "title": "",
+    "section": "About this project",
+    "text": "About this project\nAIM-Health is an international research project between Brazil and UK. It started on February 2025 and has an expected duration of three years.\n\nScopeGoalsScientific challenges\n\n\nDepression is a mental health disorder that affects a large portion of the global population, being the second largest contributor to decrease in healthy life expectancy. Depression is characterized by a clinically significant form of psychological suffering that leads to significant impairment in someone’s functionality, reduced quality of life and, in severe cases, can lead to death due to the risk of suicide. However, according to the World Health Organization, only a quarter of individuals suffering from mental health disorders receive proper care.\nAdvances in Artificial Intelligence (AI) and Natural Language Processing (NLP) research have been developed to a level that can be used for proposing computational solutions that assist in the detection and intervention in mental health conditions. AI and NLP based solutions that aid in the identification of signs of depression can be useful both in individual treatment and in making public policy decisions. Similarly, solutions that offer autonomous, ethical, reliable, controlled, and engaging intervention, in real time, can help mitigate the damage caused by depression.\n\n\nThis project works on proposing and developing AI and NLP based solutions for the detection and intervention of mental health conditions that can have a broader reach and allow mental health support to individuals and populations that would not otherwise have access to it.\nFurthermore, as social determinants are frequently mentioned as risk factors for mental health conditions, this project also aims at furthering the understanding about them in two contexts (Brazil and the United Kingdom).\n\n\nThis project aims to address scientific challenges that are still present and very relevant in this context:\n\ndealing with more abstract language (such as figurative language) commonly used in mental health self-narratives, and\noutputting personalized interventions suitable for an individual’s context."
+  },
+  {
+    "objectID": "index.html#support-agencies",
+    "href": "index.html#support-agencies",
+    "title": "",
+    "section": "Support agencies",
+    "text": "Support agencies\nThis is an international project supported by FAPESP (24/10233-7) and the UKRI/MRC – UK Research and Innovation / Medical Research Council."
+  },
+  {
+    "objectID": "events.html",
+    "href": "events.html",
+    "title": "Events",
+    "section": "",
+    "text": "The First Wokshop of the AIM-Health project took place at the Federal University of São Carlos (UFSCar) on December 5, 2025. The event, held in the Department of Computer Science (DC/UFSCar), was attended by the project coordinators, Professor Aline Villavicencio and Professor Helena Caseli, as well as the principal investigators – Professor Vânia Neris, Professor Sylvia Iasulaits, and Professor Heloísa Frizzo –, students already enrolled in the project – MSc David Leucas, MSc Gabriel Garcia, MSc Grasiane Silva, Isabela Rodrigues, and Gabriel Spolon –, invited researchers – Professor Ariani Di Felippo and Professor Marco Idiart – and invited students – Dr. Paula Souza, Evandro Ribeiro, Nicole, Pedro Possebon, Guilherme Oliveira, Júlia Pasquini and Mariana Marques."
+  },
+  {
+    "objectID": "events.html#st-workshop-of-aim-health-project",
+    "href": "events.html#st-workshop-of-aim-health-project",
+    "title": "Events",
+    "section": "",
+    "text": "The First Wokshop of the AIM-Health project took place at the Federal University of São Carlos (UFSCar) on December 5, 2025. The event, held in the Department of Computer Science (DC/UFSCar), was attended by the project coordinators, Professor Aline Villavicencio and Professor Helena Caseli, as well as the principal investigators – Professor Vânia Neris, Professor Sylvia Iasulaits, and Professor Heloísa Frizzo –, students already enrolled in the project – MSc David Leucas, MSc Gabriel Garcia, MSc Grasiane Silva, Isabela Rodrigues, and Gabriel Spolon –, invited researchers – Professor Ariani Di Felippo and Professor Marco Idiart – and invited students – Dr. Paula Souza, Evandro Ribeiro, Nicole, Pedro Possebon, Guilherme Oliveira, Júlia Pasquini and Mariana Marques."
   },
   {
     "objectID": "team.html",
