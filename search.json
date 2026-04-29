@@ -1,73 +1,45 @@
 [
   {
-    "objectID": "lang4health.html#description",
-    "href": "lang4health.html#description",
-    "title": "Lang4Health Workshop at PROPOR 2026",
-    "section": "Description",
-    "text": "Description\n\nThe First Workshop on Language Technologies for Health (Lang4Health1) is a workshop dedicated to the development and application of Natural Language Processing (NLP) technologies in the healthcare field. Language technologies are becoming more prevalent in health domain for electronic health record (EHR) screening (Da Rocha et al. 2022), dataset construction (Oliveira et al. 2022; Santos, Oliveira, and Paraboni 2024), language representation model development (Gumiel et al. 2019; Nunes et al. 2024) for applications such as named entity recognition (Andrade, Ruas, and Couto 2021; Schneider et al. 2020) or chatbot development (Pires, Caseli, and Neris 2023; Souza et al. 2022). Despite its growing relevance, there are still some open challenges in the field of NLP for healthcare that need to be addressed.\nThe workshop will provide participants with the opportunity to present and discuss novel research ideas on active and emerging topics related to NLP in healthcare field for Portuguese, Galician and their variants. The workshop will also be an opportunity for researchers and practitioners to collaborate on new projects.\nThis workshop is proposed in the scope of AIM-Health project, an international research project between Brazil and UK supported by FAPESP and UKRI/MRC – UK Research and Innovation / Medical Research Council, focused on the development of AI and NLP technologies for mental health.\nFollowing the workshop, we intend to invite the authors of the accepted papers to submit an extended version for a special edition of the journal Language Resources and Evaluation.\nLang4Health 2026 will be co-located with PROPOR 2026, which will be held from April 13th to April 16th at Salvador – BA, Brazil. The exact date of the workshop will be announced soon."
+    "objectID": "seminars.html#dr.-mel-ramasawmy",
+    "href": "seminars.html#dr.-mel-ramasawmy",
+    "title": "",
+    "section": "Dr. Mel Ramasawmy",
+    "text": "Dr. Mel Ramasawmy\n\nMay 21, 3pm(UK), 11am(BR), 4pm (CET)\n\n\nLocation\nVirtual (To be announced)"
   },
   {
-    "objectID": "lang4health.html#call-for-paper",
-    "href": "lang4health.html#call-for-paper",
-    "title": "Lang4Health Workshop at PROPOR 2026",
-    "section": "Call for Paper",
-    "text": "Call for Paper\n\nWe call for papers describing work on any topic related to computational language and speech processing in the health domain by researchers in industry or academia. The papers must deal with Portuguese language varieties or their dialects. Topics of interest include, but are not limited to:\n\nData in health domain\n\nDataset/Corpus construction and availability;\nDataset/Corpus annotation;\nAnonymization and de-identification;\nAugment and synthetic data generation.\n\nLanguage technologies in health domain\n\nInteraction and conversational agents (e.g. chatbots);\nInformation extraction and information retrieval;\nNamed Entity Recognition;\nSummarization;\nQuestion Answering;\nPersonalization;\nSpeech processing;\nNLP-supported diagnosis;\nAccessibility and simplification of information;\nLanguage support for digital phenotyping.\n\n\n\nSubmission format\nSubmissions should describe original, unpublished work. Authors are invited to submit two kinds of papers:\n\nFull papers – Reporting substantial and completed work, especially those that may contribute in a significant way to the advancement of the field. Wherever appropriate, concrete evaluation results should be included. Full papers can have up to 8 pages of content, plus 2 pages for appendices and unlimited pages of references.\nShort papers – Reporting small, focused contributions such as ongoing work, position papers, potential ideas to be discussed, or negative results. Short papers can have up to 4 pages of content, plus 1 page for appendices and unlimited pages of references.\n\nThe papers must be written in English or Portuguese. At submission time, only PDF format is accepted. For the final versions, authors of accepted papers will be given 1 extra content page to incorporate the reviews’ suggestions. Authors of accepted papers will be requested to send the source files for the production of the proceedings. All submitted papers must conform to the ACL style guidelines and use the LaTeX or MS Word stylesheets available at PROPOR 2026.\n\n\nMultiple-submission policy\nFor submissions that have been or will be submitted to other meetings or publications, this information must be provided at submission time. If a submission is accepted, authors must notify the program chairs, indicating which meeting they choose for presentation of their work. Papers that will be (or have been) published elsewhere cannot be accepted for publication or presentation.\n\n\nReview process\nEach submission will be evaluated by at least two reviewers. As reviewing will be double-blind, submitted papers must be anonymized. That is, they should not contain the authors’ names and affiliations. Authors must avoid self-references that reveal identity, like “We previously showed (Freitas, 1991) …”. Instead, they should prefer citations such as “Freitas (1991) previously showed …”. Separate author identification information will be required as part of the submission process.\n\n\nSubmit your paper\nSubmit"
+    "objectID": "seminars.html#abstract",
+    "href": "seminars.html#abstract",
+    "title": "",
+    "section": "Abstract",
+    "text": "Abstract\nEmerging artificial intelligence (AI) technologies, such as large language models (LLMs), are promoted as potential solutions to pressures in healthcare, in particular scarce capacity and the need to manage complex long-term health conditions, e.g. via AI integration into NHS 111. LLMs can be trained to take patient histories and conduct ‘intelligent triage’ to provide personalised symptom assessment and advice for patients or health care professionals. These LLM tools require patients to be able to describe their symptoms to them in a predictable way. However, the way patients describe their symptoms are known to vary widely according to socio-demographic, cultural, regional, and other factors. If these less typical descriptions of symptoms are not included in when LLMs are trained, it creates a risk that some patients may receive inaccurate advice. While developers of these tools, as well as regulators and commissioners within the healthcare system, may try to avoid ‘overt’ bias, they may not be aware of these types of ‘covert’ bias. As an anthropologist working in a healthcare policy context, I see the introduction of large language models as subject to the same risks to equity as other innovations which are developed around a ‘default’ demographic group. In this talk, I will present my Fellowship proposal and invite feedback."
   },
   {
-    "objectID": "lang4health.html#important-dates",
-    "href": "lang4health.html#important-dates",
-    "title": "Lang4Health Workshop at PROPOR 2026",
-    "section": "Important dates",
-    "text": "Important dates\n\n\nDeadline for paper submission: February 19, 2026 (NEW) February 2, 2026\nNotification to authors: March 10, 2026 March 11, 2026\nCamera-ready deadline: March 20, 2026\nElectronic proceedings: March 27, 2026\nLang4Health Workshop: April 13, 2026"
+    "objectID": "seminars.html#speakers-bio",
+    "href": "seminars.html#speakers-bio",
+    "title": "",
+    "section": "Speaker’s bio",
+    "text": "Speaker’s bio\nMel is a qualitative researcher based at Queen Mary University of London. She applies her background in anthropology and health policy to questions at the intersection of digital health, equity, and patient experiences of access and care. Mel is currently developing a fellowship application around covert bias in patient-facing large language models, supported by the NIHR."
   },
   {
-    "objectID": "lang4health.html#invited-speaker",
-    "href": "lang4health.html#invited-speaker",
-    "title": "Lang4Health Workshop at PROPOR 2026",
-    "section": "Invited Speaker",
-    "text": "Invited Speaker\n\n\n\n\n\n\nIvandré Paraboni\nUniversidade de São Paulo (USP)\n\n\nPredição de saúde mental a partir de dados provenientes de redes sociais\n(The talk will be in Portuguese)\nA palestra explora a tarefa computacional de predição de transtornos de saúde mental a partir de dados de redes sociais. Discutimos a criação de um conjunto de dados específico para a detecção de depressão e transtornos de ansiedade em tweets em português, juntamente com o desenvolvimento e os resultados iniciais de modelos computacionais para essas tarefas. Por fim, abordamos os principais desafios que ainda permanecem para a pesquisa em andamento, e possíveis direções a seguir.\n\n\n\nShort Bio\nIvandré Paraboni holds a Ph.D. in Computer Science from the University of Brighton, United Kingdom (2003), and completed a postdoctoral fellowship at the University of Aberdeen, Scotland (2012). He is an Associate Professor (tenured) and researcher at the University of São Paulo (USP), with a full-time appointment at the School of Arts, Sciences, and Humanities (EACH). Research interests span a broad spectrum of human language processing, ranging from computational methods grounded in Cognitive Science to practical applications, such as the classification of web-based documents. He currently supervises research on stance recognition from text, the detection of mental health disorders from multimodal data, the identification of creative thinking, and arbitrary style transfer in natural language generation."
+    "objectID": "presentations/exams/2026_rafael_passador_master_viva.html#abstract",
+    "href": "presentations/exams/2026_rafael_passador_master_viva.html#abstract",
+    "title": "Personalizing Mental Health Support",
+    "section": "Abstract",
+    "text": "Abstract\nMental health disorders constitute a major global challenge, requiring support solutions that are both accessible and scalable. Conversational agents have emerged as promising tools in this context, but purely generative large language model (LLM) systems remain susceptible to unsupported outputs, weak grounding, and limited adaptation to user-specific context. This work investigates whether combining supervised domain adaptation, guideline-grounded retrieval, and persona-based conditioning improves the quality of emotional-support responses. Three system variants built on the same fine-tuned Llama-3 backbone are compared: a Baseline model controlled through layered prompting, a Hybrid Retrieval-Augmented Generation (RAG) variant grounded in authoritative WHO and NICE mental health guidelines through hybrid retrieval, and a Persona-Based RAG variant that further incorporates persona signs into both retrieval and prompt construction. All variants are protected by a pre-LLM crisis guardrail that short-circuits high-risk inputs and returns a predefined safe response. Evaluation was conducted in a single-turn setting using inputs from mental health datasets associated with multiple persona profiles, and outputs were assessed through both human evaluation and an LLM-as-a-judge protocol under a shared rubric covering empathy, topic adequacy, and personalization. Results from both evaluation sources converge in identifying the Persona-Based RAG variant as the best overall configuration, with the clearest gains in empathy and personalization, while the RAG-only variant remained especially competitive in topic adequacy. These findings indicate that combining grounded retrieval with explicit persona conditioning is a promising strategy for the development of more contextually appropriate and supportive conversational agents for mental health."
   },
   {
-    "objectID": "lang4health.html#organizing-committee",
-    "href": "lang4health.html#organizing-committee",
-    "title": "Lang4Health Workshop at PROPOR 2026",
-    "section": "Organizing Committee",
-    "text": "Organizing Committee\n\nProf. Aline Villavicencio\nUniversity of Exeter, UK\nDr. Rodrigo Wilkens\nUniversity of Exeter, UK  \nProf. Helena Caseli\nFederal University of São Carlos, Brazil\nDr. Vânia Neris\nFederal University of São Carlos, Brazil"
+    "objectID": "presentations/exams/2026_rafael_passador_master_viva.html#video",
+    "href": "presentations/exams/2026_rafael_passador_master_viva.html#video",
+    "title": "Personalizing Mental Health Support",
+    "section": "Video",
+    "text": "Video"
   },
   {
-    "objectID": "lang4health.html#program-committee",
-    "href": "lang4health.html#program-committee",
-    "title": "Lang4Health Workshop at PROPOR 2026",
-    "section": "Program Committee",
-    "text": "Program Committee\nThe Lang4Health thanks the researchers that worked as reviewers of submitted papers:\n\nAline Paes – Universidade Federal Fluminense (UFF)\nAna Cleide Guimbal de Aquino – UFRA\nCésar Sperb – Federal University of Pelotas (UFPel)\nClaudia Moro – Pontificia Universidade Católica do Paraná (PUCPR)\nElisa Terumi Rubel Schneider – Pontificia Universidade Católica do Paraná (PUCPR)\nEloize Seno – Federal Institute of São Paulo (IFSP)\nEmerson Paraiso – Pontificia Universidade Católica do Paraná (PUCPR)\nHelena Caseli – Federal University of São Carlos (UFSCar)\nIvandré Paraboni – University of São Paulo (USP)\nJoão Papa – São Paulo State University (UNESP)\nLuciana Salgado – Universidade Federal Fluminense (UFF)\nMarcelo Finger – University of São Paulo (USP)\nMaria José Finatto – UFRGS\nMarilia Silveira – Federal University of Pelotas (UFPel)\nMateus Monteiro – Federal University of São Carlos (UFSCar)\nMurilo Vargas Cunha – Federal University of Pelotas (UFPel)\nPaula Souza – Federal University of São Carlos (UFSCar)\nRenata Vieira – CIDEHUS\nRenato Silva – University of São Paulo (USP)\nRodrigo Wilkens – University of Exeter\nSandra Rodrigues – Universidade Federal de Lavras (UFLA)\nTiago Torrent – Universidade Federal de Juiz de Fora"
-  },
-  {
-    "objectID": "lang4health.html#sec-proceedings",
-    "href": "lang4health.html#sec-proceedings",
-    "title": "Lang4Health Workshop at PROPOR 2026",
-    "section": "Accepted papers (Proceedings) & Program",
-    "text": "Accepted papers (Proceedings) & Program\nAll accepted papers will be presented orally on Lang4Health. Each Long paper will have 20 minutes for the oral presentation plus 5 minutes for questions. Each Short paper will have 12 minutes for the oral presentation plus 3 minutes for questions.\n\n\n\nTime\nActivity\n\n\n\n\n08:30\nWelcome\n\n\n08:45\nPretrained Neural Audio Models for Asthma Detection from Voice and Speech\n\n\n09:10\nA RAG Chatbot with Incremental Context Retrieval based on Local LLMs for Hospital Documents\n\n\n09:35\nLLM-Based Multi-Agent System with Retrieval-Augmented Generation for Medical Care Planning Generation in Sickle Cell Disease\n\n\n10:00\nRetrieval-Augmented Generation for Clinical Question Answering in Portuguese Drug Leaflets: Benefits and Limitations\n\n\n10:30\nCoffee Break\n\n\n11:00\nClass of LLMs: Benchmarking Large Language Models on the Brazilian National Medical Examination\n\n\n11:30\nPredição de saúde mental a partir de dados provenientes de redes sociais – Invited speaker Ivandré Paraboni\n\n\n12:30\nLunch Break\n\n\n14:00\nWelcome back\n\n\n14:05\nThe visible and the latent linguistic clues of mental health in Brazilian Portuguese textual posts\n\n\n14:30\nEvaluating FrameNet-Based Semantic Modeling for Gender-Based Violence Detection in Clinical Records\n\n\n14:55\nA Dataset of Brazilian Portuguese Clinical Notes for Anaphylaxis Detection\n\n\n15:30\nCoffee Break\n\n\n16:00\nAnnotation Guidelines and Challenges for Automatic Simplification of Portuguese Drug Leaflets\n\n\n16:15\nFrom Annotated Clinical Narratives to Ontology: Structuring Brazilian Portuguese Clinical Data\n\n\n16:30\nCommunity Panel\n\n\n17:30\nLang4Health Closing"
-  },
-  {
-    "objectID": "lang4health.html#pictures",
-    "href": "lang4health.html#pictures",
-    "title": "Lang4Health Workshop at PROPOR 2026",
-    "section": "Pictures",
-    "text": "Pictures\n\n\n\nIvandré Paraboni’s talk at Lang4Health\n\n\n\n\n\nClosing picture at Lang4Health"
-  },
-  {
-    "objectID": "lang4health.html#contact-information",
-    "href": "lang4health.html#contact-information",
-    "title": "Lang4Health Workshop at PROPOR 2026",
-    "section": "Contact information",
-    "text": "Contact information\nEmail"
-  },
-  {
-    "objectID": "lang4health.html#footnotes",
-    "href": "lang4health.html#footnotes",
-    "title": "Lang4Health Workshop at PROPOR 2026",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nLang4Health logo was generated using Canva’s AI assistant↩︎"
+    "objectID": "presentations/exams/2026_rafael_passador_master_viva.html#further-information",
+    "href": "presentations/exams/2026_rafael_passador_master_viva.html#further-information",
+    "title": "Personalizing Mental Health Support",
+    "section": "Further information",
+    "text": "Further information\nThe Master’s Dissertation Defense by Rafael Vinicius Polato Passador took place on April 24, 2026 and the commitee was composed of Professors Altigran Soares da Silva (UFAM), João Paulo Papa (UNESP) and the advisor Helena Caseli (UFSCar)."
   },
   {
     "objectID": "presentations/exams/2025_mayumi_master_quali.html#abstract",
@@ -291,7 +263,7 @@
     "href": "videos.html#students-presentations",
     "title": "Videos",
     "section": "Student’s presentations",
-    "text": "Student’s presentations\n\n\n\n\n\n\n\n\nAutomatic detection of metaphors in Brazilian Portuguese\n\n\n\nKarina Johansson\n\n\nApril 4, 2025\n\n\n\n\n\n\nLanguage\n\n\nPortuguese\n\n\n\n\n\n\n\n\n\n\n\n\n\nAutomatic identification of bias in large language models\n\n\n\nFernanda Assi\n\n\nMarch 24, 2025\n\n\n\n\n\n\nLanguage\n\n\nPortuguese\n\n\n\n\n\n\n\n\n\n\n\n\n\nPersonalizing Mental Health Support\n\n\n\nRafael Passador\n\n\nFebruary 25, 2025\n\n\n\n\n\n\nLanguage\n\n\nPortuguese\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Student’s presentations\n\n\n\n\n\n\n\n\nPersonalizing Mental Health Support\n\n\n\nRafael Passador\n\n\nApril 24, 2026\n\n\n\n\n\n\nLanguage\n\n\nPortuguese\n\n\n\n\n\n\n\n\n\n\n\n\n\nAutomatic detection of metaphors in Brazilian Portuguese\n\n\n\nKarina Johansson\n\n\nApril 4, 2025\n\n\n\n\n\n\nLanguage\n\n\nPortuguese\n\n\n\n\n\n\n\n\n\n\n\n\n\nAutomatic identification of bias in large language models\n\n\n\nFernanda Assi\n\n\nMarch 24, 2025\n\n\n\n\n\n\nLanguage\n\n\nPortuguese\n\n\n\n\n\n\n\n\n\n\n\n\n\nPersonalizing Mental Health Support\n\n\n\nRafael Passador\n\n\nFebruary 25, 2025\n\n\n\n\n\n\nLanguage\n\n\nPortuguese\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "presentations/seminars/2025_Julia_Ive_02092025.html#abstract",
@@ -376,5 +348,75 @@
     "title": "Automatic identification of bias in large language models",
     "section": "Further information",
     "text": "Further information\nThe Master’s Qualification Exam by Fernanda Malheiros Assi took place on March 24, 2025 and the commitee was composed of Professors Mirella Moro (Federal University of Minas Gerais, UFMG), Renato Silva (University of São Paulo, USP) and the advisor Helena Caseli (UFSCar)."
+  },
+  {
+    "objectID": "lang4health.html#description",
+    "href": "lang4health.html#description",
+    "title": "Lang4Health Workshop at PROPOR 2026",
+    "section": "Description",
+    "text": "Description\n\nThe First Workshop on Language Technologies for Health (Lang4Health1) is a workshop dedicated to the development and application of Natural Language Processing (NLP) technologies in the healthcare field. Language technologies are becoming more prevalent in health domain for electronic health record (EHR) screening (Da Rocha et al. 2022), dataset construction (Oliveira et al. 2022; Santos, Oliveira, and Paraboni 2024), language representation model development (Gumiel et al. 2019; Nunes et al. 2024) for applications such as named entity recognition (Andrade, Ruas, and Couto 2021; Schneider et al. 2020) or chatbot development (Pires, Caseli, and Neris 2023; Souza et al. 2022). Despite its growing relevance, there are still some open challenges in the field of NLP for healthcare that need to be addressed.\nThe workshop will provide participants with the opportunity to present and discuss novel research ideas on active and emerging topics related to NLP in healthcare field for Portuguese, Galician and their variants. The workshop will also be an opportunity for researchers and practitioners to collaborate on new projects.\nThis workshop is proposed in the scope of AIM-Health project, an international research project between Brazil and UK supported by FAPESP and UKRI/MRC – UK Research and Innovation / Medical Research Council, focused on the development of AI and NLP technologies for mental health.\nFollowing the workshop, we intend to invite the authors of the accepted papers to submit an extended version for a special edition of the journal Language Resources and Evaluation.\nLang4Health 2026 will be co-located with PROPOR 2026, which will be held from April 13th to April 16th at Salvador – BA, Brazil. The exact date of the workshop will be announced soon."
+  },
+  {
+    "objectID": "lang4health.html#call-for-paper",
+    "href": "lang4health.html#call-for-paper",
+    "title": "Lang4Health Workshop at PROPOR 2026",
+    "section": "Call for Paper",
+    "text": "Call for Paper\n\nWe call for papers describing work on any topic related to computational language and speech processing in the health domain by researchers in industry or academia. The papers must deal with Portuguese language varieties or their dialects. Topics of interest include, but are not limited to:\n\nData in health domain\n\nDataset/Corpus construction and availability;\nDataset/Corpus annotation;\nAnonymization and de-identification;\nAugment and synthetic data generation.\n\nLanguage technologies in health domain\n\nInteraction and conversational agents (e.g. chatbots);\nInformation extraction and information retrieval;\nNamed Entity Recognition;\nSummarization;\nQuestion Answering;\nPersonalization;\nSpeech processing;\nNLP-supported diagnosis;\nAccessibility and simplification of information;\nLanguage support for digital phenotyping.\n\n\n\nSubmission format\nSubmissions should describe original, unpublished work. Authors are invited to submit two kinds of papers:\n\nFull papers – Reporting substantial and completed work, especially those that may contribute in a significant way to the advancement of the field. Wherever appropriate, concrete evaluation results should be included. Full papers can have up to 8 pages of content, plus 2 pages for appendices and unlimited pages of references.\nShort papers – Reporting small, focused contributions such as ongoing work, position papers, potential ideas to be discussed, or negative results. Short papers can have up to 4 pages of content, plus 1 page for appendices and unlimited pages of references.\n\nThe papers must be written in English or Portuguese. At submission time, only PDF format is accepted. For the final versions, authors of accepted papers will be given 1 extra content page to incorporate the reviews’ suggestions. Authors of accepted papers will be requested to send the source files for the production of the proceedings. All submitted papers must conform to the ACL style guidelines and use the LaTeX or MS Word stylesheets available at PROPOR 2026.\n\n\nMultiple-submission policy\nFor submissions that have been or will be submitted to other meetings or publications, this information must be provided at submission time. If a submission is accepted, authors must notify the program chairs, indicating which meeting they choose for presentation of their work. Papers that will be (or have been) published elsewhere cannot be accepted for publication or presentation.\n\n\nReview process\nEach submission will be evaluated by at least two reviewers. As reviewing will be double-blind, submitted papers must be anonymized. That is, they should not contain the authors’ names and affiliations. Authors must avoid self-references that reveal identity, like “We previously showed (Freitas, 1991) …”. Instead, they should prefer citations such as “Freitas (1991) previously showed …”. Separate author identification information will be required as part of the submission process.\n\n\nSubmit your paper\nSubmit"
+  },
+  {
+    "objectID": "lang4health.html#important-dates",
+    "href": "lang4health.html#important-dates",
+    "title": "Lang4Health Workshop at PROPOR 2026",
+    "section": "Important dates",
+    "text": "Important dates\n\n\nDeadline for paper submission: February 19, 2026 (NEW) February 2, 2026\nNotification to authors: March 10, 2026 March 11, 2026\nCamera-ready deadline: March 20, 2026\nElectronic proceedings: March 27, 2026\nLang4Health Workshop: April 13, 2026"
+  },
+  {
+    "objectID": "lang4health.html#invited-speaker",
+    "href": "lang4health.html#invited-speaker",
+    "title": "Lang4Health Workshop at PROPOR 2026",
+    "section": "Invited Speaker",
+    "text": "Invited Speaker\n\n\n\n\n\n\nIvandré Paraboni\nUniversidade de São Paulo (USP)\n\n\nPredição de saúde mental a partir de dados provenientes de redes sociais\n(The talk will be in Portuguese)\nA palestra explora a tarefa computacional de predição de transtornos de saúde mental a partir de dados de redes sociais. Discutimos a criação de um conjunto de dados específico para a detecção de depressão e transtornos de ansiedade em tweets em português, juntamente com o desenvolvimento e os resultados iniciais de modelos computacionais para essas tarefas. Por fim, abordamos os principais desafios que ainda permanecem para a pesquisa em andamento, e possíveis direções a seguir.\n\n\n\nShort Bio\nIvandré Paraboni holds a Ph.D. in Computer Science from the University of Brighton, United Kingdom (2003), and completed a postdoctoral fellowship at the University of Aberdeen, Scotland (2012). He is an Associate Professor (tenured) and researcher at the University of São Paulo (USP), with a full-time appointment at the School of Arts, Sciences, and Humanities (EACH). Research interests span a broad spectrum of human language processing, ranging from computational methods grounded in Cognitive Science to practical applications, such as the classification of web-based documents. He currently supervises research on stance recognition from text, the detection of mental health disorders from multimodal data, the identification of creative thinking, and arbitrary style transfer in natural language generation."
+  },
+  {
+    "objectID": "lang4health.html#organizing-committee",
+    "href": "lang4health.html#organizing-committee",
+    "title": "Lang4Health Workshop at PROPOR 2026",
+    "section": "Organizing Committee",
+    "text": "Organizing Committee\n\nProf. Aline Villavicencio\nUniversity of Exeter, UK\nDr. Rodrigo Wilkens\nUniversity of Exeter, UK  \nProf. Helena Caseli\nFederal University of São Carlos, Brazil\nDr. Vânia Neris\nFederal University of São Carlos, Brazil"
+  },
+  {
+    "objectID": "lang4health.html#program-committee",
+    "href": "lang4health.html#program-committee",
+    "title": "Lang4Health Workshop at PROPOR 2026",
+    "section": "Program Committee",
+    "text": "Program Committee\nThe Lang4Health thanks the researchers that worked as reviewers of submitted papers:\n\nAline Paes – Universidade Federal Fluminense (UFF)\nAna Cleide Guimbal de Aquino – UFRA\nCésar Sperb – Federal University of Pelotas (UFPel)\nClaudia Moro – Pontificia Universidade Católica do Paraná (PUCPR)\nElisa Terumi Rubel Schneider – Pontificia Universidade Católica do Paraná (PUCPR)\nEloize Seno – Federal Institute of São Paulo (IFSP)\nEmerson Paraiso – Pontificia Universidade Católica do Paraná (PUCPR)\nHelena Caseli – Federal University of São Carlos (UFSCar)\nIvandré Paraboni – University of São Paulo (USP)\nJoão Papa – São Paulo State University (UNESP)\nLuciana Salgado – Universidade Federal Fluminense (UFF)\nMarcelo Finger – University of São Paulo (USP)\nMaria José Finatto – UFRGS\nMarilia Silveira – Federal University of Pelotas (UFPel)\nMateus Monteiro – Federal University of São Carlos (UFSCar)\nMurilo Vargas Cunha – Federal University of Pelotas (UFPel)\nPaula Souza – Federal University of São Carlos (UFSCar)\nRenata Vieira – CIDEHUS\nRenato Silva – University of São Paulo (USP)\nRodrigo Wilkens – University of Exeter\nSandra Rodrigues – Universidade Federal de Lavras (UFLA)\nTiago Torrent – Universidade Federal de Juiz de Fora"
+  },
+  {
+    "objectID": "lang4health.html#sec-proceedings",
+    "href": "lang4health.html#sec-proceedings",
+    "title": "Lang4Health Workshop at PROPOR 2026",
+    "section": "Accepted papers (Proceedings) & Program",
+    "text": "Accepted papers (Proceedings) & Program\nAll accepted papers will be presented orally on Lang4Health. Each Long paper will have 20 minutes for the oral presentation plus 5 minutes for questions. Each Short paper will have 12 minutes for the oral presentation plus 3 minutes for questions.\n\n\n\nTime\nActivity\n\n\n\n\n08:30\nWelcome\n\n\n08:45\nPretrained Neural Audio Models for Asthma Detection from Voice and Speech\n\n\n09:10\nA RAG Chatbot with Incremental Context Retrieval based on Local LLMs for Hospital Documents\n\n\n09:35\nLLM-Based Multi-Agent System with Retrieval-Augmented Generation for Medical Care Planning Generation in Sickle Cell Disease\n\n\n10:00\nRetrieval-Augmented Generation for Clinical Question Answering in Portuguese Drug Leaflets: Benefits and Limitations\n\n\n10:30\nCoffee Break\n\n\n11:00\nClass of LLMs: Benchmarking Large Language Models on the Brazilian National Medical Examination\n\n\n11:30\nPredição de saúde mental a partir de dados provenientes de redes sociais – Invited speaker Ivandré Paraboni\n\n\n12:30\nLunch Break\n\n\n14:00\nWelcome back\n\n\n14:05\nThe visible and the latent linguistic clues of mental health in Brazilian Portuguese textual posts\n\n\n14:30\nEvaluating FrameNet-Based Semantic Modeling for Gender-Based Violence Detection in Clinical Records\n\n\n14:55\nA Dataset of Brazilian Portuguese Clinical Notes for Anaphylaxis Detection\n\n\n15:30\nCoffee Break\n\n\n16:00\nAnnotation Guidelines and Challenges for Automatic Simplification of Portuguese Drug Leaflets\n\n\n16:15\nFrom Annotated Clinical Narratives to Ontology: Structuring Brazilian Portuguese Clinical Data\n\n\n16:30\nCommunity Panel\n\n\n17:30\nLang4Health Closing"
+  },
+  {
+    "objectID": "lang4health.html#pictures",
+    "href": "lang4health.html#pictures",
+    "title": "Lang4Health Workshop at PROPOR 2026",
+    "section": "Pictures",
+    "text": "Pictures\n\n\n\nIvandré Paraboni’s talk at Lang4Health\n\n\n\n\n\nClosing picture at Lang4Health"
+  },
+  {
+    "objectID": "lang4health.html#contact-information",
+    "href": "lang4health.html#contact-information",
+    "title": "Lang4Health Workshop at PROPOR 2026",
+    "section": "Contact information",
+    "text": "Contact information\nEmail"
+  },
+  {
+    "objectID": "lang4health.html#footnotes",
+    "href": "lang4health.html#footnotes",
+    "title": "Lang4Health Workshop at PROPOR 2026",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nLang4Health logo was generated using Canva’s AI assistant↩︎"
   }
 ]
