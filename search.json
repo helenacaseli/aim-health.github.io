@@ -42,22 +42,50 @@
     "text": "Further information\nThe Master’s Dissertation Defense by Rafael Vinicius Polato Passador took place on April 24, 2026 and the commitee was composed of Professors Altigran Soares da Silva (UFAM), João Paulo Papa (UNESP) and the advisor Helena Caseli (UFSCar)."
   },
   {
-    "objectID": "presentations/exams/2025_mayumi_master_quali.html#abstract",
-    "href": "presentations/exams/2025_mayumi_master_quali.html#abstract",
+    "objectID": "presentations/exams/2026_rafael_passador_master_viva.html#master-thesis",
+    "href": "presentations/exams/2026_rafael_passador_master_viva.html#master-thesis",
+    "title": "Personalizing Mental Health Support",
+    "section": "Master Thesis",
+    "text": "Master Thesis\nPASSADOR, Rafael Vinicius Polato. Personalizing mental health support: a retrieval-based llm approach to conversational agent development. 2026. Dissertação (Mestrado em Ciência da Computação) – Universidade Federal de São Carlos, São Carlos, 2026. Disponível em: https://repositorio.ufscar.br/handle/20.500.14289/24064."
+  },
+  {
+    "objectID": "presentations/exams/2026_fernanda_assi_master_viva.html#abstract",
+    "href": "presentations/exams/2026_fernanda_assi_master_viva.html#abstract",
+    "title": "Automatic identification of bias in Large Language Models",
+    "section": "Abstract",
+    "text": "Abstract\nLarge Language Models (LLMs) have demonstrated remarkable capabilities across various domains, from legal reasoning to clinical decision support. As these models become increasingly integrated into real-world applications, concerns about their reliability, fairness, and ethical implications have emerged. Studies have shown that LLMs can produce biased outputs, reinforcing harmful stereotypes and discriminating against marginalized groups. This work proposes a systematic and scalable framework for evaluating and ranking LLMs based on stereotype generation in Brazilian Portuguese. The framework combines template-based sentence generation, human annotation, and supervised classification into a unified pipeline. A set of 164 sentence templates, covering gender, race, and their intersections, was used to elicit completions from 37 LLMs from multiple providers. The resulting sentences were annotated by human annotators along two dimensions: alignment with social stereotypes and potential harm. The stereotype alignment labels served as the foundation for training a BERTimbau-based classifier, selected via nested cross-validation, which achieved a macro-averaged F1 of 0.665. Classifier predictions were then used to construct pairwise match tables, feeding to an Elo rating system, that generated two complementary rankings: a model ranking and a social marker ranking. The results reveal that smaller open-source models tend to generate less stereotyped content than larger commercial ones, and that social markers combining race and gender consistently elicit the most stereotyped outputs across all models. The framework is made available as an interactive interface that supports the incremental addition of new models."
+  },
+  {
+    "objectID": "presentations/exams/2026_fernanda_assi_master_viva.html#video",
+    "href": "presentations/exams/2026_fernanda_assi_master_viva.html#video",
+    "title": "Automatic identification of bias in Large Language Models",
+    "section": "Video",
+    "text": "Video"
+  },
+  {
+    "objectID": "presentations/exams/2026_fernanda_assi_master_viva.html#further-information",
+    "href": "presentations/exams/2026_fernanda_assi_master_viva.html#further-information",
+    "title": "Automatic identification of bias in Large Language Models",
+    "section": "Further information",
+    "text": "Further information\nThe Master’s Dissertation Defense by Fernanda Malheiros Assi took place on May 21, 2026 and the commitee was composed of Professors Marlo Souza (UFBA), Renato Silva (ICMC/USP) and the advisor Helena Caseli (UFSCar)."
+  },
+  {
+    "objectID": "presentations/quali/2025_mayumi_master_quali.html#abstract",
+    "href": "presentations/quali/2025_mayumi_master_quali.html#abstract",
     "title": "Automatic detection of metaphors in Brazilian Portuguese",
     "section": "Abstract",
     "text": "Abstract\nAutomated metaphor processing plays a crucial role in various NLP applications, including sentiment analysis, machine translation, and text generation. Given the intricate nature of metaphorical language, its automatic processing poses a significant challenge, requiring models to go beyond literal meanings to capture underlying conceptual mappings. While significant research has been conducted on metaphor detection for high-resource languages like English, many other languages remain underexplored. This is particularly true for Brazilian Portuguese, where the scarcity of annotated datasets and limited studies hinder advancements in the field. This study aims to advance automated metaphor detection for Brazilian Portuguese by constructing an annotated dataset and training both monolingual and multilingual models for Brazilian Portuguese, English, and Spanish. The additional languages will be used to compare results and leverage knowledge to enhance generalization for the target language. By expanding research in this area, this work aims to strengthen the study of metaphor detection in Brazilian Portuguese and contribute to the broader development of NLP resources for the language."
   },
   {
-    "objectID": "presentations/exams/2025_mayumi_master_quali.html#video",
-    "href": "presentations/exams/2025_mayumi_master_quali.html#video",
+    "objectID": "presentations/quali/2025_mayumi_master_quali.html#video",
+    "href": "presentations/quali/2025_mayumi_master_quali.html#video",
     "title": "Automatic detection of metaphors in Brazilian Portuguese",
     "section": "Video",
     "text": "Video"
   },
   {
-    "objectID": "presentations/exams/2025_mayumi_master_quali.html#further-information",
-    "href": "presentations/exams/2025_mayumi_master_quali.html#further-information",
+    "objectID": "presentations/quali/2025_mayumi_master_quali.html#further-information",
+    "href": "presentations/quali/2025_mayumi_master_quali.html#further-information",
     "title": "Automatic detection of metaphors in Brazilian Portuguese",
     "section": "Further information",
     "text": "Further information\nThe Master’s Qualification Exam by Karina Mayumi Johansson took place on April 4, 2025 and the commitee was composed of Professors Aline Paes(Federal University Fluminense, UFF), Heloísa de Arruda Camargo (UFSCar) and the advisor Helena Caseli (UFSCar)."
@@ -217,6 +245,13 @@
     "text": "Rodrigo Wilkens, Helena Caseli, Vânia Neris, and Aline Villavicencio. 2026. The visible and the latent linguistic clues of mental health in Brazilian Portuguese textual posts. In Proceedings of the 17th International Conference on Computational Processing of Portuguese (PROPOR 2026) - Vol. 2, pages 135–147, Salvador, Brazil. Association for Computational Linguistics. https://aclanthology.org/2026.propor-2.21/\n\n\n\nDiana Kylymnyk, Rodrigo Wilkens, Helena Caseli, Vitória Tomasel, Edward Watkins, and Aline Villavicencio. 2026. Figurative Language in Alzheimer’s Discourse: Linguistic and Neural Alignment in Clinical Narratives. In Proceedings of the Fifteenth Language Resources and Evaluation Conference (LREC 2026), pages 11379–11389. European Language Resources Association (ELRA). https://doi.org/10.63317/2yjp4743qieh.\nKarina Johansson, Fernanda Assi, Isabella da Silva, Rafael Passador, Isabela Rodrigues, Aline Paes, and Helena Caseli. 2026. Meta4XNLI-ptBR: Brazilian Portuguese Extension of Meta4XNLI Corpus. In Proceedings of the Fifteenth Language Resources and Evaluation Conference (LREC 2026), pages 1668–1676. European Language Resources Association (ELRA). https://doi.org/10.63317/45566xcgz65x."
   },
   {
+    "objectID": "publications.html#thesis",
+    "href": "publications.html#thesis",
+    "title": "Publications",
+    "section": "Thesis",
+    "text": "Thesis\n\n2026\n\nPASSADOR, Rafael Vinicius Polato. Personalizing mental health support: a retrieval-based llm approach to conversational agent development. 2026. Dissertação (Mestrado em Ciência da Computação) – Universidade Federal de São Carlos, São Carlos, 2026. Disponível em: https://repositorio.ufscar.br/handle/20.500.14289/24064."
+  },
+  {
     "objectID": "publications.html#undergraduate-abstracts",
     "href": "publications.html#undergraduate-abstracts",
     "title": "Publications",
@@ -263,7 +298,7 @@
     "href": "videos.html#students-presentations",
     "title": "Videos",
     "section": "Student’s presentations",
-    "text": "Student’s presentations\n\n\n\n\n\n\n\n\nPersonalizing Mental Health Support\n\n\n\nRafael Passador\n\n\nApril 24, 2026\n\n\n\n\n\n\nLanguage\n\n\nPortuguese\n\n\n\n\n\n\n\n\n\n\n\n\n\nAutomatic detection of metaphors in Brazilian Portuguese\n\n\n\nKarina Johansson\n\n\nApril 4, 2025\n\n\n\n\n\n\nLanguage\n\n\nPortuguese\n\n\n\n\n\n\n\n\n\n\n\n\n\nAutomatic identification of bias in large language models\n\n\n\nFernanda Assi\n\n\nMarch 24, 2025\n\n\n\n\n\n\nLanguage\n\n\nPortuguese\n\n\n\n\n\n\n\n\n\n\n\n\n\nPersonalizing Mental Health Support\n\n\n\nRafael Passador\n\n\nFebruary 25, 2025\n\n\n\n\n\n\nLanguage\n\n\nPortuguese\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Student’s presentations\n\n\n\n\n\n\n\n\nAutomated Metaphor Detection in Brazilian Portuguese\n\n\n\nKarina Mayumi Johansson\n\n\nMay 22, 2026\n\n\n\n\n\n\nLanguage\n\n\nPortuguese\n\n\n\n\n\n\n\n\n\n\n\n\n\nAutomatic identification of bias in Large Language Models\n\n\n\nFernanda Malheiros Assi\n\n\nMay 21, 2026\n\n\n\n\n\n\nLanguage\n\n\nPortuguese\n\n\n\n\n\n\n\n\n\n\n\n\n\nPersonalizing Mental Health Support\n\n\n\nRafael Passador\n\n\nApril 24, 2026\n\n\n\n\n\n\nLanguage\n\n\nPortuguese\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "presentations/seminars/2025_Julia_Ive_02092025.html#abstract",
@@ -308,46 +343,67 @@
     "text": "Short Bio\nIvandré Paraboni holds a Ph.D. in Computer Science from the University of Brighton, United Kingdom (2003), and completed a postdoctoral fellowship at the University of Aberdeen, Scotland (2012). He is an Associate Professor (tenured) and researcher at the University of São Paulo (USP), with a full-time appointment at the School of Arts, Sciences, and Humanities (EACH). Research interests span a broad spectrum of human language processing, ranging from computational methods grounded in Cognitive Science to practical applications, such as the classification of web-based documents. He currently supervises research on stance recognition from text, the detection of mental health disorders from multimodal data, the identification of creative thinking, and arbitrary style transfer in natural language generation."
   },
   {
-    "objectID": "presentations/exams/2025_rafael_passador_master_quali.html#abstract",
-    "href": "presentations/exams/2025_rafael_passador_master_quali.html#abstract",
+    "objectID": "presentations/quali/2025_rafael_passador_master_quali.html#abstract",
+    "href": "presentations/quali/2025_rafael_passador_master_quali.html#abstract",
     "title": "Personalizing Mental Health Support",
     "section": "Abstract",
     "text": "Abstract\nMental health disorders pose significant challenges worldwide, necessitating accessible and scalable interventions. Conversational agents (CAs), or chatbots, have gained increasing attention as digital mental health tools, offering continuous support and reducing barriers to psychological assistance. While traditional rule-based and machine learning-based chatbots provide structured guidance, they often lack contextual adaptability and personalization, limiting their effectiveness in mental health applications. Large Language Models (LLMs), particularly when combined with Retrieval-Augmented Generation (RAG), offer a promising alternative by integrating domain-specific knowledge into chatbot responses, mitigating hallucinations, and improving factual grounding. This study aims to develop a personalized RAG-LLM chatbot tailored to Portuguese-speaking users, leveraging multilingual LLM capabilities and domain-adapted retrieval mechanisms. By retrieving specialized mental health data and incorporating user-specific information, the chatbot seeks to provide context-aware, empathetic, and personalized interventions. This research explores how integrating user history and specific domain knowledge enhances chatbot responses, ensuring that interactions dynamically adjust to the user’s psychological and emotional state. Given the scarcity of mental health datasets in Portuguese, this work will utilize publicly available mental health resources alongside the Amive dataset, a specialized corpus containing structured behavioral and textual data relevant to psychological assessment. The evaluation of the chatbot will include quantitative assessments using standard NLP metrics and qualitative human evaluation to measure the model’s ability to generate clinically relevant and empathetic responses. By addressing hallucinations, contextual accuracy, and personalization, this research contributes to the advancement of AI-driven mental health support systems, particularly in underrepresented linguistic contexts."
   },
   {
-    "objectID": "presentations/exams/2025_rafael_passador_master_quali.html#video",
-    "href": "presentations/exams/2025_rafael_passador_master_quali.html#video",
+    "objectID": "presentations/quali/2025_rafael_passador_master_quali.html#video",
+    "href": "presentations/quali/2025_rafael_passador_master_quali.html#video",
     "title": "Personalizing Mental Health Support",
     "section": "Video",
     "text": "Video"
   },
   {
-    "objectID": "presentations/exams/2025_rafael_passador_master_quali.html#further-information",
-    "href": "presentations/exams/2025_rafael_passador_master_quali.html#further-information",
+    "objectID": "presentations/quali/2025_rafael_passador_master_quali.html#further-information",
+    "href": "presentations/quali/2025_rafael_passador_master_quali.html#further-information",
     "title": "Personalizing Mental Health Support",
     "section": "Further information",
     "text": "Further information\nThe Master’s Qualification Exam by Rafael Vinicius Polato Passador took place on February 25, 2025 and the commitee was composed of Professors Rodrigo Wilkens (University of Exeter, UK), Vânia Paula de Almeida Neris (UFSCar) and the advisor Helena Caseli (UFSCar)."
   },
   {
-    "objectID": "presentations/exams/2025_fernanda_assi_master_quali.html#abstract",
-    "href": "presentations/exams/2025_fernanda_assi_master_quali.html#abstract",
+    "objectID": "presentations/quali/2025_fernanda_assi_master_quali.html#abstract",
+    "href": "presentations/quali/2025_fernanda_assi_master_quali.html#abstract",
     "title": "Automatic identification of bias in large language models",
     "section": "Abstract",
     "text": "Abstract\nLarge Language Models (LLMs) have demonstrated remarkable capabilities across various domains, from legal reasoning to clinical decision support. As these models become increasingly integrated into real-world applications, concerns about their reliability, fairness, and ethical implications have emerged. Studies have shown that LLMs can produce biased outputs, reinforcing harmful stereotypes and discriminating against marginalized groups. Among the most common biases are occupational stereotypes, racial disparities, and linguistic bias, where outputs vary based on the language or dialect used in the prompt. This study proposes a systematic framework to evaluate and rank LLMs based on their bias levels using the Elo rating system. A sentence completion framework will be employed, where models generate responses to prompts containing explicit social markers. The completions will be anonymized and scored using a regard classifier, which assesses how positively or negatively different demographic groups are portrayed. Pairwise comparisons will update Elo ratings, establishing a ranking of LLMs in terms of bias. This approach enables scalable and systematic comparisons across models."
   },
   {
-    "objectID": "presentations/exams/2025_fernanda_assi_master_quali.html#video",
-    "href": "presentations/exams/2025_fernanda_assi_master_quali.html#video",
+    "objectID": "presentations/quali/2025_fernanda_assi_master_quali.html#video",
+    "href": "presentations/quali/2025_fernanda_assi_master_quali.html#video",
     "title": "Automatic identification of bias in large language models",
     "section": "Video",
     "text": "Video"
   },
   {
-    "objectID": "presentations/exams/2025_fernanda_assi_master_quali.html#further-information",
-    "href": "presentations/exams/2025_fernanda_assi_master_quali.html#further-information",
+    "objectID": "presentations/quali/2025_fernanda_assi_master_quali.html#further-information",
+    "href": "presentations/quali/2025_fernanda_assi_master_quali.html#further-information",
     "title": "Automatic identification of bias in large language models",
     "section": "Further information",
     "text": "Further information\nThe Master’s Qualification Exam by Fernanda Malheiros Assi took place on March 24, 2025 and the commitee was composed of Professors Mirella Moro (Federal University of Minas Gerais, UFMG), Renato Silva (University of São Paulo, USP) and the advisor Helena Caseli (UFSCar)."
+  },
+  {
+    "objectID": "presentations/exams/2026_mayumi_master_viva.html#abstract",
+    "href": "presentations/exams/2026_mayumi_master_viva.html#abstract",
+    "title": "Automated Metaphor Detection in Brazilian Portuguese",
+    "section": "Abstract",
+    "text": "Abstract\nAutomated metaphor detection plays a crucial role in various NLP applications, including sentiment analysis, machine translation, and text generation. Given the intricate nature of metaphorical language, its automatic processing poses a significant challenge, requiring models to go beyond literal meanings to capture underlying conceptual mappings. While significant research has been conducted on metaphor detection for high-resource languages like English, many other languages remain underexplored. This is particularly true for Brazilian Portuguese, where the scarcity of annotated corpora and limited availability of studies hinder advancements in the field. The present work addresses this gap by constructing an annotated corpus for metaphor detection at token-level in Brazilian Portuguese and using it to evaluate encoder-based and decoder-based approaches for the task. This work presents, to the best of knowledge, the first resource of its kind for Brazilian Portuguese and establishes an initial benchmark for automated metaphor detection in the language."
+  },
+  {
+    "objectID": "presentations/exams/2026_mayumi_master_viva.html#video",
+    "href": "presentations/exams/2026_mayumi_master_viva.html#video",
+    "title": "Automated Metaphor Detection in Brazilian Portuguese",
+    "section": "Video",
+    "text": "Video"
+  },
+  {
+    "objectID": "presentations/exams/2026_mayumi_master_viva.html#further-information",
+    "href": "presentations/exams/2026_mayumi_master_viva.html#further-information",
+    "title": "Automated Metaphor Detection in Brazilian Portuguese",
+    "section": "Further information",
+    "text": "Further information\nThe Master’s Dissertation Defense by Karina Mayumi Johansson took place on May 22, 2026 and the commitee was composed of Professors Ivandré Paraboni (USP/EACH), Heloísa Camargo (UFSCar) and the advisor Helena Caseli (UFSCar)."
   },
   {
     "objectID": "lang4health.html#description",

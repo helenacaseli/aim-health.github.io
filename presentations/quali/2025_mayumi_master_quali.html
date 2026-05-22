@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Rafael Passador">
-<meta name="dcterms.date" content="2026-04-24">
+<meta name="author" content="Karina Johansson">
+<meta name="dcterms.date" content="2025-04-04">
 
-<title>Personalizing Mental Health Support</title>
+<title>Automatic detection of metaphors in Brazilian Portuguese</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -141,7 +141,6 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#abstract" id="toc-abstract" class="nav-link active" data-scroll-target="#abstract">Abstract</a></li>
   <li><a href="#video" id="toc-video" class="nav-link" data-scroll-target="#video">Video</a></li>
   <li><a href="#further-information" id="toc-further-information" class="nav-link" data-scroll-target="#further-information">Further information</a></li>
-  <li><a href="#master-thesis" id="toc-master-thesis" class="nav-link" data-scroll-target="#master-thesis">Master Thesis</a></li>
   </ul>
 </nav>
     </div>
@@ -150,8 +149,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Personalizing Mental Health Support</h1>
-<p class="subtitle lead">A Retrieval-Based LLM Approach to Conversational Agent Development</p>
+<h1 class="title">Automatic detection of metaphors in Brazilian Portuguese</h1>
   <div class="quarto-categories">
     <div class="quarto-category">Defense</div>
   </div>
@@ -164,14 +162,14 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Rafael Passador </p>
+             <p>Karina Johansson </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">April 24, 2026</p>
+      <p class="date">April 4, 2025</p>
     </div>
   </div>
   
@@ -183,24 +181,25 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><img src="../pictures/2026-04-24.png" class="img-fluid"></p>
+<p><img src="../pictures/2025-04-04.png" class="img-fluid"></p>
 <section id="abstract" class="level2">
 <h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
-<p>Mental health disorders constitute a major global challenge, requiring support solutions that are both accessible and scalable. Conversational agents have emerged as promising tools in this context, but purely generative large language model (LLM) systems remain susceptible to unsupported outputs, weak grounding, and limited adaptation to user-specific context. This work investigates whether combining supervised domain adaptation, guideline-grounded retrieval, and persona-based conditioning improves the quality of emotional-support responses. Three system variants built on the same fine-tuned Llama-3 backbone are compared: a Baseline model controlled through layered prompting, a Hybrid Retrieval-Augmented Generation (RAG) variant grounded in authoritative WHO and NICE mental health guidelines through hybrid retrieval, and a Persona-Based RAG variant that further incorporates persona signs into both retrieval and prompt construction. All variants are protected by a pre-LLM crisis guardrail that short-circuits high-risk inputs and returns a predefined safe response. Evaluation was conducted in a single-turn setting using inputs from mental health datasets associated with multiple persona profiles, and outputs were assessed through both human evaluation and an LLM-as-a-judge protocol under a shared rubric covering empathy, topic adequacy, and personalization. Results from both evaluation sources converge in identifying the Persona-Based RAG variant as the best overall configuration, with the clearest gains in empathy and personalization, while the RAG-only variant remained especially competitive in topic adequacy. These findings indicate that combining grounded retrieval with explicit persona conditioning is a promising strategy for the development of more contextually appropriate and supportive conversational agents for mental health.</p>
-<!-- Video no YouTube (canal da Helena) -->
+<p>Automated metaphor processing plays a crucial role in various NLP applications, including sentiment analysis, machine translation, and text generation. Given the intricate nature of metaphorical language, its automatic processing poses a significant challenge, requiring models to go beyond literal meanings to capture underlying conceptual mappings. While significant research has been conducted on metaphor detection for high-resource languages like English, many other languages remain underexplored. This is particularly true for Brazilian Portuguese, where the scarcity of annotated datasets and limited studies hinder advancements in the field. This study aims to advance automated metaphor detection for Brazilian Portuguese by constructing an annotated dataset and training both monolingual and multilingual models for Brazilian Portuguese, English, and Spanish. The additional languages will be used to compare results and leverage knowledge to enhance generalization for the target language. By expanding research in this area, this work aims to strengthen the study of metaphor detection in Brazilian Portuguese and contribute to the broader development of NLP resources for the language.</p>
+<!--
+Passo-a-passo para gerar o link:
+1. Vai no arquivo do GDrive que tem o vídeo, manda abrir em uma nova aba
+2. Vai nos "três pontinhos" e escolhe "Incorporar item"
+3. Copia o conteúdo da janela
+-->
 </section>
 <section id="video" class="level2">
 <h2 class="anchored" data-anchor-id="video">Video</h2>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/a0Pj91Kbu8k?si=PetgXzzROEvCG_ii" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
+<iframe src="https://drive.google.com/file/d/10IyuhVnfqw5BmG1AzligzlMokIID1c77/preview" width="200" allow="autoplay">
 </iframe>
 </section>
 <section id="further-information" class="level2">
 <h2 class="anchored" data-anchor-id="further-information">Further information</h2>
-<p>The Master’s Dissertation Defense by Rafael Vinicius Polato Passador took place on April 24, 2026 and the commitee was composed of Professors Altigran Soares da Silva (UFAM), João Paulo Papa (UNESP) and the advisor Helena Caseli (UFSCar).</p>
-</section>
-<section id="master-thesis" class="level2">
-<h2 class="anchored" data-anchor-id="master-thesis">Master Thesis</h2>
-<p>PASSADOR, Rafael Vinicius Polato. Personalizing mental health support: a retrieval-based llm approach to conversational agent development. 2026. Dissertação (Mestrado em Ciência da Computação) – Universidade Federal de São Carlos, São Carlos, 2026. Disponível em: <a href="https://repositorio.ufscar.br/handle/20.500.14289/24064" class="uri">https://repositorio.ufscar.br/handle/20.500.14289/24064</a>.</p>
+<p>The Master’s Qualification Exam by Karina Mayumi Johansson took place on April 4, 2025 and the commitee was composed of Professors Aline Paes(Federal University Fluminense, UFF), Heloísa de Arruda Camargo (UFSCar) and the advisor Helena Caseli (UFSCar).</p>
 
 
 </section>

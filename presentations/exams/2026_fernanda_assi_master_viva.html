@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Rafael Passador">
-<meta name="dcterms.date" content="2026-04-24">
+<meta name="author" content="Fernanda Malheiros Assi">
+<meta name="dcterms.date" content="2026-05-21">
 
-<title>Personalizing Mental Health Support</title>
+<title>Automatic identification of bias in Large Language Models</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -141,7 +141,6 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#abstract" id="toc-abstract" class="nav-link active" data-scroll-target="#abstract">Abstract</a></li>
   <li><a href="#video" id="toc-video" class="nav-link" data-scroll-target="#video">Video</a></li>
   <li><a href="#further-information" id="toc-further-information" class="nav-link" data-scroll-target="#further-information">Further information</a></li>
-  <li><a href="#master-thesis" id="toc-master-thesis" class="nav-link" data-scroll-target="#master-thesis">Master Thesis</a></li>
   </ul>
 </nav>
     </div>
@@ -150,8 +149,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Personalizing Mental Health Support</h1>
-<p class="subtitle lead">A Retrieval-Based LLM Approach to Conversational Agent Development</p>
+<h1 class="title">Automatic identification of bias in Large Language Models</h1>
   <div class="quarto-categories">
     <div class="quarto-category">Defense</div>
   </div>
@@ -164,14 +162,14 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Rafael Passador </p>
+             <p>Fernanda Malheiros Assi </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">April 24, 2026</p>
+      <p class="date">May 21, 2026</p>
     </div>
   </div>
   
@@ -183,24 +181,20 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><img src="../pictures/2026-04-24.png" class="img-fluid"></p>
+<p><img src="../pictures/2026-05-21.png" class="img-fluid"></p>
 <section id="abstract" class="level2">
 <h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
-<p>Mental health disorders constitute a major global challenge, requiring support solutions that are both accessible and scalable. Conversational agents have emerged as promising tools in this context, but purely generative large language model (LLM) systems remain susceptible to unsupported outputs, weak grounding, and limited adaptation to user-specific context. This work investigates whether combining supervised domain adaptation, guideline-grounded retrieval, and persona-based conditioning improves the quality of emotional-support responses. Three system variants built on the same fine-tuned Llama-3 backbone are compared: a Baseline model controlled through layered prompting, a Hybrid Retrieval-Augmented Generation (RAG) variant grounded in authoritative WHO and NICE mental health guidelines through hybrid retrieval, and a Persona-Based RAG variant that further incorporates persona signs into both retrieval and prompt construction. All variants are protected by a pre-LLM crisis guardrail that short-circuits high-risk inputs and returns a predefined safe response. Evaluation was conducted in a single-turn setting using inputs from mental health datasets associated with multiple persona profiles, and outputs were assessed through both human evaluation and an LLM-as-a-judge protocol under a shared rubric covering empathy, topic adequacy, and personalization. Results from both evaluation sources converge in identifying the Persona-Based RAG variant as the best overall configuration, with the clearest gains in empathy and personalization, while the RAG-only variant remained especially competitive in topic adequacy. These findings indicate that combining grounded retrieval with explicit persona conditioning is a promising strategy for the development of more contextually appropriate and supportive conversational agents for mental health.</p>
+<p>Large Language Models (LLMs) have demonstrated remarkable capabilities across various domains, from legal reasoning to clinical decision support. As these models become increasingly integrated into real-world applications, concerns about their reliability, fairness, and ethical implications have emerged. Studies have shown that LLMs can produce biased outputs, reinforcing harmful stereotypes and discriminating against marginalized groups. This work proposes a systematic and scalable framework for evaluating and ranking LLMs based on stereotype generation in Brazilian Portuguese. The framework combines template-based sentence generation, human annotation, and supervised classification into a unified pipeline. A set of 164 sentence templates, covering gender, race, and their intersections, was used to elicit completions from 37 LLMs from multiple providers. The resulting sentences were annotated by human annotators along two dimensions: alignment with social stereotypes and potential harm. The stereotype alignment labels served as the foundation for training a BERTimbau-based classifier, selected via nested cross-validation, which achieved a macro-averaged F1 of 0.665. Classifier predictions were then used to construct pairwise match tables, feeding to an Elo rating system, that generated two complementary rankings: a model ranking and a social marker ranking. The results reveal that smaller open-source models tend to generate less stereotyped content than larger commercial ones, and that social markers combining race and gender consistently elicit the most stereotyped outputs across all models. The framework is made available as an interactive interface that supports the incremental addition of new models.</p>
 <!-- Video no YouTube (canal da Helena) -->
 </section>
 <section id="video" class="level2">
 <h2 class="anchored" data-anchor-id="video">Video</h2>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/a0Pj91Kbu8k?si=PetgXzzROEvCG_ii" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DTzSYb-Scv8?si=KRXSCOVlYYJk-8t9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
 </iframe>
 </section>
 <section id="further-information" class="level2">
 <h2 class="anchored" data-anchor-id="further-information">Further information</h2>
-<p>The Master’s Dissertation Defense by Rafael Vinicius Polato Passador took place on April 24, 2026 and the commitee was composed of Professors Altigran Soares da Silva (UFAM), João Paulo Papa (UNESP) and the advisor Helena Caseli (UFSCar).</p>
-</section>
-<section id="master-thesis" class="level2">
-<h2 class="anchored" data-anchor-id="master-thesis">Master Thesis</h2>
-<p>PASSADOR, Rafael Vinicius Polato. Personalizing mental health support: a retrieval-based llm approach to conversational agent development. 2026. Dissertação (Mestrado em Ciência da Computação) – Universidade Federal de São Carlos, São Carlos, 2026. Disponível em: <a href="https://repositorio.ufscar.br/handle/20.500.14289/24064" class="uri">https://repositorio.ufscar.br/handle/20.500.14289/24064</a>.</p>
+<p>The Master’s Dissertation Defense by Fernanda Malheiros Assi took place on May 21, 2026 and the commitee was composed of Professors Marlo Souza (UFBA), Renato Silva (ICMC/USP) and the advisor Helena Caseli (UFSCar).</p>
 
 
 </section>

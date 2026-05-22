@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Rafael Passador">
-<meta name="dcterms.date" content="2026-04-24">
+<meta name="dcterms.date" content="2025-02-25">
 
 <title>Personalizing Mental Health Support</title>
 <style>
@@ -141,7 +141,6 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#abstract" id="toc-abstract" class="nav-link active" data-scroll-target="#abstract">Abstract</a></li>
   <li><a href="#video" id="toc-video" class="nav-link" data-scroll-target="#video">Video</a></li>
   <li><a href="#further-information" id="toc-further-information" class="nav-link" data-scroll-target="#further-information">Further information</a></li>
-  <li><a href="#master-thesis" id="toc-master-thesis" class="nav-link" data-scroll-target="#master-thesis">Master Thesis</a></li>
   </ul>
 </nav>
     </div>
@@ -171,7 +170,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">April 24, 2026</p>
+      <p class="date">February 25, 2025</p>
     </div>
   </div>
   
@@ -183,24 +182,25 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><img src="../pictures/2026-04-24.png" class="img-fluid"></p>
+<p><img src="../pictures/2025-02-25.jpeg" class="img-fluid"></p>
 <section id="abstract" class="level2">
 <h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
-<p>Mental health disorders constitute a major global challenge, requiring support solutions that are both accessible and scalable. Conversational agents have emerged as promising tools in this context, but purely generative large language model (LLM) systems remain susceptible to unsupported outputs, weak grounding, and limited adaptation to user-specific context. This work investigates whether combining supervised domain adaptation, guideline-grounded retrieval, and persona-based conditioning improves the quality of emotional-support responses. Three system variants built on the same fine-tuned Llama-3 backbone are compared: a Baseline model controlled through layered prompting, a Hybrid Retrieval-Augmented Generation (RAG) variant grounded in authoritative WHO and NICE mental health guidelines through hybrid retrieval, and a Persona-Based RAG variant that further incorporates persona signs into both retrieval and prompt construction. All variants are protected by a pre-LLM crisis guardrail that short-circuits high-risk inputs and returns a predefined safe response. Evaluation was conducted in a single-turn setting using inputs from mental health datasets associated with multiple persona profiles, and outputs were assessed through both human evaluation and an LLM-as-a-judge protocol under a shared rubric covering empathy, topic adequacy, and personalization. Results from both evaluation sources converge in identifying the Persona-Based RAG variant as the best overall configuration, with the clearest gains in empathy and personalization, while the RAG-only variant remained especially competitive in topic adequacy. These findings indicate that combining grounded retrieval with explicit persona conditioning is a promising strategy for the development of more contextually appropriate and supportive conversational agents for mental health.</p>
-<!-- Video no YouTube (canal da Helena) -->
+<p>Mental health disorders pose significant challenges worldwide, necessitating accessible and scalable interventions. Conversational agents (CAs), or chatbots, have gained increasing attention as digital mental health tools, offering continuous support and reducing barriers to psychological assistance. While traditional rule-based and machine learning-based chatbots provide structured guidance, they often lack contextual adaptability and personalization, limiting their effectiveness in mental health applications. Large Language Models (LLMs), particularly when combined with Retrieval-Augmented Generation (RAG), offer a promising alternative by integrating domain-specific knowledge into chatbot responses, mitigating hallucinations, and improving factual grounding. This study aims to develop a personalized RAG-LLM chatbot tailored to Portuguese-speaking users, leveraging multilingual LLM capabilities and domain-adapted retrieval mechanisms. By retrieving specialized mental health data and incorporating user-specific information, the chatbot seeks to provide context-aware, empathetic, and personalized interventions. This research explores how integrating user history and specific domain knowledge enhances chatbot responses, ensuring that interactions dynamically adjust to the user’s psychological and emotional state. Given the scarcity of mental health datasets in Portuguese, this work will utilize publicly available mental health resources alongside the Amive dataset, a specialized corpus containing structured behavioral and textual data relevant to psychological assessment. The evaluation of the chatbot will include quantitative assessments using standard NLP metrics and qualitative human evaluation to measure the model’s ability to generate clinically relevant and empathetic responses. By addressing hallucinations, contextual accuracy, and personalization, this research contributes to the advancement of AI-driven mental health support systems, particularly in underrepresented linguistic contexts.</p>
+<!--
+Passo-a-passo para gerar o link:
+1. Vai no arquivo do GDrive que tem o vídeo, manda abrir em uma nova aba
+2. Vai nos "três pontinhos" e escolhe "Incorporar item"
+3. Copia o conteúdo da janela
+-->
 </section>
 <section id="video" class="level2">
 <h2 class="anchored" data-anchor-id="video">Video</h2>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/a0Pj91Kbu8k?si=PetgXzzROEvCG_ii" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
+<iframe src="https://drive.google.com/file/d/1-hnaCE1dn-b2EkpEIgCFJj1gDbQoEVP5/preview" width="200" allow="autoplay">
 </iframe>
 </section>
 <section id="further-information" class="level2">
 <h2 class="anchored" data-anchor-id="further-information">Further information</h2>
-<p>The Master’s Dissertation Defense by Rafael Vinicius Polato Passador took place on April 24, 2026 and the commitee was composed of Professors Altigran Soares da Silva (UFAM), João Paulo Papa (UNESP) and the advisor Helena Caseli (UFSCar).</p>
-</section>
-<section id="master-thesis" class="level2">
-<h2 class="anchored" data-anchor-id="master-thesis">Master Thesis</h2>
-<p>PASSADOR, Rafael Vinicius Polato. Personalizing mental health support: a retrieval-based llm approach to conversational agent development. 2026. Dissertação (Mestrado em Ciência da Computação) – Universidade Federal de São Carlos, São Carlos, 2026. Disponível em: <a href="https://repositorio.ufscar.br/handle/20.500.14289/24064" class="uri">https://repositorio.ufscar.br/handle/20.500.14289/24064</a>.</p>
+<p>The Master’s Qualification Exam by Rafael Vinicius Polato Passador took place on February 25, 2025 and the commitee was composed of Professors Rodrigo Wilkens (University of Exeter, UK), Vânia Paula de Almeida Neris (UFSCar) and the advisor Helena Caseli (UFSCar).</p>
 
 
 </section>
