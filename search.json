@@ -21,137 +21,270 @@
     "text": "Speaker’s bio\nMel is a qualitative researcher based at Queen Mary University of London. She applies her background in anthropology and health policy to questions at the intersection of digital health, equity, and patient experiences of access and care. Mel is currently developing a fellowship application around covert bias in patient-facing large language models, supported by the NIHR."
   },
   {
-    "objectID": "presentations/exams/2026_rafael_passador_master_viva.html#abstract",
-    "href": "presentations/exams/2026_rafael_passador_master_viva.html#abstract",
-    "title": "Personalizing Mental Health Support",
-    "section": "Abstract",
-    "text": "Abstract\nMental health disorders constitute a major global challenge, requiring support solutions that are both accessible and scalable. Conversational agents have emerged as promising tools in this context, but purely generative large language model (LLM) systems remain susceptible to unsupported outputs, weak grounding, and limited adaptation to user-specific context. This work investigates whether combining supervised domain adaptation, guideline-grounded retrieval, and persona-based conditioning improves the quality of emotional-support responses. Three system variants built on the same fine-tuned Llama-3 backbone are compared: a Baseline model controlled through layered prompting, a Hybrid Retrieval-Augmented Generation (RAG) variant grounded in authoritative WHO and NICE mental health guidelines through hybrid retrieval, and a Persona-Based RAG variant that further incorporates persona signs into both retrieval and prompt construction. All variants are protected by a pre-LLM crisis guardrail that short-circuits high-risk inputs and returns a predefined safe response. Evaluation was conducted in a single-turn setting using inputs from mental health datasets associated with multiple persona profiles, and outputs were assessed through both human evaluation and an LLM-as-a-judge protocol under a shared rubric covering empathy, topic adequacy, and personalization. Results from both evaluation sources converge in identifying the Persona-Based RAG variant as the best overall configuration, with the clearest gains in empathy and personalization, while the RAG-only variant remained especially competitive in topic adequacy. These findings indicate that combining grounded retrieval with explicit persona conditioning is a promising strategy for the development of more contextually appropriate and supportive conversational agents for mental health."
+    "objectID": "lre_special_issue.html",
+    "href": "lre_special_issue.html",
+    "title": "Special Issue of the Language Resources and Evaluation Journal",
+    "section": "",
+    "text": "Recent advances in Natural Language Processing (NLP), Speech Technologies, and Large Language Models (LLMs) have significantly expanded the range of language-based applications in healthcare. Language technologies are increasingly being used to support the analysis of electronic health records (EHRs) (Da Rocha et al. 2022), the creation of specialized datasets and corpora (L. E. S. e. Oliveira et al. 2022; Santos, Oliveira, and Paraboni 2024), the development of domain-specific language models (Gumiel et al. 2019; Nunes et al. 2024), and downstream applications such as named entity recognition (Andrade, Ruas, and Couto 2021; Schneider et al. 2020), information extraction, clinical decision support, and conversational agents (Pires, Caseli, and Neris 2023; P. M. de Souza et al. 2022). More recently, foundation models and multimodal approaches have further broadened the potential impact of language technologies in areas such as mental health, patient communication, accessibility, and public health.\nDespite this rapid progress, significant challenges remain. The development of robust and trustworthy health-related language technologies depends on the availability of high-quality language resources, including corpora, benchmarks, annotation schemes, lexical resources, and evaluation frameworks. Additional challenges involve multilinguality, data scarcity, privacy preservation, de-identification, reproducibility, fairness, and the reliable evaluation of increasingly complex language models. Addressing these challenges requires not only advances in algorithms and models, but also the creation, documentation, sharing, and systematic evaluation of language resources.\nThis Special Issue aims to bring together researchers and practitioners working at the intersection of language technologies and healthcare. We welcome contributions addressing the creation, extension, evaluation, and application of language resources for health-related NLP, as well as studies on benchmarking, reproducibility, responsible AI, and the evaluation of emerging foundation models in healthcare settings.\nThe Special Issue is motivated by the success of the First Workshop on Language Technologies for Health (Lang4Health), held in conjunction with PROPOR 2026. While extended and substantially revised versions of papers presented at the workshop are welcome, the Special Issue is open to new submissions from the broader international community.\nAlthough contributions involving any language are encouraged, we particularly welcome work on Portuguese, Galician, and other under-resourced languages. The initiative builds upon the growing body of research in health-related language technologies developed by the Portuguese-speaking community (Schneider et al. 2020; L. E. S. e. Oliveira et al. 2022; Gumiel et al. 2019; Da Rocha et al. 2022; Nunes et al. 2024; Andrade, Ruas, and Couto 2021; J. V. A. de Souza et al. 2020; R. Oliveira and Paraboni 2024; Consoli et al. 2022), while fostering broader international collaboration and resource sharing across languages and healthcare domains."
   },
   {
-    "objectID": "presentations/exams/2026_rafael_passador_master_viva.html#video",
-    "href": "presentations/exams/2026_rafael_passador_master_viva.html#video",
+    "objectID": "lre_special_issue.html#description",
+    "href": "lre_special_issue.html#description",
+    "title": "Special Issue of the Language Resources and Evaluation Journal",
+    "section": "",
+    "text": "Recent advances in Natural Language Processing (NLP), Speech Technologies, and Large Language Models (LLMs) have significantly expanded the range of language-based applications in healthcare. Language technologies are increasingly being used to support the analysis of electronic health records (EHRs) (Da Rocha et al. 2022), the creation of specialized datasets and corpora (L. E. S. e. Oliveira et al. 2022; Santos, Oliveira, and Paraboni 2024), the development of domain-specific language models (Gumiel et al. 2019; Nunes et al. 2024), and downstream applications such as named entity recognition (Andrade, Ruas, and Couto 2021; Schneider et al. 2020), information extraction, clinical decision support, and conversational agents (Pires, Caseli, and Neris 2023; P. M. de Souza et al. 2022). More recently, foundation models and multimodal approaches have further broadened the potential impact of language technologies in areas such as mental health, patient communication, accessibility, and public health.\nDespite this rapid progress, significant challenges remain. The development of robust and trustworthy health-related language technologies depends on the availability of high-quality language resources, including corpora, benchmarks, annotation schemes, lexical resources, and evaluation frameworks. Additional challenges involve multilinguality, data scarcity, privacy preservation, de-identification, reproducibility, fairness, and the reliable evaluation of increasingly complex language models. Addressing these challenges requires not only advances in algorithms and models, but also the creation, documentation, sharing, and systematic evaluation of language resources.\nThis Special Issue aims to bring together researchers and practitioners working at the intersection of language technologies and healthcare. We welcome contributions addressing the creation, extension, evaluation, and application of language resources for health-related NLP, as well as studies on benchmarking, reproducibility, responsible AI, and the evaluation of emerging foundation models in healthcare settings.\nThe Special Issue is motivated by the success of the First Workshop on Language Technologies for Health (Lang4Health), held in conjunction with PROPOR 2026. While extended and substantially revised versions of papers presented at the workshop are welcome, the Special Issue is open to new submissions from the broader international community.\nAlthough contributions involving any language are encouraged, we particularly welcome work on Portuguese, Galician, and other under-resourced languages. The initiative builds upon the growing body of research in health-related language technologies developed by the Portuguese-speaking community (Schneider et al. 2020; L. E. S. e. Oliveira et al. 2022; Gumiel et al. 2019; Da Rocha et al. 2022; Nunes et al. 2024; Andrade, Ruas, and Couto 2021; J. V. A. de Souza et al. 2020; R. Oliveira and Paraboni 2024; Consoli et al. 2022), while fostering broader international collaboration and resource sharing across languages and healthcare domains."
+  },
+  {
+    "objectID": "lre_special_issue.html#target-audience",
+    "href": "lre_special_issue.html#target-audience",
+    "title": "Special Issue of the Language Resources and Evaluation Journal",
+    "section": "Target Audience",
+    "text": "Target Audience\nThe Special Issue will solicit papers both from among the participants of the First Workshop on Language Technologies for Health (Lang4Health) and from the wider community via an open call for contributions, targeting in particular contributors from among related workshops such as The Third Workshop on Patient-oriented Language Processing (CL4Health) and The 8th Clinical Natural Language Processing Workshop, and also among the communities in relevant mailing-lists (Corpora, SigLex, ELRA, ACL Portal). We particularly welcome contributions addressing the creation, annotation, documentation, distribution, and evaluation of language resources for health-related applications, as well as benchmarking studies, reproducibility analyses, and evaluation methodologies for language and speech technologies in healthcare. While the initiative originated from Lang4Health, the Special Issue is open to submissions from the broader international research community, with particular interest in studies involving Portuguese, Galician, and other under-resourced languages."
+  },
+  {
+    "objectID": "lre_special_issue.html#call-for-paper",
+    "href": "lre_special_issue.html#call-for-paper",
+    "title": "Special Issue of the Language Resources and Evaluation Journal",
+    "section": "Call for Paper",
+    "text": "Call for Paper\nSpecial Issue on Language Resources and Evaluation for Healthcare\nRecent advances in Natural Language Processing (NLP), Speech Technologies, and Large Language Models (LLMs) have transformed the development of language-based applications in healthcare. From the analysis of electronic health records and patient-generated content to conversational agents, decision-support systems, and digital health applications, language technologies are increasingly being deployed in real-world healthcare settings.\nThe success of these technologies, however, depends critically on the availability of high-quality language resources and rigorous evaluation methodologies. Healthcare applications pose unique challenges, including specialized terminology, multilinguality, data scarcity, privacy constraints, annotation complexity, reproducibility, and the need for trustworthy and explainable systems. As language technologies continue to evolve, there is a growing need for resources, benchmarks, evaluation frameworks, and methodological studies that support reliable and responsible research and development in this domain.\nThis Special Issue aims to bring together researchers and practitioners working at the intersection of language resources, evaluation, and healthcare. The initiative builds on discussions from the First Workshop on Language Technologies for Health (Lang4Health) and welcomes contributions from the broader international community.\nWe invite original contributions addressing the creation, annotation, documentation, dissemination, evaluation, and application of language resources for healthcare-related language and speech technologies. Extended versions of papers presented at Lang4Health are welcome, provided they contain substantial new material. New submissions are equally encouraged.\nTopics of interest include, but are not limited to:\n\nData in health domain\n\nDataset/Corpus construction and availability;\nDataset/Corpus annotation;\nAnonymization and de-identification;\nAugment and synthetic data generation.\n\nLanguage technologies in health domain\n\nInteraction and conversational agents (e.g. chatbots);\nInformation extraction and information retrieval;\nNamed Entity Recognition;\nSummarization;\nQuestion Answering;\nPersonalization;\nSpeech processing;\nNLP-supported diagnosis;\nAccessibility and simplification of information;\nLanguage support for digital phenotyping.\n\n\nSubmissions involving any language are welcome. We particularly encourage contributions addressing Portuguese, Galician, and other under-resourced languages.\nManuscripts must present original and unpublished research and will undergo the standard peer-review process of the Language Resources and Evaluation journal.\n\nSubmission information\nSubmissions must present original and unpublished research that is not under consideration elsewhere. We welcome substantial contributions that advance the development, evaluation, documentation, dissemination, or application of language resources and evaluation methodologies for healthcare-related language and speech technologies.\nExtended versions of papers presented at the First Workshop on Language Technologies for Health (Lang4Health) are welcome, provided that they contain substantial new material beyond the workshop publication. New submissions from the broader research community are equally encouraged.\nContributions may include, but are not limited to, new language resources, resource extensions, annotation methodologies, evaluation frameworks, benchmarking studies, reproducibility analyses, and innovative applications of language resources in healthcare settings.\nManuscripts should be prepared and submitted according to the guidelines of the Language Resources and Evaluation journal. Detailed submission instructions will be provided upon the launch of the Special Issue.\n\n\n\nReview process\nAll submissions will undergo the standard -blind peer-review process of the Language Resources and Evaluation journal. Each manuscript will be evaluated by at least two expert reviewers selected by the Guest Editors based on their expertise and the absence of conflicts of interest. Reviewers will assess submissions with respect to scientific quality, originality, methodological soundness, relevance to the Special Issue, and potential impact on the field. To support a rigorous and timely review process, authors submitting to the Special Issue may be invited to participate in the reviewer pool and review other submissions within their area of expertise. Reviewer assignments will be managed by the Guest Editors to ensure appropriate expertise and to avoid conflicts of interest. Revised manuscripts may undergo additional rounds of review when necessary."
+  },
+  {
+    "objectID": "lre_special_issue.html#important-dates",
+    "href": "lre_special_issue.html#important-dates",
+    "title": "Special Issue of the Language Resources and Evaluation Journal",
+    "section": "Important dates",
+    "text": "Important dates\n\n\nDeadline for paper submission: October 2nd, 2026  \nReview deadline (first round): December 15, 2026\nDeadline for revised version of papers: January 16, 2027  \nReview deadline (2nd round): February 25, 2027\nDeadline for camera-ready submission: March 20, 2027"
+  },
+  {
+    "objectID": "lre_special_issue.html#guest-editors",
+    "href": "lre_special_issue.html#guest-editors",
+    "title": "Special Issue of the Language Resources and Evaluation Journal",
+    "section": "Guest Editors",
+    "text": "Guest Editors\n\nProf. Aline Villavicencio\nUniversity of Exeter, UK\nDr. Rodrigo Wilkens\nUniversity of Exeter, UK  \nProf. Helena Caseli\nFederal University of São Carlos, Brazil\nDr. Vânia Neris\nFederal University of São Carlos, Brazil"
+  },
+  {
+    "objectID": "lre_special_issue.html#reviewers-to-be-confirmed",
+    "href": "lre_special_issue.html#reviewers-to-be-confirmed",
+    "title": "Special Issue of the Language Resources and Evaluation Journal",
+    "section": "Reviewers (to be confirmed)",
+    "text": "Reviewers (to be confirmed)\n\nAline Paes – Universidade Federal Fluminense (UFF)\nClaudia Moro – Pontificia Universidade Católica do Paraná (PUCPR)\nElisa Terumi Rubel Schneider – Pontificia Universidade Católica do Paraná (PUCPR)\nEloize Seno – Federal Institute of São Paulo (IFSP)\nEmerson Paraiso – Pontificia Universidade Católica do Paraná (PUCPR)\nHelena Caseli – Federal University of São Carlos (UFSCar)\nIvandré Paraboni – University of São Paulo (USP)\nJoão Papa – São Paulo State University (UNESP)\nLuciana Salgado – Universidade Federal Fluminense (UFF)\nMarcelo Finger – University of São Paulo (USP)\nMaria José Finatto – UFRGS\nMateus Monteiro – Federal University of São Carlos (UFSCar)\nPaula Souza – Federal University of São Carlos (UFSCar)\nRenata Vieira – CIDEHUS\nRenato Silva – University of São Paulo (USP)\nRodrigo Wilkens – University of Exeter\nSandra Rodrigues – Universidade Federal de Lavras (UFLA)\nTiago Torrent – Universidade Federal de Juiz de Fora"
+  },
+  {
+    "objectID": "lre_special_issue.html#contact-information",
+    "href": "lre_special_issue.html#contact-information",
+    "title": "Special Issue of the Language Resources and Evaluation Journal",
+    "section": "Contact information",
+    "text": "Contact information"
+  },
+  {
+    "objectID": "presentations/exams/2026_mayumi_master_viva.html#abstract",
+    "href": "presentations/exams/2026_mayumi_master_viva.html#abstract",
+    "title": "Automated Metaphor Detection in Brazilian Portuguese",
+    "section": "Abstract",
+    "text": "Abstract\nAutomated metaphor detection plays a crucial role in various NLP applications, including sentiment analysis, machine translation, and text generation. Given the intricate nature of metaphorical language, its automatic processing poses a significant challenge, requiring models to go beyond literal meanings to capture underlying conceptual mappings. While significant research has been conducted on metaphor detection for high-resource languages like English, many other languages remain underexplored. This is particularly true for Brazilian Portuguese, where the scarcity of annotated corpora and limited availability of studies hinder advancements in the field. The present work addresses this gap by constructing an annotated corpus for metaphor detection at token-level in Brazilian Portuguese and using it to evaluate encoder-based and decoder-based approaches for the task. This work presents, to the best of knowledge, the first resource of its kind for Brazilian Portuguese and establishes an initial benchmark for automated metaphor detection in the language."
+  },
+  {
+    "objectID": "presentations/exams/2026_mayumi_master_viva.html#video",
+    "href": "presentations/exams/2026_mayumi_master_viva.html#video",
+    "title": "Automated Metaphor Detection in Brazilian Portuguese",
+    "section": "Video",
+    "text": "Video"
+  },
+  {
+    "objectID": "presentations/exams/2026_mayumi_master_viva.html#further-information",
+    "href": "presentations/exams/2026_mayumi_master_viva.html#further-information",
+    "title": "Automated Metaphor Detection in Brazilian Portuguese",
+    "section": "Further information",
+    "text": "Further information\nThe Master’s Dissertation Defense by Karina Mayumi Johansson took place on May 22, 2026 and the commitee was composed of Professors Ivandré Paraboni (USP/EACH), Heloísa Camargo (UFSCar) and the advisor Helena Caseli (UFSCar)."
+  },
+  {
+    "objectID": "presentations/quali/2025_fernanda_assi_master_quali.html#abstract",
+    "href": "presentations/quali/2025_fernanda_assi_master_quali.html#abstract",
+    "title": "Automatic identification of bias in large language models",
+    "section": "Abstract",
+    "text": "Abstract\nLarge Language Models (LLMs) have demonstrated remarkable capabilities across various domains, from legal reasoning to clinical decision support. As these models become increasingly integrated into real-world applications, concerns about their reliability, fairness, and ethical implications have emerged. Studies have shown that LLMs can produce biased outputs, reinforcing harmful stereotypes and discriminating against marginalized groups. Among the most common biases are occupational stereotypes, racial disparities, and linguistic bias, where outputs vary based on the language or dialect used in the prompt. This study proposes a systematic framework to evaluate and rank LLMs based on their bias levels using the Elo rating system. A sentence completion framework will be employed, where models generate responses to prompts containing explicit social markers. The completions will be anonymized and scored using a regard classifier, which assesses how positively or negatively different demographic groups are portrayed. Pairwise comparisons will update Elo ratings, establishing a ranking of LLMs in terms of bias. This approach enables scalable and systematic comparisons across models."
+  },
+  {
+    "objectID": "presentations/quali/2025_fernanda_assi_master_quali.html#video",
+    "href": "presentations/quali/2025_fernanda_assi_master_quali.html#video",
+    "title": "Automatic identification of bias in large language models",
+    "section": "Video",
+    "text": "Video"
+  },
+  {
+    "objectID": "presentations/quali/2025_fernanda_assi_master_quali.html#further-information",
+    "href": "presentations/quali/2025_fernanda_assi_master_quali.html#further-information",
+    "title": "Automatic identification of bias in large language models",
+    "section": "Further information",
+    "text": "Further information\nThe Master’s Qualification Exam by Fernanda Malheiros Assi took place on March 24, 2025 and the commitee was composed of Professors Mirella Moro (Federal University of Minas Gerais, UFMG), Renato Silva (University of São Paulo, USP) and the advisor Helena Caseli (UFSCar)."
+  },
+  {
+    "objectID": "presentations/quali/2025_rafael_passador_master_quali.html#abstract",
+    "href": "presentations/quali/2025_rafael_passador_master_quali.html#abstract",
+    "title": "Personalizing Mental Health Support",
+    "section": "Abstract",
+    "text": "Abstract\nMental health disorders pose significant challenges worldwide, necessitating accessible and scalable interventions. Conversational agents (CAs), or chatbots, have gained increasing attention as digital mental health tools, offering continuous support and reducing barriers to psychological assistance. While traditional rule-based and machine learning-based chatbots provide structured guidance, they often lack contextual adaptability and personalization, limiting their effectiveness in mental health applications. Large Language Models (LLMs), particularly when combined with Retrieval-Augmented Generation (RAG), offer a promising alternative by integrating domain-specific knowledge into chatbot responses, mitigating hallucinations, and improving factual grounding. This study aims to develop a personalized RAG-LLM chatbot tailored to Portuguese-speaking users, leveraging multilingual LLM capabilities and domain-adapted retrieval mechanisms. By retrieving specialized mental health data and incorporating user-specific information, the chatbot seeks to provide context-aware, empathetic, and personalized interventions. This research explores how integrating user history and specific domain knowledge enhances chatbot responses, ensuring that interactions dynamically adjust to the user’s psychological and emotional state. Given the scarcity of mental health datasets in Portuguese, this work will utilize publicly available mental health resources alongside the Amive dataset, a specialized corpus containing structured behavioral and textual data relevant to psychological assessment. The evaluation of the chatbot will include quantitative assessments using standard NLP metrics and qualitative human evaluation to measure the model’s ability to generate clinically relevant and empathetic responses. By addressing hallucinations, contextual accuracy, and personalization, this research contributes to the advancement of AI-driven mental health support systems, particularly in underrepresented linguistic contexts."
+  },
+  {
+    "objectID": "presentations/quali/2025_rafael_passador_master_quali.html#video",
+    "href": "presentations/quali/2025_rafael_passador_master_quali.html#video",
     "title": "Personalizing Mental Health Support",
     "section": "Video",
     "text": "Video"
   },
   {
-    "objectID": "presentations/exams/2026_rafael_passador_master_viva.html#further-information",
-    "href": "presentations/exams/2026_rafael_passador_master_viva.html#further-information",
+    "objectID": "presentations/quali/2025_rafael_passador_master_quali.html#further-information",
+    "href": "presentations/quali/2025_rafael_passador_master_quali.html#further-information",
     "title": "Personalizing Mental Health Support",
     "section": "Further information",
-    "text": "Further information\nThe Master’s Dissertation Defense by Rafael Vinicius Polato Passador took place on April 24, 2026 and the commitee was composed of Professors Altigran Soares da Silva (UFAM), João Paulo Papa (UNESP) and the advisor Helena Caseli (UFSCar)."
+    "text": "Further information\nThe Master’s Qualification Exam by Rafael Vinicius Polato Passador took place on February 25, 2025 and the commitee was composed of Professors Rodrigo Wilkens (University of Exeter, UK), Vânia Paula de Almeida Neris (UFSCar) and the advisor Helena Caseli (UFSCar)."
   },
   {
-    "objectID": "presentations/exams/2026_rafael_passador_master_viva.html#master-thesis",
-    "href": "presentations/exams/2026_rafael_passador_master_viva.html#master-thesis",
-    "title": "Personalizing Mental Health Support",
-    "section": "Master Thesis",
-    "text": "Master Thesis\nPASSADOR, Rafael Vinicius Polato. Personalizing mental health support: a retrieval-based llm approach to conversational agent development. 2026. Dissertação (Mestrado em Ciência da Computação) – Universidade Federal de São Carlos, São Carlos, 2026. Disponível em: https://repositorio.ufscar.br/handle/20.500.14289/24064."
-  },
-  {
-    "objectID": "presentations/exams/2026_fernanda_assi_master_viva.html#abstract",
-    "href": "presentations/exams/2026_fernanda_assi_master_viva.html#abstract",
-    "title": "Automatic identification of bias in Large Language Models",
+    "objectID": "presentations/seminars/2025_Ivandre_Paraboni_25092025.html#abstract",
+    "href": "presentations/seminars/2025_Ivandre_Paraboni_25092025.html#abstract",
+    "title": "Mental health prediction from social media data",
     "section": "Abstract",
-    "text": "Abstract\nLarge Language Models (LLMs) have demonstrated remarkable capabilities across various domains, from legal reasoning to clinical decision support. As these models become increasingly integrated into real-world applications, concerns about their reliability, fairness, and ethical implications have emerged. Studies have shown that LLMs can produce biased outputs, reinforcing harmful stereotypes and discriminating against marginalized groups. This work proposes a systematic and scalable framework for evaluating and ranking LLMs based on stereotype generation in Brazilian Portuguese. The framework combines template-based sentence generation, human annotation, and supervised classification into a unified pipeline. A set of 164 sentence templates, covering gender, race, and their intersections, was used to elicit completions from 37 LLMs from multiple providers. The resulting sentences were annotated by human annotators along two dimensions: alignment with social stereotypes and potential harm. The stereotype alignment labels served as the foundation for training a BERTimbau-based classifier, selected via nested cross-validation, which achieved a macro-averaged F1 of 0.665. Classifier predictions were then used to construct pairwise match tables, feeding to an Elo rating system, that generated two complementary rankings: a model ranking and a social marker ranking. The results reveal that smaller open-source models tend to generate less stereotyped content than larger commercial ones, and that social markers combining race and gender consistently elicit the most stereotyped outputs across all models. The framework is made available as an interactive interface that supports the incremental addition of new models."
+    "text": "Abstract\nThis talk explores the computational task of predicting mental health conditions from social media data, conducted within the scope of the SetembroBR project (2022-2024). We discuss the creation of a dataset for detecting depression and anxiety disorders from Portuguese tweets, along with the development and initial results of computational models for these tasks. Finally, we address key challenges that remain for ongoing research, with particular focus on their relevance to the current AIM-Health project."
   },
   {
-    "objectID": "presentations/exams/2026_fernanda_assi_master_viva.html#video",
-    "href": "presentations/exams/2026_fernanda_assi_master_viva.html#video",
-    "title": "Automatic identification of bias in Large Language Models",
+    "objectID": "presentations/seminars/2025_Ivandre_Paraboni_25092025.html#video",
+    "href": "presentations/seminars/2025_Ivandre_Paraboni_25092025.html#video",
+    "title": "Mental health prediction from social media data",
     "section": "Video",
     "text": "Video"
   },
   {
-    "objectID": "presentations/exams/2026_fernanda_assi_master_viva.html#further-information",
-    "href": "presentations/exams/2026_fernanda_assi_master_viva.html#further-information",
-    "title": "Automatic identification of bias in Large Language Models",
-    "section": "Further information",
-    "text": "Further information\nThe Master’s Dissertation Defense by Fernanda Malheiros Assi took place on May 21, 2026 and the commitee was composed of Professors Marlo Souza (UFBA), Renato Silva (ICMC/USP) and the advisor Helena Caseli (UFSCar)."
-  },
-  {
-    "objectID": "presentations/quali/2025_mayumi_master_quali.html#abstract",
-    "href": "presentations/quali/2025_mayumi_master_quali.html#abstract",
-    "title": "Automatic detection of metaphors in Brazilian Portuguese",
-    "section": "Abstract",
-    "text": "Abstract\nAutomated metaphor processing plays a crucial role in various NLP applications, including sentiment analysis, machine translation, and text generation. Given the intricate nature of metaphorical language, its automatic processing poses a significant challenge, requiring models to go beyond literal meanings to capture underlying conceptual mappings. While significant research has been conducted on metaphor detection for high-resource languages like English, many other languages remain underexplored. This is particularly true for Brazilian Portuguese, where the scarcity of annotated datasets and limited studies hinder advancements in the field. This study aims to advance automated metaphor detection for Brazilian Portuguese by constructing an annotated dataset and training both monolingual and multilingual models for Brazilian Portuguese, English, and Spanish. The additional languages will be used to compare results and leverage knowledge to enhance generalization for the target language. By expanding research in this area, this work aims to strengthen the study of metaphor detection in Brazilian Portuguese and contribute to the broader development of NLP resources for the language."
-  },
-  {
-    "objectID": "presentations/quali/2025_mayumi_master_quali.html#video",
-    "href": "presentations/quali/2025_mayumi_master_quali.html#video",
-    "title": "Automatic detection of metaphors in Brazilian Portuguese",
-    "section": "Video",
-    "text": "Video"
-  },
-  {
-    "objectID": "presentations/quali/2025_mayumi_master_quali.html#further-information",
-    "href": "presentations/quali/2025_mayumi_master_quali.html#further-information",
-    "title": "Automatic detection of metaphors in Brazilian Portuguese",
-    "section": "Further information",
-    "text": "Further information\nThe Master’s Qualification Exam by Karina Mayumi Johansson took place on April 4, 2025 and the commitee was composed of Professors Aline Paes(Federal University Fluminense, UFF), Heloísa de Arruda Camargo (UFSCar) and the advisor Helena Caseli (UFSCar)."
-  },
-  {
-    "objectID": "presentations/seminars/2025_Vania_Neris_09052025.html#abstract",
-    "href": "presentations/seminars/2025_Vania_Neris_09052025.html#abstract",
-    "title": "The Amive project",
-    "section": "Abstract",
-    "text": "Abstract\nDepression is a significant mental health issue worldwide, and it affects college students more than the general population. While universities strive to support their students, technology can also play a crucial role. Computing technology can collect daily data, process it, and provide insights to both students and healthcare professionals. This includes physiological data gathered from wearable devices, as well as students’ thoughts and feelings expressed through text. Furthermore, digital interventions can be delivered promptly as initial support. The Amive project is a Brazilian human-centered AI initiative aimed at developing a comprehensive solution that classifies data on various factors such as sleep quality, exercise habits, and heart rate monitoring. Additionally, it identifies depressive symptoms from text shared on social media and uses this information to engage with students through a chatbot. This talk will discuss the research that led to this solution, the challenges encountered, and future work planned."
-  },
-  {
-    "objectID": "presentations/seminars/2025_Vania_Neris_09052025.html#video",
-    "href": "presentations/seminars/2025_Vania_Neris_09052025.html#video",
-    "title": "The Amive project",
-    "section": "Video",
-    "text": "Video"
-  },
-  {
-    "objectID": "presentations/seminars/2025_Vania_Neris_09052025.html#short-bio",
-    "href": "presentations/seminars/2025_Vania_Neris_09052025.html#short-bio",
-    "title": "The Amive project",
+    "objectID": "presentations/seminars/2025_Ivandre_Paraboni_25092025.html#short-bio",
+    "href": "presentations/seminars/2025_Ivandre_Paraboni_25092025.html#short-bio",
+    "title": "Mental health prediction from social media data",
     "section": "Short Bio",
-    "text": "Short Bio\nVânia Neris is an Associate Professor in the Department of Computing at the Federal University of São Carlos (UFSCar) in Brazil, where she leads the Flexible and Sustainable Interaction Lab (LIFeS). She has been researching Human-Computer Interaction since 1999. She received her Ph. D. in Computer Science from the University of Campinas (UNICAMP)(2010) and has conducted research at the University of Reading (UK)(2008-2009). She was a Visiting Scholar in the Department of Information Sciences and Technology at George Mason University (2021-2022). She is a three-time recipient of the best paper award from the main Brazilian HCI conference. Prof. Neris has received research funding from several agencies in Brazil. Since 2011, she has been studying how to develop emotion-aware systems. Prof. Neris was one of the investigators of the Amive project, which aimed to identify possible depressive symptoms among college students and deliver appropriate interventions to them. Her actual research interests include: (1) computer support for mental health and well-being, (2) human-centred AI and (3) computer science education."
+    "text": "Short Bio\nIvandré Paraboni holds a Ph.D. in Computer Science from the University of Brighton, United Kingdom (2003), and completed a postdoctoral fellowship at the University of Aberdeen, Scotland (2012). He is an Associate Professor (tenured) and researcher at the University of São Paulo (USP), with a full-time appointment at the School of Arts, Sciences, and Humanities (EACH). Research interests span a broad spectrum of human language processing, ranging from computational methods grounded in Cognitive Science to practical applications, such as the classification of web-based documents. He currently supervises research on stance recognition from text, the detection of mental health disorders from multimodal data, the identification of creative thinking, and arbitrary style transfer in natural language generation."
   },
   {
-    "objectID": "presentations/seminars/2025_Sai_Somayajula_21082025.html#abstract",
-    "href": "presentations/seminars/2025_Sai_Somayajula_21082025.html#abstract",
-    "title": "Trustworthy Optimization of Pre-Trained Models for Healthcare",
+    "objectID": "presentations/seminars/2025_Julia_Ive_02092025.html#abstract",
+    "href": "presentations/seminars/2025_Julia_Ive_02092025.html#abstract",
+    "title": "Towards Ethical Collaboration Between Humans and AI in Healthcare",
     "section": "Abstract",
-    "text": "Abstract\nPre-trained language models have opened new possibilities in healthcare, showing promise in mining scientific literature, analyzing large-scale clinical data, identifying patterns in emerging diseases, and automating workflows, positioning themselves as intelligent research assistants. However, general-purpose models, typically trained on web-scale corpora, often lack the clinical grounding necessary for reliable deployment in high-stakes domains like healthcare. To be effective, they must be adapted to meet domain-specific requirements. My PhD thesis addresses three core challenges in leveraging pre-trained models for healthcare: (i) the scarcity of labeled data for fine-tuning, (ii) the evolving nature of healthcare data, and (iii) the need to ensure transparency and traceability of AI-generated content. In this talk, I will focus on the third challenge: enabling traceability of content generated by large language models. I will begin with an overview of prior watermarking approaches and then present our proposed solution. We introduce a watermarking algorithm applied at inference time that perturbs the model’s logits to bias generation toward a subset of vocabulary tokens determined by a secret key. To ensure that watermarking does not compromise generation quality, we propose a multi-objective optimization (MOO) framework that employs lightweight networks to produce token-specific watermarking logits and splitting ratios, specifying how many tokens to bias and by how much. This approach effectively balances watermark detectability with semantic coherence. Experimental results show that our method significantly improves detectability and robustness against removal attacks while preserving the semantics of the generated text, outperforming existing watermarking techniques."
+    "text": "Abstract\nAI and LLMs are increasingly being deployed in healthcare, creating new opportunities to mine clinical notes, support decision-making, and collaborate with clinicians. At the same time, their use raises pressing challenges around bias, data sparsity, and privacy. In this talk, I will present a set of data-centric approaches to ethical human–AI collaboration applied to use cases in pediatric mental health and clinical decision support. I will begin by demonstrating how LLMs can extract depressive symptoms in pediatric settings, before moving to methods for detecting and mitigating bias in clinical notes related to pediatric anxiety. I will then introduce techniques for generating synthetic mental health records to alleviate data sparsity and protect patient privacy. Finally, I will present a clinical chatbot developed to reference UCLH guidelines without unsafe modifications. In a pilot study, the chatbot reduced clinician search time threefold, highlighting its potential to improve workflow and patient care. Finally, I will discuss how synthetic data can also be used to benchmark and refine such support systems."
   },
   {
-    "objectID": "presentations/seminars/2025_Sai_Somayajula_21082025.html#video",
-    "href": "presentations/seminars/2025_Sai_Somayajula_21082025.html#video",
-    "title": "Trustworthy Optimization of Pre-Trained Models for Healthcare",
-    "section": "Video",
-    "text": "Video\nhttps://universityofexeter.zoom.us/clips/share/fWdt2Tm7SQ2Sbqu9KlhKvw"
-  },
-  {
-    "objectID": "presentations/seminars/2025_Sai_Somayajula_21082025.html#speakers-bio",
-    "href": "presentations/seminars/2025_Sai_Somayajula_21082025.html#speakers-bio",
-    "title": "Trustworthy Optimization of Pre-Trained Models for Healthcare",
-    "section": "Speaker’s bio",
-    "text": "Speaker’s bio\nDr. Sai Ashish Somayajula is a Senior Applied Scientist in Generative AI at Oracle Cloud Infrastructure, where he develops large-scale foundation models for enterprise applications. He earned his PhD in Electrical and Computer Engineering from the University of California (UC), San Diego. His research focused on addressing key challenges in adapting and utilizing pre-trained models for healthcare. Specifically, his work spanned three core areas: (1) synthetic data generation using meta-learning-based feedback mechanisms, (2) continual learning for handling dynamic data streams without catastrophic forgetting, and (3) token-level watermarking techniques to ensure content provenance and security. His research has been published in premier venues, including the International Conference on Machine Learning (ICML), Annual Meeting of the Association for Computational Linguistics (ACL), Transactions of the Association for Computational Linguistics (TACL), Conference of the North American Chapter of the Association for Computational Linguistics (NAACL), Scientific Reports (Nature Portfolio), and Transactions of Machine Learning Research (TMLR). He is a recipient of the Jacobs School of Engineering Departmental Fellowship at UC San Diego. Ashish has collaborated with leading industrial research labs through internships at Apple and Tencent AI Lab. He holds a Bachelor’s degree in Electrical Engineering with a minor in Computer Science from the Indian Institute of Technology, Hyderabad, where he was twice awarded the Academic Excellence Award, and a Master’s in Intelligent Systems and Robotics from UC San Diego."
-  },
-  {
-    "objectID": "presentations/seminars/2025_Luciana_Vinicius_Mateus_28102025.html#abstract",
-    "href": "presentations/seminars/2025_Luciana_Vinicius_Mateus_28102025.html#abstract",
-    "title": "Politeness in Chatbots",
-    "section": "Abstract",
-    "text": "Abstract\nThis presentation begins with Luciana, who will present ongoing projects from the Semiotic Engineering Research Group at UFF on Computer Education, Human-AI Interaction, and Cultural Issues in HCI. Following her, Vinícius Pereira will discuss key topics from his research group, including Semiotics and Linguistics in HCI, Digital Literature, and Digital Arts, outlining his group’s interdisciplinary approach. Finally, Mateus will present his research on operationalizing politeness using Conversation Analysis and Pragmatics. He will cover the development of a card-based approach, its evaluation, and the key challenges that remain for this research."
-  },
-  {
-    "objectID": "presentations/seminars/2025_Luciana_Vinicius_Mateus_28102025.html#video",
-    "href": "presentations/seminars/2025_Luciana_Vinicius_Mateus_28102025.html#video",
-    "title": "Politeness in Chatbots",
+    "objectID": "presentations/seminars/2025_Julia_Ive_02092025.html#video",
+    "href": "presentations/seminars/2025_Julia_Ive_02092025.html#video",
+    "title": "Towards Ethical Collaboration Between Humans and AI in Healthcare",
     "section": "Video",
     "text": "Video"
   },
   {
-    "objectID": "presentations/seminars/2025_Luciana_Vinicius_Mateus_28102025.html#speakers-bio",
-    "href": "presentations/seminars/2025_Luciana_Vinicius_Mateus_28102025.html#speakers-bio",
-    "title": "Politeness in Chatbots",
-    "section": "Speakers’ bio",
-    "text": "Speakers’ bio\nDr. Luciana Salgado is an Associate Professor at the Computer Science Department of Fluminense Federal University (UFF) and heads the Semiotic Engineering Research Group affiliated with SERG (PUC-Rio). Her research interests span various areas within Human-Computer Interaction, including Cultural and Gender issues, Semiotic Engineering Theory, E-Health, and Social Computing. Luciana is actively involved in professional organizations such as the Brazilian Special Committee of Human-Computer Interaction (CEIHC) and serves as the Editor-in-Chief of the Journal on Interactive Systems (JIS). She holds a Ph.D. in Human-Computer Interaction and a Master’s in Informatics, bringing a wealth of academic and industry experience to her role.\nDr. Vinícius Pereira is a Doctor and Master of Literature from the Federal University of Rio de Janeiro (UFRJ). He graduated with a Bachelor’s and Teaching degree in Portuguese-English at UFRJ. Currently, an Associate Professor at the Department of Letters and the Postgraduate Program in Language Studies at the Federal University of Mato Grosso (UFMT). Vinícius has significant experience in academia and research, including a postdoctoral internship at the University of Nottingham in the UK. He leads research groups focusing on contemporary Semiotics and Data Beyond Life, and has held various academic leadership roles at UFMT.\nDr. Mateus Monteiro holds a doctorate in Computer Science (2024) and a master’s degree in Computer Science (2020) from Fluminense Federal University (UFF). He also earned a degree in Information Systems (2016) from the Federal University of Mato Grosso (UFMT, 2016). With expertise in Human-Computer Interaction, Mateus has worked extensively on projects in this field and currently serves as a Product Designer at Viasat since 2021. His research interests span various areas within Human-Computer Interaction, including Chatbots, Cultural and Language issues, Semiotic Engineering Theory, Social Computing, and Explainable Artificial Intelligence (XAI)."
+    "objectID": "presentations/seminars/2025_Julia_Ive_02092025.html#speakers-bio",
+    "href": "presentations/seminars/2025_Julia_Ive_02092025.html#speakers-bio",
+    "title": "Towards Ethical Collaboration Between Humans and AI in Healthcare",
+    "section": "Speaker’s bio",
+    "text": "Speaker’s bio\nDr. Julia Ive is an Associate Professor in Healthcare AI at University College London. Her research focuses on responsible, data-centric, and human-centered approaches to leveraging LLMs for healthcare applications. Her work spans bias detection and mitigation in clinical text, privacy-preserving methods for sensitive data, and human–AI collaboration protocols for clinical decision support. She has previously worked at Queen Mary University of London and Imperial College London, where she pioneered techniques for medical data augmentation through synthetic text generation. Her broader expertise includes theoretical language modeling, multimodal machine learning, and reinforcement learning for text generation."
+  },
+  {
+    "objectID": "videos.html#invited-speakers",
+    "href": "videos.html#invited-speakers",
+    "title": "Videos",
+    "section": "Invited speakers",
+    "text": "Invited speakers\n\n\n\n\n\n\n\n\nPoliteness in Chatbots\n\n\n\nLuciana Salgado, Vinícius Pereira, Mateus Monteiro\n\n\nOctober 28, 2025\n\n\n\n\n\n\nLanguage\n\n\nEnglish\n\n\n\n\n\n\n\n\n\n\n\n\n\nMental health prediction from social media data\n\n\n\nIvandré Paraboni\n\n\nSeptember 25, 2025\n\n\n\n\n\n\nLanguage\n\n\nEnglish\n\n\n\n\n\n\n\n\n\n\n\n\n\nTowards Ethical Collaboration Between Humans and AI in Healthcare\n\n\n\nJulia Ive\n\n\nSeptember 2, 2025\n\n\n\n\n\n\nLanguage\n\n\nEnglish\n\n\n\n\n\n\n\n\n\n\n\n\n\nTrustworthy Optimization of Pre-Trained Models for Healthcare\n\n\n\nSai Ashish Somayajula\n\n\nAugust 21, 2025\n\n\n\n\n\n\nLanguage\n\n\nEnglish\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Amive project\n\n\n\nVânia Neris\n\n\nMay 9, 2025\n\n\n\n\n\n\nLanguage\n\n\nEnglish\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "videos.html#students-presentations",
+    "href": "videos.html#students-presentations",
+    "title": "Videos",
+    "section": "Student’s presentations",
+    "text": "Student’s presentations\n\n\n\n\n\n\n\n\nAutomated Metaphor Detection in Brazilian Portuguese\n\n\n\nKarina Mayumi Johansson\n\n\nMay 22, 2026\n\n\n\n\n\n\nLanguage\n\n\nPortuguese\n\n\n\n\n\n\n\n\n\n\n\n\n\nAutomatic identification of bias in Large Language Models\n\n\n\nFernanda Malheiros Assi\n\n\nMay 21, 2026\n\n\n\n\n\n\nLanguage\n\n\nPortuguese\n\n\n\n\n\n\n\n\n\n\n\n\n\nPersonalizing Mental Health Support\n\n\n\nRafael Passador\n\n\nApril 24, 2026\n\n\n\n\n\n\nLanguage\n\n\nPortuguese\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "AIM-Health is an international research project between Brazil and UK. It started on February 2025 and has an expected duration of three years.\nThe opinions, hypotheses and conclusions or recommendations expressed in this material are the responsibility of the author(s) and do not necessarily reflect the views of FAPESP.\nAIM-Health logo was generated using Canva’s AI assistant."
+  },
+  {
+    "objectID": "seminars_template.html#invited-speaker",
+    "href": "seminars_template.html#invited-speaker",
+    "title": "",
+    "section": "INVITED SPEAKER",
+    "text": "INVITED SPEAKER\n\nDATE TIME\n\n\nLocation\nINFO"
+  },
+  {
+    "objectID": "seminars_template.html#abstract",
+    "href": "seminars_template.html#abstract",
+    "title": "",
+    "section": "Abstract",
+    "text": "Abstract\nTEXT"
+  },
+  {
+    "objectID": "seminars_template.html#speakers-bio",
+    "href": "seminars_template.html#speakers-bio",
+    "title": "",
+    "section": "Speaker’s bio",
+    "text": "Speaker’s bio\nTEXT"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Rodrigo Wilkens, Helena Caseli, Vânia Neris, and Aline Villavicencio. 2026. The visible and the latent linguistic clues of mental health in Brazilian Portuguese textual posts. In Proceedings of the 17th International Conference on Computational Processing of Portuguese (PROPOR 2026) - Vol. 2, pages 135–147, Salvador, Brazil. Association for Computational Linguistics. https://aclanthology.org/2026.propor-2.21/\n\n\n\nDiana Kylymnyk, Rodrigo Wilkens, Helena Caseli, Vitória Tomasel, Edward Watkins, and Aline Villavicencio. 2026. Figurative Language in Alzheimer’s Discourse: Linguistic and Neural Alignment in Clinical Narratives. In Proceedings of the Fifteenth Language Resources and Evaluation Conference (LREC 2026), pages 11379–11389. European Language Resources Association (ELRA). https://doi.org/10.63317/2yjp4743qieh.\nKarina Johansson, Fernanda Assi, Isabella da Silva, Rafael Passador, Isabela Rodrigues, Aline Paes, and Helena Caseli. 2026. Meta4XNLI-ptBR: Brazilian Portuguese Extension of Meta4XNLI Corpus. In Proceedings of the Fifteenth Language Resources and Evaluation Conference (LREC 2026), pages 1668–1676. European Language Resources Association (ELRA). https://doi.org/10.63317/45566xcgz65x."
+  },
+  {
+    "objectID": "publications.html#conference-papers",
+    "href": "publications.html#conference-papers",
+    "title": "Publications",
+    "section": "",
+    "text": "Rodrigo Wilkens, Helena Caseli, Vânia Neris, and Aline Villavicencio. 2026. The visible and the latent linguistic clues of mental health in Brazilian Portuguese textual posts. In Proceedings of the 17th International Conference on Computational Processing of Portuguese (PROPOR 2026) - Vol. 2, pages 135–147, Salvador, Brazil. Association for Computational Linguistics. https://aclanthology.org/2026.propor-2.21/\n\n\n\nDiana Kylymnyk, Rodrigo Wilkens, Helena Caseli, Vitória Tomasel, Edward Watkins, and Aline Villavicencio. 2026. Figurative Language in Alzheimer’s Discourse: Linguistic and Neural Alignment in Clinical Narratives. In Proceedings of the Fifteenth Language Resources and Evaluation Conference (LREC 2026), pages 11379–11389. European Language Resources Association (ELRA). https://doi.org/10.63317/2yjp4743qieh.\nKarina Johansson, Fernanda Assi, Isabella da Silva, Rafael Passador, Isabela Rodrigues, Aline Paes, and Helena Caseli. 2026. Meta4XNLI-ptBR: Brazilian Portuguese Extension of Meta4XNLI Corpus. In Proceedings of the Fifteenth Language Resources and Evaluation Conference (LREC 2026), pages 1668–1676. European Language Resources Association (ELRA). https://doi.org/10.63317/45566xcgz65x."
+  },
+  {
+    "objectID": "publications.html#thesis",
+    "href": "publications.html#thesis",
+    "title": "Publications",
+    "section": "Thesis",
+    "text": "Thesis\n\n2026\n\nPASSADOR, Rafael Vinicius Polato. Personalizing mental health support: a retrieval-based llm approach to conversational agent development. 2026. Dissertação (Mestrado em Ciência da Computação) – Universidade Federal de São Carlos, São Carlos, 2026. Disponível em: https://repositorio.ufscar.br/handle/20.500.14289/24064.\nASSI, Fernanda Malheiros. Automatic identification of bias in Large Language Models. 2026. Dissertação (Mestrado em Ciência da Computação) – Universidade Federal de São Carlos, Campus São Carlos, 2026. Disponível em: https://repositorio.ufscar.br/handle/20.500.14289/24224."
+  },
+  {
+    "objectID": "publications.html#conference-abstracts",
+    "href": "publications.html#conference-abstracts",
+    "title": "Publications",
+    "section": "Conference abstracts",
+    "text": "Conference abstracts\n\n2026\n\nPASQUINI, Julia Oliveira; BLEICHER, Taís; CASELI, Helena de Medeiros; OLIVEIRA, Mariana Marques de. Percepções de Estudantes Universitários no Uso de um Chatbot para Saúde Mental. In: Anais do 10º Congresso Brasileiro de Saúde Mental, Vitória, ES. 2026.\n\n\n\n2025\n\nSOARES, C. V.; PASSADOR, R. V. P; CASELI, H. M. Aprendizagem ativa para auxiliar na anotação de sinais de depressão. In: Anais do XXXI Congresso de Iniciação Científica da UFSCar, São Carlos, SP, p. 150-150, 2025.\nBELLINI, D. C. V; GARCIA, G. L.; CASELI, H. M. Identificação de sinais de depressão considerando a linguagem figurada. In: Anais do XXXI Congresso de Iniciação Científica da UFSCar, São Carlos, SP, p. 212-212, 2025.\nTOMASEL, V. H.; WILKENS, R.; VILLAVICENCIO, A.; CASELI, H. M. Identificação de linguagem idiomática no domínio da saúde mental. In: Anais do XXXI Congresso de Iniciação Científica da UFSCar, São Carlos, SP, p. 950-950, 2025."
+  },
+  {
+    "objectID": "index.html#about-this-project",
+    "href": "index.html#about-this-project",
+    "title": "",
+    "section": "About this project",
+    "text": "About this project\nAIM-Health is an international research project between Brazil and UK. It started on February 2025 and has an expected duration of three years.\n\nScopeGoalsScientific challenges\n\n\nDepression is a mental health disorder that affects a large portion of the global population, being the second largest contributor to decrease in healthy life expectancy. Depression is characterized by a clinically significant form of psychological suffering that leads to significant impairment in someone’s functionality, reduced quality of life and, in severe cases, can lead to death due to the risk of suicide. However, according to the World Health Organization, only a quarter of individuals suffering from mental health disorders receive proper care.\nAdvances in Artificial Intelligence (AI) and Natural Language Processing (NLP) research have been developed to a level that can be used for proposing computational solutions that assist in the detection and intervention in mental health conditions. AI and NLP based solutions that aid in the identification of signs of depression can be useful both in individual treatment and in making public policy decisions. Similarly, solutions that offer autonomous, ethical, reliable, controlled, and engaging intervention, in real time, can help mitigate the damage caused by depression.\n\n\nThis project works on proposing and developing AI and NLP based solutions for the detection and intervention of mental health conditions that can have a broader reach and allow mental health support to individuals and populations that would not otherwise have access to it.\nFurthermore, as social determinants are frequently mentioned as risk factors for mental health conditions, this project also aims at furthering the understanding about them in two contexts (Brazil and the United Kingdom).\n\n\nThis project aims to address scientific challenges that are still present and very relevant in this context:\n\ndealing with more abstract language (such as figurative language) commonly used in mental health self-narratives, and\noutputting personalized interventions suitable for an individual’s context."
+  },
+  {
+    "objectID": "index.html#support-agencies",
+    "href": "index.html#support-agencies",
+    "title": "",
+    "section": "Support agencies",
+    "text": "Support agencies\nThis is an international project supported by FAPESP (24/10233-7) and the UKRI/MRC – UK Research and Innovation / Medical Research Council."
+  },
+  {
+    "objectID": "publications/conferences/2026_Lang4Health.html",
+    "href": "publications/conferences/2026_Lang4Health.html",
+    "title": "The visible and the latent linguistic clues of mental health in Brazilian Portuguese textual posts",
+    "section": "",
+    "text": "CitationBibTeX citation:@online{wilkens2026,\n  author = {Wilkens, Rodrigo and Caseli, Helena and Neris, Vânia and\n    Villavicencio, Aline},\n  title = {The Visible and the Latent Linguistic Clues of Mental Health\n    in {Brazilian} {Portuguese} Textual Posts},\n  date = {2026-04-13},\n  url = {https://aclanthology.org/2026.propor-2.21/},\n  langid = {en},\n  abstract = {Depressive symptomatology may be reflected in the language\n    used by possible depressive profiles (PDP). This paper investigates\n    to what extent symptoms of depression are manifested in Brazilian\n    Portuguese narrative texts, and whether these can be used to\n    identify relevant linguistic clues related to PDP. Moreover, the\n    relation between these symptoms and PDP is explored, characterising\n    the lexical, syntactic, and psycholinguistic aspects of texts\n    produced by PDP. We found that texts associated with PDPs differed\n    in some of these characteristics from non-PDP texts. The\n    interactions between symptoms and PDP can also shed light on\n    patterns of communication differentiation and the relationship\n    between them. The results of this paper can help to characterise and\n    understand the indicators that can be used to train more bespoke and\n    accurate large language models.}\n}\nFor attribution, please cite this work as:\nWilkens, Rodrigo, Helena Caseli, Vânia Neris, and Aline Villavicencio.\n2026. “The Visible and the Latent Linguistic Clues of Mental\nHealth in Brazilian Portuguese Textual Posts.” April 13, 2026. https://aclanthology.org/2026.propor-2.21/."
+  },
+  {
+    "objectID": "events.html",
+    "href": "events.html",
+    "title": "Events",
+    "section": "",
+    "text": "The First Wokshop of the AIM-Health project took place at the Federal University of São Carlos (UFSCar) on December 5, 2025. The event, held in the Department of Computer Science (DC/UFSCar), was attended by the project coordinators, Professor Aline Villavicencio and Professor Helena Caseli, as well as the principal investigators – Professor Vânia Neris, Professor Sylvia Iasulaits, and Professor Heloísa Frizzo –, students already enrolled in the project – MSc David Leucas, MSc Gabriel Garcia, MSc Grasiane Silva, Isabela Rodrigues, and Gabriel Spolon –, invited researchers – Professor Ariani Di Felippo and Professor Marco Idiart – and invited students – Dr. Paula Souza, Evandro Ribeiro, Nicole Cardoso, Pedro Possebon, Guilherme Oliveira, Júlia Pasquini and Mariana Marques."
+  },
+  {
+    "objectID": "events.html#st-workshop-of-aim-health-project",
+    "href": "events.html#st-workshop-of-aim-health-project",
+    "title": "Events",
+    "section": "",
+    "text": "The First Wokshop of the AIM-Health project took place at the Federal University of São Carlos (UFSCar) on December 5, 2025. The event, held in the Department of Computer Science (DC/UFSCar), was attended by the project coordinators, Professor Aline Villavicencio and Professor Helena Caseli, as well as the principal investigators – Professor Vânia Neris, Professor Sylvia Iasulaits, and Professor Heloísa Frizzo –, students already enrolled in the project – MSc David Leucas, MSc Gabriel Garcia, MSc Grasiane Silva, Isabela Rodrigues, and Gabriel Spolon –, invited researchers – Professor Ariani Di Felippo and Professor Marco Idiart – and invited students – Dr. Paula Souza, Evandro Ribeiro, Nicole Cardoso, Pedro Possebon, Guilherme Oliveira, Júlia Pasquini and Mariana Marques."
   },
   {
     "objectID": "team.html",
@@ -196,214 +329,137 @@
     "text": "Undergraduate Students\n\n\nCaio Vitor Soares\n\n\n\n\n\n\nCaio Soares has been an undergraduate student at the Federal Institute of Education, Science and Technology of São Paulo (IFSP) since 2023. In the AIM-Health project, he develops a module using active learning to help the identification of signs of depression. His project is supported by FAPESP (25/05410-0).\nEmail  ORCID \n\n\n\n\n\n\nCristhyan Cauã de Oliveira\n\n\n\nCristhyan Cauã de Oliveira has been an undergraduate Psychology student at the Federal University of São Carlos (UFSCar). In the AIM-Health Project, he investigates how students with a possible depressive profile experience and attribute meaning to their psychic suffering and to mental health care through digital technologies.\nEmail  ORCID  CV Lattes\n\n\n\n\n\n\n\n\n\nDiogo Conforti Vaz Bellini\n\n\n\n\n\n\nDiogo Bellini has been an undergraduate Computer Science student at the Federal University of São Carlos (UFSCar) since 2023, focusing his studies on the field of Artificial Intelligence. In the AIM-Health project, he develops a module to classify symptoms of depression in social media posts that also take into account the presence of figurative language, such as metaphors and similes, to express the symptoms. His project is supported by FAPESP (25/05366-0). \nEmail  ORCID  CV Lattes\n\n\n\n\n\n\nIsabela Cristina Rodrigues\n\n\n\nIsabela Rodrigues has been an undergraduate Linguistics student at Federal University of São Carlos (UFSCar) since 2023. In AIM-Health project, she works with metaphor annotation in texts related to mental health, in Portuguese. Her project is supported by FAPESP (25/09978-0).\nEmail  CV Lattes\n\n\n\n\n\n\n\n\n\nJulia Oliveira Pasquini\n\n\n\n\n\n\nJulia Pasquini has been an undergraduate Psychology student at Federal University of São Carlos (UFSCar) since 2025. In the AIM-Health project, she analyzes the impact of the AMIVE computational intervention on students’ quality of life based on user reports, to investigate the utility and practical applicability of AMIVE’s dialogues. Her project is supported by FAPESP (25/26440-4).\nEmail  ORCID  CV Lattes\n\n\n\n\n\n\nLeo Marques Sabino de Freitas\n\n\n\nLeo Freitas has been an undergraduate Software Engineering student at the Federal Institute of Education, Science and Technology of São Paulo (IFSP) since 2024. In the AIM-Health project, he is conducting experiments with language models to identify signs of depression.\nEmail  ORCID  CV Lattes\n\n\n\n\n\n\n\n\n\nMariana Marques de Oliveira\n\n\n\n\n\n\nMariana Marques de Oliveira is an undergraduate Psychology student at Federal University of São Carlos (UFSCar). Currently initiating a research project to investigate the potential of Conversational AI in identifying anxiety markers among college students with depressive-anxious profiles.\nEmail   Google Scholar \n\n\n\n\n\n\nVinícius Matheus Blanco\n\n\n\nVinícius Matheus Blanco has been an undergraduate student in Computer Engineering at the Federal University of São Carlos (UFSCar). In the AIM-Health project, he investigates the identification of social determinants of mental health in social media posts, focusing on multilingual analysis in Portuguese and English.\nEmail  ORCID Google Scholar CV Lattes\n\n\n\n\n\n\n\n\n\nVitória Rodrigues Pinto Borelli Figueiredo\n\n\n\n\n\n\nVitória Figueiredo has been an undergraduate Computer Engineering student at the Federal University of São Carlos (UFSCar) since 2021. In the AIM-Health project, she investigates the generation of syntectic data on mental health domain.\nEmail  CV Lattes\n\n\n\n\n\n\nVitória Hilgert Tomasel\n\n\n\nVitória Tomasel has been an undergraduate Computer Science student at the Federal University of São Carlos (UFSCar) since 2023. In the AIM-Health project, she develops a module to automatically identifying idiomatic language in the mental health domain. Her project is supported by FAPESP (25/05422-8).\nEmail  ORCID  CV Lattes"
   },
   {
-    "objectID": "events.html",
-    "href": "events.html",
-    "title": "Events",
-    "section": "",
-    "text": "The First Wokshop of the AIM-Health project took place at the Federal University of São Carlos (UFSCar) on December 5, 2025. The event, held in the Department of Computer Science (DC/UFSCar), was attended by the project coordinators, Professor Aline Villavicencio and Professor Helena Caseli, as well as the principal investigators – Professor Vânia Neris, Professor Sylvia Iasulaits, and Professor Heloísa Frizzo –, students already enrolled in the project – MSc David Leucas, MSc Gabriel Garcia, MSc Grasiane Silva, Isabela Rodrigues, and Gabriel Spolon –, invited researchers – Professor Ariani Di Felippo and Professor Marco Idiart – and invited students – Dr. Paula Souza, Evandro Ribeiro, Nicole Cardoso, Pedro Possebon, Guilherme Oliveira, Júlia Pasquini and Mariana Marques."
-  },
-  {
-    "objectID": "events.html#st-workshop-of-aim-health-project",
-    "href": "events.html#st-workshop-of-aim-health-project",
-    "title": "Events",
-    "section": "",
-    "text": "The First Wokshop of the AIM-Health project took place at the Federal University of São Carlos (UFSCar) on December 5, 2025. The event, held in the Department of Computer Science (DC/UFSCar), was attended by the project coordinators, Professor Aline Villavicencio and Professor Helena Caseli, as well as the principal investigators – Professor Vânia Neris, Professor Sylvia Iasulaits, and Professor Heloísa Frizzo –, students already enrolled in the project – MSc David Leucas, MSc Gabriel Garcia, MSc Grasiane Silva, Isabela Rodrigues, and Gabriel Spolon –, invited researchers – Professor Ariani Di Felippo and Professor Marco Idiart – and invited students – Dr. Paula Souza, Evandro Ribeiro, Nicole Cardoso, Pedro Possebon, Guilherme Oliveira, Júlia Pasquini and Mariana Marques."
-  },
-  {
-    "objectID": "publications/conferences/2026_Lang4Health.html",
-    "href": "publications/conferences/2026_Lang4Health.html",
-    "title": "The visible and the latent linguistic clues of mental health in Brazilian Portuguese textual posts",
-    "section": "",
-    "text": "CitationBibTeX citation:@online{wilkens2026,\n  author = {Wilkens, Rodrigo and Caseli, Helena and Neris, Vânia and\n    Villavicencio, Aline},\n  title = {The Visible and the Latent Linguistic Clues of Mental Health\n    in {Brazilian} {Portuguese} Textual Posts},\n  date = {2026-04-13},\n  url = {https://aclanthology.org/2026.propor-2.21/},\n  langid = {en},\n  abstract = {Depressive symptomatology may be reflected in the language\n    used by possible depressive profiles (PDP). This paper investigates\n    to what extent symptoms of depression are manifested in Brazilian\n    Portuguese narrative texts, and whether these can be used to\n    identify relevant linguistic clues related to PDP. Moreover, the\n    relation between these symptoms and PDP is explored, characterising\n    the lexical, syntactic, and psycholinguistic aspects of texts\n    produced by PDP. We found that texts associated with PDPs differed\n    in some of these characteristics from non-PDP texts. The\n    interactions between symptoms and PDP can also shed light on\n    patterns of communication differentiation and the relationship\n    between them. The results of this paper can help to characterise and\n    understand the indicators that can be used to train more bespoke and\n    accurate large language models.}\n}\nFor attribution, please cite this work as:\nWilkens, Rodrigo, Helena Caseli, Vânia Neris, and Aline Villavicencio.\n2026. “The Visible and the Latent Linguistic Clues of Mental\nHealth in Brazilian Portuguese Textual Posts.” April 13, 2026. https://aclanthology.org/2026.propor-2.21/."
-  },
-  {
-    "objectID": "index.html#about-this-project",
-    "href": "index.html#about-this-project",
-    "title": "",
-    "section": "About this project",
-    "text": "About this project\nAIM-Health is an international research project between Brazil and UK. It started on February 2025 and has an expected duration of three years.\n\nScopeGoalsScientific challenges\n\n\nDepression is a mental health disorder that affects a large portion of the global population, being the second largest contributor to decrease in healthy life expectancy. Depression is characterized by a clinically significant form of psychological suffering that leads to significant impairment in someone’s functionality, reduced quality of life and, in severe cases, can lead to death due to the risk of suicide. However, according to the World Health Organization, only a quarter of individuals suffering from mental health disorders receive proper care.\nAdvances in Artificial Intelligence (AI) and Natural Language Processing (NLP) research have been developed to a level that can be used for proposing computational solutions that assist in the detection and intervention in mental health conditions. AI and NLP based solutions that aid in the identification of signs of depression can be useful both in individual treatment and in making public policy decisions. Similarly, solutions that offer autonomous, ethical, reliable, controlled, and engaging intervention, in real time, can help mitigate the damage caused by depression.\n\n\nThis project works on proposing and developing AI and NLP based solutions for the detection and intervention of mental health conditions that can have a broader reach and allow mental health support to individuals and populations that would not otherwise have access to it.\nFurthermore, as social determinants are frequently mentioned as risk factors for mental health conditions, this project also aims at furthering the understanding about them in two contexts (Brazil and the United Kingdom).\n\n\nThis project aims to address scientific challenges that are still present and very relevant in this context:\n\ndealing with more abstract language (such as figurative language) commonly used in mental health self-narratives, and\noutputting personalized interventions suitable for an individual’s context."
-  },
-  {
-    "objectID": "index.html#support-agencies",
-    "href": "index.html#support-agencies",
-    "title": "",
-    "section": "Support agencies",
-    "text": "Support agencies\nThis is an international project supported by FAPESP (24/10233-7) and the UKRI/MRC – UK Research and Innovation / Medical Research Council."
-  },
-  {
-    "objectID": "publications.html",
-    "href": "publications.html",
-    "title": "Publications",
-    "section": "",
-    "text": "Rodrigo Wilkens, Helena Caseli, Vânia Neris, and Aline Villavicencio. 2026. The visible and the latent linguistic clues of mental health in Brazilian Portuguese textual posts. In Proceedings of the 17th International Conference on Computational Processing of Portuguese (PROPOR 2026) - Vol. 2, pages 135–147, Salvador, Brazil. Association for Computational Linguistics. https://aclanthology.org/2026.propor-2.21/\n\n\n\nDiana Kylymnyk, Rodrigo Wilkens, Helena Caseli, Vitória Tomasel, Edward Watkins, and Aline Villavicencio. 2026. Figurative Language in Alzheimer’s Discourse: Linguistic and Neural Alignment in Clinical Narratives. In Proceedings of the Fifteenth Language Resources and Evaluation Conference (LREC 2026), pages 11379–11389. European Language Resources Association (ELRA). https://doi.org/10.63317/2yjp4743qieh.\nKarina Johansson, Fernanda Assi, Isabella da Silva, Rafael Passador, Isabela Rodrigues, Aline Paes, and Helena Caseli. 2026. Meta4XNLI-ptBR: Brazilian Portuguese Extension of Meta4XNLI Corpus. In Proceedings of the Fifteenth Language Resources and Evaluation Conference (LREC 2026), pages 1668–1676. European Language Resources Association (ELRA). https://doi.org/10.63317/45566xcgz65x."
-  },
-  {
-    "objectID": "publications.html#conference-papers",
-    "href": "publications.html#conference-papers",
-    "title": "Publications",
-    "section": "",
-    "text": "Rodrigo Wilkens, Helena Caseli, Vânia Neris, and Aline Villavicencio. 2026. The visible and the latent linguistic clues of mental health in Brazilian Portuguese textual posts. In Proceedings of the 17th International Conference on Computational Processing of Portuguese (PROPOR 2026) - Vol. 2, pages 135–147, Salvador, Brazil. Association for Computational Linguistics. https://aclanthology.org/2026.propor-2.21/\n\n\n\nDiana Kylymnyk, Rodrigo Wilkens, Helena Caseli, Vitória Tomasel, Edward Watkins, and Aline Villavicencio. 2026. Figurative Language in Alzheimer’s Discourse: Linguistic and Neural Alignment in Clinical Narratives. In Proceedings of the Fifteenth Language Resources and Evaluation Conference (LREC 2026), pages 11379–11389. European Language Resources Association (ELRA). https://doi.org/10.63317/2yjp4743qieh.\nKarina Johansson, Fernanda Assi, Isabella da Silva, Rafael Passador, Isabela Rodrigues, Aline Paes, and Helena Caseli. 2026. Meta4XNLI-ptBR: Brazilian Portuguese Extension of Meta4XNLI Corpus. In Proceedings of the Fifteenth Language Resources and Evaluation Conference (LREC 2026), pages 1668–1676. European Language Resources Association (ELRA). https://doi.org/10.63317/45566xcgz65x."
-  },
-  {
-    "objectID": "publications.html#thesis",
-    "href": "publications.html#thesis",
-    "title": "Publications",
-    "section": "Thesis",
-    "text": "Thesis\n\n2026\n\nPASSADOR, Rafael Vinicius Polato. Personalizing mental health support: a retrieval-based llm approach to conversational agent development. 2026. Dissertação (Mestrado em Ciência da Computação) – Universidade Federal de São Carlos, São Carlos, 2026. Disponível em: https://repositorio.ufscar.br/handle/20.500.14289/24064.\nASSI, Fernanda Malheiros. Automatic identification of bias in Large Language Models. 2026. Dissertação (Mestrado em Ciência da Computação) – Universidade Federal de São Carlos, Campus São Carlos, 2026. Disponível em: https://repositorio.ufscar.br/handle/20.500.14289/24224."
-  },
-  {
-    "objectID": "publications.html#conference-abstracts",
-    "href": "publications.html#conference-abstracts",
-    "title": "Publications",
-    "section": "Conference abstracts",
-    "text": "Conference abstracts\n\n2026\n\nPASQUINI, Julia Oliveira; BLEICHER, Taís; CASELI, Helena de Medeiros; OLIVEIRA, Mariana Marques de. Percepções de Estudantes Universitários no Uso de um Chatbot para Saúde Mental. In: Anais do 10º Congresso Brasileiro de Saúde Mental, Vitória, ES. 2026.\n\n\n\n2025\n\nSOARES, C. V.; PASSADOR, R. V. P; CASELI, H. M. Aprendizagem ativa para auxiliar na anotação de sinais de depressão. In: Anais do XXXI Congresso de Iniciação Científica da UFSCar, São Carlos, SP, p. 150-150, 2025.\nBELLINI, D. C. V; GARCIA, G. L.; CASELI, H. M. Identificação de sinais de depressão considerando a linguagem figurada. In: Anais do XXXI Congresso de Iniciação Científica da UFSCar, São Carlos, SP, p. 212-212, 2025.\nTOMASEL, V. H.; WILKENS, R.; VILLAVICENCIO, A.; CASELI, H. M. Identificação de linguagem idiomática no domínio da saúde mental. In: Anais do XXXI Congresso de Iniciação Científica da UFSCar, São Carlos, SP, p. 950-950, 2025."
-  },
-  {
-    "objectID": "seminars_template.html#invited-speaker",
-    "href": "seminars_template.html#invited-speaker",
-    "title": "",
-    "section": "INVITED SPEAKER",
-    "text": "INVITED SPEAKER\n\nDATE TIME\n\n\nLocation\nINFO"
-  },
-  {
-    "objectID": "seminars_template.html#abstract",
-    "href": "seminars_template.html#abstract",
-    "title": "",
+    "objectID": "presentations/seminars/2025_Luciana_Vinicius_Mateus_28102025.html#abstract",
+    "href": "presentations/seminars/2025_Luciana_Vinicius_Mateus_28102025.html#abstract",
+    "title": "Politeness in Chatbots",
     "section": "Abstract",
-    "text": "Abstract\nTEXT"
+    "text": "Abstract\nThis presentation begins with Luciana, who will present ongoing projects from the Semiotic Engineering Research Group at UFF on Computer Education, Human-AI Interaction, and Cultural Issues in HCI. Following her, Vinícius Pereira will discuss key topics from his research group, including Semiotics and Linguistics in HCI, Digital Literature, and Digital Arts, outlining his group’s interdisciplinary approach. Finally, Mateus will present his research on operationalizing politeness using Conversation Analysis and Pragmatics. He will cover the development of a card-based approach, its evaluation, and the key challenges that remain for this research."
   },
   {
-    "objectID": "seminars_template.html#speakers-bio",
-    "href": "seminars_template.html#speakers-bio",
-    "title": "",
-    "section": "Speaker’s bio",
-    "text": "Speaker’s bio\nTEXT"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "AIM-Health is an international research project between Brazil and UK. It started on February 2025 and has an expected duration of three years.\nThe opinions, hypotheses and conclusions or recommendations expressed in this material are the responsibility of the author(s) and do not necessarily reflect the views of FAPESP.\nAIM-Health logo was generated using Canva’s AI assistant."
-  },
-  {
-    "objectID": "videos.html#invited-speakers",
-    "href": "videos.html#invited-speakers",
-    "title": "Videos",
-    "section": "Invited speakers",
-    "text": "Invited speakers\n\n\n\n\n\n\n\n\nPoliteness in Chatbots\n\n\n\nLuciana Salgado, Vinícius Pereira, Mateus Monteiro\n\n\nOctober 28, 2025\n\n\n\n\n\n\nLanguage\n\n\nEnglish\n\n\n\n\n\n\n\n\n\n\n\n\n\nMental health prediction from social media data\n\n\n\nIvandré Paraboni\n\n\nSeptember 25, 2025\n\n\n\n\n\n\nLanguage\n\n\nEnglish\n\n\n\n\n\n\n\n\n\n\n\n\n\nTowards Ethical Collaboration Between Humans and AI in Healthcare\n\n\n\nJulia Ive\n\n\nSeptember 2, 2025\n\n\n\n\n\n\nLanguage\n\n\nEnglish\n\n\n\n\n\n\n\n\n\n\n\n\n\nTrustworthy Optimization of Pre-Trained Models for Healthcare\n\n\n\nSai Ashish Somayajula\n\n\nAugust 21, 2025\n\n\n\n\n\n\nLanguage\n\n\nEnglish\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Amive project\n\n\n\nVânia Neris\n\n\nMay 9, 2025\n\n\n\n\n\n\nLanguage\n\n\nEnglish\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "videos.html#students-presentations",
-    "href": "videos.html#students-presentations",
-    "title": "Videos",
-    "section": "Student’s presentations",
-    "text": "Student’s presentations\n\n\n\n\n\n\n\n\nAutomated Metaphor Detection in Brazilian Portuguese\n\n\n\nKarina Mayumi Johansson\n\n\nMay 22, 2026\n\n\n\n\n\n\nLanguage\n\n\nPortuguese\n\n\n\n\n\n\n\n\n\n\n\n\n\nAutomatic identification of bias in Large Language Models\n\n\n\nFernanda Malheiros Assi\n\n\nMay 21, 2026\n\n\n\n\n\n\nLanguage\n\n\nPortuguese\n\n\n\n\n\n\n\n\n\n\n\n\n\nPersonalizing Mental Health Support\n\n\n\nRafael Passador\n\n\nApril 24, 2026\n\n\n\n\n\n\nLanguage\n\n\nPortuguese\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "presentations/seminars/2025_Julia_Ive_02092025.html#abstract",
-    "href": "presentations/seminars/2025_Julia_Ive_02092025.html#abstract",
-    "title": "Towards Ethical Collaboration Between Humans and AI in Healthcare",
-    "section": "Abstract",
-    "text": "Abstract\nAI and LLMs are increasingly being deployed in healthcare, creating new opportunities to mine clinical notes, support decision-making, and collaborate with clinicians. At the same time, their use raises pressing challenges around bias, data sparsity, and privacy. In this talk, I will present a set of data-centric approaches to ethical human–AI collaboration applied to use cases in pediatric mental health and clinical decision support. I will begin by demonstrating how LLMs can extract depressive symptoms in pediatric settings, before moving to methods for detecting and mitigating bias in clinical notes related to pediatric anxiety. I will then introduce techniques for generating synthetic mental health records to alleviate data sparsity and protect patient privacy. Finally, I will present a clinical chatbot developed to reference UCLH guidelines without unsafe modifications. In a pilot study, the chatbot reduced clinician search time threefold, highlighting its potential to improve workflow and patient care. Finally, I will discuss how synthetic data can also be used to benchmark and refine such support systems."
-  },
-  {
-    "objectID": "presentations/seminars/2025_Julia_Ive_02092025.html#video",
-    "href": "presentations/seminars/2025_Julia_Ive_02092025.html#video",
-    "title": "Towards Ethical Collaboration Between Humans and AI in Healthcare",
+    "objectID": "presentations/seminars/2025_Luciana_Vinicius_Mateus_28102025.html#video",
+    "href": "presentations/seminars/2025_Luciana_Vinicius_Mateus_28102025.html#video",
+    "title": "Politeness in Chatbots",
     "section": "Video",
     "text": "Video"
   },
   {
-    "objectID": "presentations/seminars/2025_Julia_Ive_02092025.html#speakers-bio",
-    "href": "presentations/seminars/2025_Julia_Ive_02092025.html#speakers-bio",
-    "title": "Towards Ethical Collaboration Between Humans and AI in Healthcare",
-    "section": "Speaker’s bio",
-    "text": "Speaker’s bio\nDr. Julia Ive is an Associate Professor in Healthcare AI at University College London. Her research focuses on responsible, data-centric, and human-centered approaches to leveraging LLMs for healthcare applications. Her work spans bias detection and mitigation in clinical text, privacy-preserving methods for sensitive data, and human–AI collaboration protocols for clinical decision support. She has previously worked at Queen Mary University of London and Imperial College London, where she pioneered techniques for medical data augmentation through synthetic text generation. Her broader expertise includes theoretical language modeling, multimodal machine learning, and reinforcement learning for text generation."
+    "objectID": "presentations/seminars/2025_Luciana_Vinicius_Mateus_28102025.html#speakers-bio",
+    "href": "presentations/seminars/2025_Luciana_Vinicius_Mateus_28102025.html#speakers-bio",
+    "title": "Politeness in Chatbots",
+    "section": "Speakers’ bio",
+    "text": "Speakers’ bio\nDr. Luciana Salgado is an Associate Professor at the Computer Science Department of Fluminense Federal University (UFF) and heads the Semiotic Engineering Research Group affiliated with SERG (PUC-Rio). Her research interests span various areas within Human-Computer Interaction, including Cultural and Gender issues, Semiotic Engineering Theory, E-Health, and Social Computing. Luciana is actively involved in professional organizations such as the Brazilian Special Committee of Human-Computer Interaction (CEIHC) and serves as the Editor-in-Chief of the Journal on Interactive Systems (JIS). She holds a Ph.D. in Human-Computer Interaction and a Master’s in Informatics, bringing a wealth of academic and industry experience to her role.\nDr. Vinícius Pereira is a Doctor and Master of Literature from the Federal University of Rio de Janeiro (UFRJ). He graduated with a Bachelor’s and Teaching degree in Portuguese-English at UFRJ. Currently, an Associate Professor at the Department of Letters and the Postgraduate Program in Language Studies at the Federal University of Mato Grosso (UFMT). Vinícius has significant experience in academia and research, including a postdoctoral internship at the University of Nottingham in the UK. He leads research groups focusing on contemporary Semiotics and Data Beyond Life, and has held various academic leadership roles at UFMT.\nDr. Mateus Monteiro holds a doctorate in Computer Science (2024) and a master’s degree in Computer Science (2020) from Fluminense Federal University (UFF). He also earned a degree in Information Systems (2016) from the Federal University of Mato Grosso (UFMT, 2016). With expertise in Human-Computer Interaction, Mateus has worked extensively on projects in this field and currently serves as a Product Designer at Viasat since 2021. His research interests span various areas within Human-Computer Interaction, including Chatbots, Cultural and Language issues, Semiotic Engineering Theory, Social Computing, and Explainable Artificial Intelligence (XAI)."
   },
   {
-    "objectID": "presentations/seminars/2025_Ivandre_Paraboni_25092025.html#abstract",
-    "href": "presentations/seminars/2025_Ivandre_Paraboni_25092025.html#abstract",
-    "title": "Mental health prediction from social media data",
+    "objectID": "presentations/seminars/2025_Sai_Somayajula_21082025.html#abstract",
+    "href": "presentations/seminars/2025_Sai_Somayajula_21082025.html#abstract",
+    "title": "Trustworthy Optimization of Pre-Trained Models for Healthcare",
     "section": "Abstract",
-    "text": "Abstract\nThis talk explores the computational task of predicting mental health conditions from social media data, conducted within the scope of the SetembroBR project (2022-2024). We discuss the creation of a dataset for detecting depression and anxiety disorders from Portuguese tweets, along with the development and initial results of computational models for these tasks. Finally, we address key challenges that remain for ongoing research, with particular focus on their relevance to the current AIM-Health project."
+    "text": "Abstract\nPre-trained language models have opened new possibilities in healthcare, showing promise in mining scientific literature, analyzing large-scale clinical data, identifying patterns in emerging diseases, and automating workflows, positioning themselves as intelligent research assistants. However, general-purpose models, typically trained on web-scale corpora, often lack the clinical grounding necessary for reliable deployment in high-stakes domains like healthcare. To be effective, they must be adapted to meet domain-specific requirements. My PhD thesis addresses three core challenges in leveraging pre-trained models for healthcare: (i) the scarcity of labeled data for fine-tuning, (ii) the evolving nature of healthcare data, and (iii) the need to ensure transparency and traceability of AI-generated content. In this talk, I will focus on the third challenge: enabling traceability of content generated by large language models. I will begin with an overview of prior watermarking approaches and then present our proposed solution. We introduce a watermarking algorithm applied at inference time that perturbs the model’s logits to bias generation toward a subset of vocabulary tokens determined by a secret key. To ensure that watermarking does not compromise generation quality, we propose a multi-objective optimization (MOO) framework that employs lightweight networks to produce token-specific watermarking logits and splitting ratios, specifying how many tokens to bias and by how much. This approach effectively balances watermark detectability with semantic coherence. Experimental results show that our method significantly improves detectability and robustness against removal attacks while preserving the semantics of the generated text, outperforming existing watermarking techniques."
   },
   {
-    "objectID": "presentations/seminars/2025_Ivandre_Paraboni_25092025.html#video",
-    "href": "presentations/seminars/2025_Ivandre_Paraboni_25092025.html#video",
-    "title": "Mental health prediction from social media data",
+    "objectID": "presentations/seminars/2025_Sai_Somayajula_21082025.html#video",
+    "href": "presentations/seminars/2025_Sai_Somayajula_21082025.html#video",
+    "title": "Trustworthy Optimization of Pre-Trained Models for Healthcare",
+    "section": "Video",
+    "text": "Video\nhttps://universityofexeter.zoom.us/clips/share/fWdt2Tm7SQ2Sbqu9KlhKvw"
+  },
+  {
+    "objectID": "presentations/seminars/2025_Sai_Somayajula_21082025.html#speakers-bio",
+    "href": "presentations/seminars/2025_Sai_Somayajula_21082025.html#speakers-bio",
+    "title": "Trustworthy Optimization of Pre-Trained Models for Healthcare",
+    "section": "Speaker’s bio",
+    "text": "Speaker’s bio\nDr. Sai Ashish Somayajula is a Senior Applied Scientist in Generative AI at Oracle Cloud Infrastructure, where he develops large-scale foundation models for enterprise applications. He earned his PhD in Electrical and Computer Engineering from the University of California (UC), San Diego. His research focused on addressing key challenges in adapting and utilizing pre-trained models for healthcare. Specifically, his work spanned three core areas: (1) synthetic data generation using meta-learning-based feedback mechanisms, (2) continual learning for handling dynamic data streams without catastrophic forgetting, and (3) token-level watermarking techniques to ensure content provenance and security. His research has been published in premier venues, including the International Conference on Machine Learning (ICML), Annual Meeting of the Association for Computational Linguistics (ACL), Transactions of the Association for Computational Linguistics (TACL), Conference of the North American Chapter of the Association for Computational Linguistics (NAACL), Scientific Reports (Nature Portfolio), and Transactions of Machine Learning Research (TMLR). He is a recipient of the Jacobs School of Engineering Departmental Fellowship at UC San Diego. Ashish has collaborated with leading industrial research labs through internships at Apple and Tencent AI Lab. He holds a Bachelor’s degree in Electrical Engineering with a minor in Computer Science from the Indian Institute of Technology, Hyderabad, where he was twice awarded the Academic Excellence Award, and a Master’s in Intelligent Systems and Robotics from UC San Diego."
+  },
+  {
+    "objectID": "presentations/seminars/2025_Vania_Neris_09052025.html#abstract",
+    "href": "presentations/seminars/2025_Vania_Neris_09052025.html#abstract",
+    "title": "The Amive project",
+    "section": "Abstract",
+    "text": "Abstract\nDepression is a significant mental health issue worldwide, and it affects college students more than the general population. While universities strive to support their students, technology can also play a crucial role. Computing technology can collect daily data, process it, and provide insights to both students and healthcare professionals. This includes physiological data gathered from wearable devices, as well as students’ thoughts and feelings expressed through text. Furthermore, digital interventions can be delivered promptly as initial support. The Amive project is a Brazilian human-centered AI initiative aimed at developing a comprehensive solution that classifies data on various factors such as sleep quality, exercise habits, and heart rate monitoring. Additionally, it identifies depressive symptoms from text shared on social media and uses this information to engage with students through a chatbot. This talk will discuss the research that led to this solution, the challenges encountered, and future work planned."
+  },
+  {
+    "objectID": "presentations/seminars/2025_Vania_Neris_09052025.html#video",
+    "href": "presentations/seminars/2025_Vania_Neris_09052025.html#video",
+    "title": "The Amive project",
     "section": "Video",
     "text": "Video"
   },
   {
-    "objectID": "presentations/seminars/2025_Ivandre_Paraboni_25092025.html#short-bio",
-    "href": "presentations/seminars/2025_Ivandre_Paraboni_25092025.html#short-bio",
-    "title": "Mental health prediction from social media data",
+    "objectID": "presentations/seminars/2025_Vania_Neris_09052025.html#short-bio",
+    "href": "presentations/seminars/2025_Vania_Neris_09052025.html#short-bio",
+    "title": "The Amive project",
     "section": "Short Bio",
-    "text": "Short Bio\nIvandré Paraboni holds a Ph.D. in Computer Science from the University of Brighton, United Kingdom (2003), and completed a postdoctoral fellowship at the University of Aberdeen, Scotland (2012). He is an Associate Professor (tenured) and researcher at the University of São Paulo (USP), with a full-time appointment at the School of Arts, Sciences, and Humanities (EACH). Research interests span a broad spectrum of human language processing, ranging from computational methods grounded in Cognitive Science to practical applications, such as the classification of web-based documents. He currently supervises research on stance recognition from text, the detection of mental health disorders from multimodal data, the identification of creative thinking, and arbitrary style transfer in natural language generation."
+    "text": "Short Bio\nVânia Neris is an Associate Professor in the Department of Computing at the Federal University of São Carlos (UFSCar) in Brazil, where she leads the Flexible and Sustainable Interaction Lab (LIFeS). She has been researching Human-Computer Interaction since 1999. She received her Ph. D. in Computer Science from the University of Campinas (UNICAMP)(2010) and has conducted research at the University of Reading (UK)(2008-2009). She was a Visiting Scholar in the Department of Information Sciences and Technology at George Mason University (2021-2022). She is a three-time recipient of the best paper award from the main Brazilian HCI conference. Prof. Neris has received research funding from several agencies in Brazil. Since 2011, she has been studying how to develop emotion-aware systems. Prof. Neris was one of the investigators of the Amive project, which aimed to identify possible depressive symptoms among college students and deliver appropriate interventions to them. Her actual research interests include: (1) computer support for mental health and well-being, (2) human-centred AI and (3) computer science education."
   },
   {
-    "objectID": "presentations/quali/2025_rafael_passador_master_quali.html#abstract",
-    "href": "presentations/quali/2025_rafael_passador_master_quali.html#abstract",
+    "objectID": "presentations/quali/2025_mayumi_master_quali.html#abstract",
+    "href": "presentations/quali/2025_mayumi_master_quali.html#abstract",
+    "title": "Automatic detection of metaphors in Brazilian Portuguese",
+    "section": "Abstract",
+    "text": "Abstract\nAutomated metaphor processing plays a crucial role in various NLP applications, including sentiment analysis, machine translation, and text generation. Given the intricate nature of metaphorical language, its automatic processing poses a significant challenge, requiring models to go beyond literal meanings to capture underlying conceptual mappings. While significant research has been conducted on metaphor detection for high-resource languages like English, many other languages remain underexplored. This is particularly true for Brazilian Portuguese, where the scarcity of annotated datasets and limited studies hinder advancements in the field. This study aims to advance automated metaphor detection for Brazilian Portuguese by constructing an annotated dataset and training both monolingual and multilingual models for Brazilian Portuguese, English, and Spanish. The additional languages will be used to compare results and leverage knowledge to enhance generalization for the target language. By expanding research in this area, this work aims to strengthen the study of metaphor detection in Brazilian Portuguese and contribute to the broader development of NLP resources for the language."
+  },
+  {
+    "objectID": "presentations/quali/2025_mayumi_master_quali.html#video",
+    "href": "presentations/quali/2025_mayumi_master_quali.html#video",
+    "title": "Automatic detection of metaphors in Brazilian Portuguese",
+    "section": "Video",
+    "text": "Video"
+  },
+  {
+    "objectID": "presentations/quali/2025_mayumi_master_quali.html#further-information",
+    "href": "presentations/quali/2025_mayumi_master_quali.html#further-information",
+    "title": "Automatic detection of metaphors in Brazilian Portuguese",
+    "section": "Further information",
+    "text": "Further information\nThe Master’s Qualification Exam by Karina Mayumi Johansson took place on April 4, 2025 and the commitee was composed of Professors Aline Paes(Federal University Fluminense, UFF), Heloísa de Arruda Camargo (UFSCar) and the advisor Helena Caseli (UFSCar)."
+  },
+  {
+    "objectID": "presentations/exams/2026_fernanda_assi_master_viva.html#abstract",
+    "href": "presentations/exams/2026_fernanda_assi_master_viva.html#abstract",
+    "title": "Automatic identification of bias in Large Language Models",
+    "section": "Abstract",
+    "text": "Abstract\nLarge Language Models (LLMs) have demonstrated remarkable capabilities across various domains, from legal reasoning to clinical decision support. As these models become increasingly integrated into real-world applications, concerns about their reliability, fairness, and ethical implications have emerged. Studies have shown that LLMs can produce biased outputs, reinforcing harmful stereotypes and discriminating against marginalized groups. This work proposes a systematic and scalable framework for evaluating and ranking LLMs based on stereotype generation in Brazilian Portuguese. The framework combines template-based sentence generation, human annotation, and supervised classification into a unified pipeline. A set of 164 sentence templates, covering gender, race, and their intersections, was used to elicit completions from 37 LLMs from multiple providers. The resulting sentences were annotated by human annotators along two dimensions: alignment with social stereotypes and potential harm. The stereotype alignment labels served as the foundation for training a BERTimbau-based classifier, selected via nested cross-validation, which achieved a macro-averaged F1 of 0.665. Classifier predictions were then used to construct pairwise match tables, feeding to an Elo rating system, that generated two complementary rankings: a model ranking and a social marker ranking. The results reveal that smaller open-source models tend to generate less stereotyped content than larger commercial ones, and that social markers combining race and gender consistently elicit the most stereotyped outputs across all models. The framework is made available as an interactive interface that supports the incremental addition of new models."
+  },
+  {
+    "objectID": "presentations/exams/2026_fernanda_assi_master_viva.html#video",
+    "href": "presentations/exams/2026_fernanda_assi_master_viva.html#video",
+    "title": "Automatic identification of bias in Large Language Models",
+    "section": "Video",
+    "text": "Video"
+  },
+  {
+    "objectID": "presentations/exams/2026_fernanda_assi_master_viva.html#further-information",
+    "href": "presentations/exams/2026_fernanda_assi_master_viva.html#further-information",
+    "title": "Automatic identification of bias in Large Language Models",
+    "section": "Further information",
+    "text": "Further information\nThe Master’s Dissertation Defense by Fernanda Malheiros Assi took place on May 21, 2026 and the commitee was composed of Professors Marlo Souza (UFBA), Renato Silva (ICMC/USP) and the advisor Helena Caseli (UFSCar)."
+  },
+  {
+    "objectID": "presentations/exams/2026_rafael_passador_master_viva.html#abstract",
+    "href": "presentations/exams/2026_rafael_passador_master_viva.html#abstract",
     "title": "Personalizing Mental Health Support",
     "section": "Abstract",
-    "text": "Abstract\nMental health disorders pose significant challenges worldwide, necessitating accessible and scalable interventions. Conversational agents (CAs), or chatbots, have gained increasing attention as digital mental health tools, offering continuous support and reducing barriers to psychological assistance. While traditional rule-based and machine learning-based chatbots provide structured guidance, they often lack contextual adaptability and personalization, limiting their effectiveness in mental health applications. Large Language Models (LLMs), particularly when combined with Retrieval-Augmented Generation (RAG), offer a promising alternative by integrating domain-specific knowledge into chatbot responses, mitigating hallucinations, and improving factual grounding. This study aims to develop a personalized RAG-LLM chatbot tailored to Portuguese-speaking users, leveraging multilingual LLM capabilities and domain-adapted retrieval mechanisms. By retrieving specialized mental health data and incorporating user-specific information, the chatbot seeks to provide context-aware, empathetic, and personalized interventions. This research explores how integrating user history and specific domain knowledge enhances chatbot responses, ensuring that interactions dynamically adjust to the user’s psychological and emotional state. Given the scarcity of mental health datasets in Portuguese, this work will utilize publicly available mental health resources alongside the Amive dataset, a specialized corpus containing structured behavioral and textual data relevant to psychological assessment. The evaluation of the chatbot will include quantitative assessments using standard NLP metrics and qualitative human evaluation to measure the model’s ability to generate clinically relevant and empathetic responses. By addressing hallucinations, contextual accuracy, and personalization, this research contributes to the advancement of AI-driven mental health support systems, particularly in underrepresented linguistic contexts."
+    "text": "Abstract\nMental health disorders constitute a major global challenge, requiring support solutions that are both accessible and scalable. Conversational agents have emerged as promising tools in this context, but purely generative large language model (LLM) systems remain susceptible to unsupported outputs, weak grounding, and limited adaptation to user-specific context. This work investigates whether combining supervised domain adaptation, guideline-grounded retrieval, and persona-based conditioning improves the quality of emotional-support responses. Three system variants built on the same fine-tuned Llama-3 backbone are compared: a Baseline model controlled through layered prompting, a Hybrid Retrieval-Augmented Generation (RAG) variant grounded in authoritative WHO and NICE mental health guidelines through hybrid retrieval, and a Persona-Based RAG variant that further incorporates persona signs into both retrieval and prompt construction. All variants are protected by a pre-LLM crisis guardrail that short-circuits high-risk inputs and returns a predefined safe response. Evaluation was conducted in a single-turn setting using inputs from mental health datasets associated with multiple persona profiles, and outputs were assessed through both human evaluation and an LLM-as-a-judge protocol under a shared rubric covering empathy, topic adequacy, and personalization. Results from both evaluation sources converge in identifying the Persona-Based RAG variant as the best overall configuration, with the clearest gains in empathy and personalization, while the RAG-only variant remained especially competitive in topic adequacy. These findings indicate that combining grounded retrieval with explicit persona conditioning is a promising strategy for the development of more contextually appropriate and supportive conversational agents for mental health."
   },
   {
-    "objectID": "presentations/quali/2025_rafael_passador_master_quali.html#video",
-    "href": "presentations/quali/2025_rafael_passador_master_quali.html#video",
+    "objectID": "presentations/exams/2026_rafael_passador_master_viva.html#video",
+    "href": "presentations/exams/2026_rafael_passador_master_viva.html#video",
     "title": "Personalizing Mental Health Support",
     "section": "Video",
     "text": "Video"
   },
   {
-    "objectID": "presentations/quali/2025_rafael_passador_master_quali.html#further-information",
-    "href": "presentations/quali/2025_rafael_passador_master_quali.html#further-information",
+    "objectID": "presentations/exams/2026_rafael_passador_master_viva.html#further-information",
+    "href": "presentations/exams/2026_rafael_passador_master_viva.html#further-information",
     "title": "Personalizing Mental Health Support",
     "section": "Further information",
-    "text": "Further information\nThe Master’s Qualification Exam by Rafael Vinicius Polato Passador took place on February 25, 2025 and the commitee was composed of Professors Rodrigo Wilkens (University of Exeter, UK), Vânia Paula de Almeida Neris (UFSCar) and the advisor Helena Caseli (UFSCar)."
+    "text": "Further information\nThe Master’s Dissertation Defense by Rafael Vinicius Polato Passador took place on April 24, 2026 and the commitee was composed of Professors Altigran Soares da Silva (UFAM), João Paulo Papa (UNESP) and the advisor Helena Caseli (UFSCar)."
   },
   {
-    "objectID": "presentations/quali/2025_fernanda_assi_master_quali.html#abstract",
-    "href": "presentations/quali/2025_fernanda_assi_master_quali.html#abstract",
-    "title": "Automatic identification of bias in large language models",
-    "section": "Abstract",
-    "text": "Abstract\nLarge Language Models (LLMs) have demonstrated remarkable capabilities across various domains, from legal reasoning to clinical decision support. As these models become increasingly integrated into real-world applications, concerns about their reliability, fairness, and ethical implications have emerged. Studies have shown that LLMs can produce biased outputs, reinforcing harmful stereotypes and discriminating against marginalized groups. Among the most common biases are occupational stereotypes, racial disparities, and linguistic bias, where outputs vary based on the language or dialect used in the prompt. This study proposes a systematic framework to evaluate and rank LLMs based on their bias levels using the Elo rating system. A sentence completion framework will be employed, where models generate responses to prompts containing explicit social markers. The completions will be anonymized and scored using a regard classifier, which assesses how positively or negatively different demographic groups are portrayed. Pairwise comparisons will update Elo ratings, establishing a ranking of LLMs in terms of bias. This approach enables scalable and systematic comparisons across models."
-  },
-  {
-    "objectID": "presentations/quali/2025_fernanda_assi_master_quali.html#video",
-    "href": "presentations/quali/2025_fernanda_assi_master_quali.html#video",
-    "title": "Automatic identification of bias in large language models",
-    "section": "Video",
-    "text": "Video"
-  },
-  {
-    "objectID": "presentations/quali/2025_fernanda_assi_master_quali.html#further-information",
-    "href": "presentations/quali/2025_fernanda_assi_master_quali.html#further-information",
-    "title": "Automatic identification of bias in large language models",
-    "section": "Further information",
-    "text": "Further information\nThe Master’s Qualification Exam by Fernanda Malheiros Assi took place on March 24, 2025 and the commitee was composed of Professors Mirella Moro (Federal University of Minas Gerais, UFMG), Renato Silva (University of São Paulo, USP) and the advisor Helena Caseli (UFSCar)."
-  },
-  {
-    "objectID": "presentations/exams/2026_mayumi_master_viva.html#abstract",
-    "href": "presentations/exams/2026_mayumi_master_viva.html#abstract",
-    "title": "Automated Metaphor Detection in Brazilian Portuguese",
-    "section": "Abstract",
-    "text": "Abstract\nAutomated metaphor detection plays a crucial role in various NLP applications, including sentiment analysis, machine translation, and text generation. Given the intricate nature of metaphorical language, its automatic processing poses a significant challenge, requiring models to go beyond literal meanings to capture underlying conceptual mappings. While significant research has been conducted on metaphor detection for high-resource languages like English, many other languages remain underexplored. This is particularly true for Brazilian Portuguese, where the scarcity of annotated corpora and limited availability of studies hinder advancements in the field. The present work addresses this gap by constructing an annotated corpus for metaphor detection at token-level in Brazilian Portuguese and using it to evaluate encoder-based and decoder-based approaches for the task. This work presents, to the best of knowledge, the first resource of its kind for Brazilian Portuguese and establishes an initial benchmark for automated metaphor detection in the language."
-  },
-  {
-    "objectID": "presentations/exams/2026_mayumi_master_viva.html#video",
-    "href": "presentations/exams/2026_mayumi_master_viva.html#video",
-    "title": "Automated Metaphor Detection in Brazilian Portuguese",
-    "section": "Video",
-    "text": "Video"
-  },
-  {
-    "objectID": "presentations/exams/2026_mayumi_master_viva.html#further-information",
-    "href": "presentations/exams/2026_mayumi_master_viva.html#further-information",
-    "title": "Automated Metaphor Detection in Brazilian Portuguese",
-    "section": "Further information",
-    "text": "Further information\nThe Master’s Dissertation Defense by Karina Mayumi Johansson took place on May 22, 2026 and the commitee was composed of Professors Ivandré Paraboni (USP/EACH), Heloísa Camargo (UFSCar) and the advisor Helena Caseli (UFSCar)."
+    "objectID": "presentations/exams/2026_rafael_passador_master_viva.html#master-thesis",
+    "href": "presentations/exams/2026_rafael_passador_master_viva.html#master-thesis",
+    "title": "Personalizing Mental Health Support",
+    "section": "Master Thesis",
+    "text": "Master Thesis\nPASSADOR, Rafael Vinicius Polato. Personalizing mental health support: a retrieval-based llm approach to conversational agent development. 2026. Dissertação (Mestrado em Ciência da Computação) – Universidade Federal de São Carlos, São Carlos, 2026. Disponível em: https://repositorio.ufscar.br/handle/20.500.14289/24064."
   },
   {
     "objectID": "lang4health.html#description",
